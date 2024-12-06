@@ -1,4 +1,7 @@
 #include "graph.hpp"
+#include <parlay/parallel.h>
+#include <parlay/primitives.h>
+#include <parlay/sequence.h>
 
 Graph::Graph(std::vector<Tree *> trees, Taxa &subset, std::string weighting) {
     size = subset.size();
@@ -9,28 +12,34 @@ Graph::Graph(std::vector<Tree *> trees, Taxa &subset, std::string weighting) {
     graph = new weight_t**[2];
     graph[0] = Matrix::new_mat(size);
     graph[1] = Matrix::new_mat(size);
+    parlay::sequence<weight_t***> subgraphs(trees.size());
     if (verbose > "1") count[1] = count[2] = count[3] = 0;
-    for (Tree *tree : trees) {
-        std::unordered_map<index_t, index_t> valid = tree->get_indices();
+    parlay::parallel_for(0, trees.size(), [&](size_t i) {
+        std::unordered_map<index_t, index_t> valid = trees[i]->get_indices();
         subset.weight_update(valid);
-        weight_t ***subgraph;
         if (weighting == "f")
-            subgraph = tree->build_graph(subset);
+            subgraphs[i] = trees[i]->build_graph(subset);
         else
-            subgraph = tree->build_wgraph(subset);
+            subgraphs[i] = trees[i]->build_wgraph(subset);
+    });
+    // REPLACE THIS WITH PARALLEL SUM OR SOMETHING
+    for (int i = 0; i < trees.size(); ++i) {
         for (index_t i = 0; i < size; i ++) {
             for (index_t j = 0; j < size; j ++) {
-                if (subgraph[0][i][j] > 0 || subgraph[1][i][j] > 0) {
+                if (subgraphs[i][0][i][j] > 0 || subgraphs[i][1][i][j] > 0) {
                     index_t i_ = index2index[subset.root_at(i)];
                     index_t j_ = index2index[subset.root_at(j)];
-                    graph[0][i_][j_] += subgraph[0][i][j];
-                    graph[1][i_][j_] += subgraph[1][i][j];
+                    graph[0][i_][j_] += subgraphs[i][0][i][j];
+                    graph[1][i_][j_] += subgraphs[i][1][i][j];
                 }
             }
         }
-        Matrix::delete_mat(subgraph[0], size);
-        Matrix::delete_mat(subgraph[1], size);
-        delete [] subgraph;
+    }
+    // UPDATE THIS WITH PARALLEL MEMORY ALLOCATOR
+    for (int i = 0; i < trees.size(); ++i) {
+        Matrix::delete_mat(subgraphs[i][0], size);
+        Matrix::delete_mat(subgraphs[i][1], size);
+        delete [] subgraphs[i];
     }
     /*
     weight_t **temp_graph = Matrix::new_mat(size);
