@@ -15,12 +15,13 @@ Graph::Graph(std::vector<Tree *> trees, Taxa &subset, std::string weighting) {
     parlay::sequence<weight_t***> subgraphs(trees.size());
     if (verbose > "1") count[1] = count[2] = count[3] = 0;
     parlay::parallel_for(0, trees.size(), [&](size_t i) {
+        Taxa thread_local_subset(subset);
         std::unordered_map<index_t, index_t> valid = trees[i]->get_indices();
-        subset.weight_update(valid);
+        thread_local_subset.weight_update(valid);
         if (weighting == "f")
-            subgraphs[i] = trees[i]->build_graph(subset);
+            subgraphs[i] = trees[i]->build_graph(thread_local_subset);
         else
-            subgraphs[i] = trees[i]->build_wgraph(subset);
+            subgraphs[i] = trees[i]->build_wgraph(thread_local_subset);
     });
     // REPLACE THIS WITH PARALLEL SUM OR SOMETHING
     for (int i = 0; i < trees.size(); ++i) {
