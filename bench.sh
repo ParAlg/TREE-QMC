@@ -1,5 +1,6 @@
 #!/bin/bash
 declare -a gene_tree=(
+  "avian_uce_trees_3679"
   "1_best_cds5756"
   "butterfly_bs"
   "zhang_cetacean"
@@ -8,7 +9,6 @@ declare -a gene_tree=(
   "CNEE_abayes_gene_trees_sorted"
   "zhang_papilionidae"
   "1kp-AA-genes-bayes"
-  "avian_uce_trees_3679"
   "swallowtail_bayes"
   "1kp-AA-genes-bs"
   "bee_bs"
