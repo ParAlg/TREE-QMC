@@ -77,6 +77,14 @@ cd tutorial/gene-trees
 	-o treeqmc-hybrid.tre
 ```
 
+Compare Two Trees
+-----
+```
+cd tools
+python3 compare_two_trees.py -t1 filename -t2 filename
+# if it requires dendropy package, run
+# python3 -m pip install git+https://github.com/jeetsukumaran/DendroPy.git
+```
 
 Usage
 -----
