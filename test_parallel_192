@@ -1,0 +1,4038 @@
+COMPILING
+Running on bee_bs.tre
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/bee_bs.tre -o bee_bs.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/bee_bs.tre
+output file: bee_bs.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+Found
+    853 trees
+    32 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 59 subproblems:
+    0 subproblems computed.
+Parlay time: total: 0.0748
+Parlay time: total: 0.0879
+Parlay time: total: 0.0984
+Parlay time: total: 0.1111
+Parlay time: total: 0.1233
+Parlay time: total: 0.1467
+Parlay time: total: 0.1543
+   10 subproblems computed.
+Parlay time: total: 0.1605
+Parlay time: total: 0.1668
+Parlay time: total: 0.1732
+Parlay time: total: 0.1791
+   20 subproblems computed.
+Parlay time: total: 0.2009
+Parlay time: total: 0.2152
+Parlay time: total: 0.2232
+Parlay time: total: 0.2305
+Parlay time: total: 0.2361
+   30 subproblems computed.
+Parlay time: total: 0.2413
+Parlay time: total: 0.2524
+Parlay time: total: 0.2615
+Parlay time: total: 0.2719
+Parlay time: total: 0.2794
+   40 subproblems computed.
+Parlay time: total: 0.2860
+Parlay time: total: 0.2958
+Parlay time: total: 0.3037
+Parlay time: total: 0.3097
+Parlay time: total: 0.3175
+   50 subproblems computed.
+Parlay time: total: 0.3255
+Parlay time: total: 0.3330
+Parlay time: total: 0.3391
+   59 subproblems computed.
+Printing species tree
+(((((((Hoplonomia_elliotii,Acunomia_melanderi),Curvinomia_chalybeata),Austronomia_australica),(Lipotriches_justiciae,Lipotriches_collaris)),(Afronomia_circumnitens,Macronomia_clavisetis)),((Dieunomia_heteropoda,Dieunomia_triangulifera),(Dufourea_novaeangliae,Lasioglossum_albipes))),((((((((Pseudapis_oxybeloides,Pseudapis_siamensis),((Pseudapis_nilotica,Pseudapis_flavolobata),Pseudapis_interstitinervis)),((Pseudapis_riftensis,Pseudapis_pandeana),Pseudapis_kenyensis)),Pseudapis_cinerea),(Nomiapis_bispinosa,Nomiapis_diversipes)),(Steganomus_junodi,Steganomus_ennediensis)),Ruginomia_rugiventris),(((Pachynomia_tshibindica,Pachynomia_amoenula),Pachynomia_flavicarpa),((Stictonomia_aliceae,Stictonomia_schubotzi),Stictonomia_sangaensis))));
+Writing species tree
+Parlay time: Execution time: : 1.3518
+32,29,29,0,0,0.000000
+
+Running on whale_bayes.tre
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/whale_bayes.tre -o whale_bayes.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/whale_bayes.tre
+output file: whale_bayes.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+Found
+    3191 trees
+    98 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 191 subproblems:
+    0 subproblems computed.
+Parlay time: total: 1.4371
+Parlay time: total: 1.6545
+Parlay time: total: 1.7306
+Parlay time: total: 1.7706
+Parlay time: total: 1.8107
+Parlay time: total: 1.8478
+Parlay time: total: 1.8869
+   10 subproblems computed.
+Parlay time: total: 1.9246
+Parlay time: total: 1.9793
+Parlay time: total: 2.0240
+Parlay time: total: 2.0631
+Parlay time: total: 2.1146
+   20 subproblems computed.
+Parlay time: total: 2.1705
+Parlay time: total: 2.2225
+Parlay time: total: 2.2901
+Parlay time: total: 2.3305
+Parlay time: total: 2.3921
+   30 subproblems computed.
+Parlay time: total: 2.4329
+Parlay time: total: 2.4691
+Parlay time: total: 2.6099
+Parlay time: total: 2.7270
+Parlay time: total: 2.7786
+   40 subproblems computed.
+Parlay time: total: 2.8280
+Parlay time: total: 2.8846
+Parlay time: total: 2.9356
+Parlay time: total: 2.9728
+Parlay time: total: 3.0116
+   50 subproblems computed.
+Parlay time: total: 3.0555
+Parlay time: total: 3.0961
+Parlay time: total: 3.1404
+Parlay time: total: 3.1807
+   60 subproblems computed.
+Parlay time: total: 3.2635
+Parlay time: total: 3.3115
+Parlay time: total: 3.3489
+Parlay time: total: 3.4004
+Parlay time: total: 3.4489
+Parlay time: total: 3.4899
+   70 subproblems computed.
+Parlay time: total: 3.5386
+Parlay time: total: 3.6062
+Parlay time: total: 3.6559
+Parlay time: total: 3.6931
+   80 subproblems computed.
+Parlay time: total: 3.7431
+Parlay time: total: 3.8154
+Parlay time: total: 3.8768
+Parlay time: total: 3.9293
+Parlay time: total: 3.9958
+   90 subproblems computed.
+Parlay time: total: 4.0395
+Parlay time: total: 4.0848
+Parlay time: total: 4.1302
+Parlay time: total: 4.1688
+Parlay time: total: 4.2066
+  100 subproblems computed.
+Parlay time: total: 4.5644
+Parlay time: total: 4.6790
+Parlay time: total: 4.7306
+Parlay time: total: 4.7675
+Parlay time: total: 4.8045
+Parlay time: total: 4.8564
+  110 subproblems computed.
+Parlay time: total: 4.9032
+Parlay time: total: 4.9441
+Parlay time: total: 5.0599
+Parlay time: total: 5.2332
+Parlay time: total: 5.3165
+  120 subproblems computed.
+Parlay time: total: 5.3880
+Parlay time: total: 5.4393
+Parlay time: total: 5.4808
+Parlay time: total: 5.5201
+Parlay time: total: 5.5597
+  130 subproblems computed.
+Parlay time: total: 5.6060
+Parlay time: total: 5.6479
+Parlay time: total: 5.6876
+Parlay time: total: 5.7294
+  140 subproblems computed.
+Parlay time: total: 5.7678
+Parlay time: total: 5.8098
+Parlay time: total: 5.8539
+Parlay time: total: 5.8873
+Parlay time: total: 5.9317
+  150 subproblems computed.
+Parlay time: total: 5.9919
+Parlay time: total: 6.0460
+Parlay time: total: 6.1315
+Parlay time: total: 6.1890
+Parlay time: total: 6.2585
+Parlay time: total: 6.2967
+  160 subproblems computed.
+Parlay time: total: 6.3450
+Parlay time: total: 6.3921
+Parlay time: total: 6.4367
+Parlay time: total: 6.4758
+  170 subproblems computed.
+Parlay time: total: 6.5179
+Parlay time: total: 6.5676
+Parlay time: total: 6.6061
+Parlay time: total: 6.6476
+  180 subproblems computed.
+Parlay time: total: 6.6966
+Parlay time: total: 6.7984
+Parlay time: total: 6.8545
+Parlay time: total: 6.9135
+Parlay time: total: 6.9628
+  190 subproblems computed.
+  191 subproblems computed.
+Printing species tree
+((((((((((((((Mper,Mpni),Mden),Mste),MgraAUS),Mhec),((Mbow,Mcar),MlayAUS)),(((Mmir,Meur),Mgin),Mbid)),(Hamp,Hpla9120)),Zcav),Tshe),(Barn,Bbai76728)),((((((((((Bede66737,BedeAUS),Bbor),Bmus49099),((Bphy_baits,Bphy),Mnov)),Erob133443),(Bacu,BbonAUS)),Cmar59905),(((Egla13086,Ejap43864),EausAUS),Bmys)),((((((Oari,Phod),Orle),Gaar),(Btau,Treu2)),(((Vpac,Cbac),Ecab),Sscr)),(Clib,Hippo))),((Kbre,Ksim),Pmac))),((Igeo,Pbla7349),Lvex)),((((((((((((((Dcap108471,Dcap79929),(DdelSJR,Ddeltrop4525)),((Lhos30470,Lhos452),(((Slon16012,Slon24923),Scly1726),Scly1724))),Scoe),(((Sfro7784,Sfro7782),(Satt18473,Satt38219)),Tadu79924)),Ttru),Schi),Sflu9837),((((((Gmel,Gmac39091),(Fatt,Pele)),Pcra123188),Ggri),(Sbre18437,Sbre116871)),(Obre,Ohei))),((((Chea7320,Laus),Ccom40),(Lobl,Lobs)),(Lbor,LperAUS))),Lalb),Oorc),Lacu),(((((Pspi,Pdio),Ppho),Npho),Pdal),(Dleu,Mmon))));
+Writing species tree
+Parlay time: Execution time: : 11.3666
+98,95,95,0,0,0.000000
+
+Running on avian_uce_trees_3679.tre
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/avian_uce_trees_3679.tre -o avian_uce_trees_3679.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/avian_uce_trees_3679.tre
+output file: avian_uce_trees_3679.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+Found
+    3679 trees
+    48 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 91 subproblems:
+    0 subproblems computed.
+Parlay time: total: 0.4113
+Parlay time: total: 0.4669
+Parlay time: total: 0.5106
+Parlay time: total: 0.5576
+Parlay time: total: 0.6319
+Parlay time: total: 0.6616
+Parlay time: total: 0.6839
+   10 subproblems computed.
+Parlay time: total: 0.7065
+Parlay time: total: 0.7533
+Parlay time: total: 0.7826
+Parlay time: total: 0.8091
+Parlay time: total: 0.8425
+   20 subproblems computed.
+Parlay time: total: 0.8759
+Parlay time: total: 0.9305
+Parlay time: total: 0.9624
+Parlay time: total: 0.9929
+   30 subproblems computed.
+Parlay time: total: 1.0195
+Parlay time: total: 1.0429
+Parlay time: total: 1.2018
+Parlay time: total: 1.2518
+Parlay time: total: 1.2763
+   40 subproblems computed.
+Parlay time: total: 1.2983
+Parlay time: total: 1.4281
+Parlay time: total: 1.4624
+Parlay time: total: 1.4912
+Parlay time: total: 1.5152
+Parlay time: total: 1.5383
+   50 subproblems computed.
+Parlay time: total: 1.5632
+Parlay time: total: 1.6600
+Parlay time: total: 1.7462
+   60 subproblems computed.
+Parlay time: total: 1.8446
+Parlay time: total: 1.8934
+Parlay time: total: 1.9452
+Parlay time: total: 1.9723
+Parlay time: total: 1.9951
+Parlay time: total: 2.0193
+   70 subproblems computed.
+Parlay time: total: 2.0592
+Parlay time: total: 2.0895
+Parlay time: total: 2.1123
+Parlay time: total: 2.1456
+Parlay time: total: 2.1762
+   80 subproblems computed.
+Parlay time: total: 2.2072
+Parlay time: total: 2.2414
+Parlay time: total: 2.2711
+Parlay time: total: 2.3011
+   90 subproblems computed.
+   91 subproblems computed.
+Printing species tree
+(((((((((GEOFO,TAEGU),CORBR),MANVI),ACACH),(MELUN,NESNO)),FALPE),CARCR),(((((HALLE,HALAL),CATAU),TYTAL),((((MERNU,PICPU),BUCRH),APAVI),LEPDI)),COLST)),((((((GALGA,MELGA),ANAPL),(STRCA,TINMA)),(PODCR,PHORU)),(((PTEGU,MESUN),COLLI),((CHLUN,TAUER),CUCCA))),(((((((PYGAD,APTFO),FULGL),(((EGRGA,PELCR),NIPNI),PHACA)),GAVST),(EURHE,PHALE)),((CHAPE,CALAN),CAPCA)),((OPHHO,CHAVO),BALRE))));
+Writing species tree
+Parlay time: Execution time: : 4.4674
+48,45,45,0,0,0.000000
+
+Running on 1_best_cds5756.tre
+rm: cannot remove '1_best_cds5756.out': No such file or directory
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/1_best_cds5756.tre -o 1_best_cds5756.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/1_best_cds5756.tre
+output file: 1_best_cds5756.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+Found
+    5756 trees
+    125 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 245 subproblems:
+    0 subproblems computed.
+Parlay time: total: 3.5427
+    1 subproblems computed.
+Printing species tree
+(mnrnvhlln,ptlnrhync,grntllpct,crvsmndld,crvsbrchy,strnsvlgr,cthrsstlt,fcdllbcll,prnllstrp,cmrhynchs,gespzfrts,junchymls,zntrchlbc,mlspzmldm,serinscnr,erythrrgl,tnpyggttt,lnchrstrt,hrndrstcr,stchyrsrf,zstrpsbrb,psdpdcshm,parusmajr,cynstscrl,pittasrdd,empdnxtrl,mncsvtlln,corappltr,chrxphlnc,lpdthrxcr,nplmchrys,columbalv,ptgnsfsct,atlntsrgr,blrcrglrm,nippnnppn,lptsmsdsc,antrstmsc,rhynchtsj,erypyghls,nyctbsgrn,ptrclsgtt,cathartsr,pdrgsstrg,cuclscnrs,opsthcmsh,brhnsbstr,chrdrsvcf,lmslppncb,cldrspygm,cldrspgnx,turnixvlx,rsstrdcty,mlpsttcsn,amazncllr,nstrntbls,strgpshbr,sttrnscrp,mstrnsncl,phlcrcrxc,egrttgrzt,agthlsbnn,hmprcncmt,chatrplgc,calyptenn,upupaepps,hlcynsngl,merpsnbcs,erystmsgl,pslpgnhmc,pcdspbscn,galbulade,pdcpscrst,carmcrstt,phncptrsr,accptrnss,hltslbcll,hltslccph,aqlchryst,phthnlptr,colsstrts,allgtrmss,strthcmls,apteryxrw,aptryxhst,apteryxwn,rheaamrcn,tnmsgttts,ansrbrchy,ansrcydms,ansrcygnd,anspltyrh,aythyflgl,ansrnssmp,chauntrqt,alctrlthm,penelpplt,cllpplsqm,clnsvrgnn,bmbsclthr,gallsglls,chryslphs,phsnsclch,mlgrsgllp,ctrnxjpnc,numdmlgrs,gavistllt,frgtmgnfc,chlmydtsm,flmrsglcl,plcnscrsp,ciconimgr,thlssrchc,aptndytsf,pygsclsdl,falcchrrg,flcprgrns,tytoalblb,athncnclr,bcrsrhncr,apldrmvtt,trcrythrl,acnthsttc,pipraflcd,pavcrstts);
+Writing species tree
+Parlay time: Execution time: : 149.9601
+125,0,0,0,0,0.000000
+
+Running on butterfly_bs.tre
+rm: cannot remove 'butterfly_bs.out': No such file or directory
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/butterfly_bs.tre -o butterfly_bs.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/butterfly_bs.tre
+output file: butterfly_bs.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+Found
+    1930 trees
+    203 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 401 subproblems:
+    0 subproblems computed.
+Parlay time: total: 3.4229
+Parlay time: total: 5.9136
+Parlay time: total: 6.1723
+Parlay time: total: 6.2545
+Parlay time: total: 6.2994
+Parlay time: total: 6.3350
+Parlay time: total: 6.3730
+   10 subproblems computed.
+Parlay time: total: 6.4124
+Parlay time: total: 6.4710
+Parlay time: total: 6.5267
+Parlay time: total: 6.5777
+Parlay time: total: 6.6259
+   20 subproblems computed.
+Parlay time: total: 6.6655
+Parlay time: total: 6.7161
+Parlay time: total: 6.7615
+Parlay time: total: 6.8165
+Parlay time: total: 6.8592
+Parlay time: total: 6.9038
+   30 subproblems computed.
+Parlay time: total: 6.9566
+Parlay time: total: 7.0058
+Parlay time: total: 7.0539
+Parlay time: total: 7.1007
+   40 subproblems computed.
+Parlay time: total: 7.1383
+Parlay time: total: 7.2998
+Parlay time: total: 7.4215
+Parlay time: total: 7.5472
+Parlay time: total: 7.7262
+Parlay time: total: 7.8311
+Parlay time: total: 7.8730
+   50 subproblems computed.
+Parlay time: total: 7.9160
+Parlay time: total: 7.9647
+Parlay time: total: 8.0478
+Parlay time: total: 8.1484
+Parlay time: total: 8.2381
+   60 subproblems computed.
+Parlay time: total: 8.2766
+Parlay time: total: 8.3556
+Parlay time: total: 8.4085
+Parlay time: total: 8.4641
+   70 subproblems computed.
+Parlay time: total: 8.5081
+Parlay time: total: 8.5573
+Parlay time: total: 8.6123
+Parlay time: total: 8.6729
+Parlay time: total: 8.7095
+   80 subproblems computed.
+Parlay time: total: 8.7754
+Parlay time: total: 8.8532
+Parlay time: total: 8.9046
+Parlay time: total: 8.9643
+Parlay time: total: 9.0109
+   90 subproblems computed.
+Parlay time: total: 9.0669
+Parlay time: total: 9.1220
+Parlay time: total: 9.1542
+Parlay time: total: 9.1925
+Parlay time: total: 9.2330
+  100 subproblems computed.
+Parlay time: total: 9.2740
+Parlay time: total: 9.3095
+Parlay time: total: 9.3500
+Parlay time: total: 9.3930
+Parlay time: total: 9.4575
+  110 subproblems computed.
+Parlay time: total: 9.4999
+Parlay time: total: 9.5352
+Parlay time: total: 9.5843
+Parlay time: total: 9.6254
+  120 subproblems computed.
+Parlay time: total: 9.6635
+Parlay time: total: 9.7038
+Parlay time: total: 9.7453
+Parlay time: total: 9.7900
+Parlay time: total: 9.8426
+  130 subproblems computed.
+Parlay time: total: 9.8860
+Parlay time: total: 9.9244
+Parlay time: total: 9.9592
+Parlay time: total: 10.6895
+  140 subproblems computed.
+Parlay time: total: 10.9774
+Parlay time: total: 11.0741
+Parlay time: total: 11.1178
+Parlay time: total: 11.1672
+Parlay time: total: 11.2151
+Parlay time: total: 11.2695
+  150 subproblems computed.
+Parlay time: total: 11.3093
+Parlay time: total: 11.3507
+Parlay time: total: 11.3865
+Parlay time: total: 11.4413
+Parlay time: total: 11.5036
+  160 subproblems computed.
+Parlay time: total: 11.5534
+Parlay time: total: 11.6009
+Parlay time: total: 11.6519
+Parlay time: total: 11.8635
+Parlay time: total: 11.9117
+  170 subproblems computed.
+Parlay time: total: 11.9493
+Parlay time: total: 11.9898
+Parlay time: total: 12.0385
+Parlay time: total: 12.0815
+Parlay time: total: 12.1184
+  180 subproblems computed.
+Parlay time: total: 12.1617
+Parlay time: total: 12.2086
+Parlay time: total: 12.3997
+Parlay time: total: 12.5478
+Parlay time: total: 12.6443
+Parlay time: total: 12.6865
+  190 subproblems computed.
+Parlay time: total: 12.7880
+Parlay time: total: 12.9697
+Parlay time: total: 13.0949
+Parlay time: total: 13.1467
+Parlay time: total: 13.2017
+Parlay time: total: 13.2639
+Parlay time: total: 13.3136
+  200 subproblems computed.
+Parlay time: total: 13.3627
+Parlay time: total: 13.4113
+Parlay time: total: 13.5050
+Parlay time: total: 13.5684
+  210 subproblems computed.
+Parlay time: total: 13.6264
+Parlay time: total: 13.6847
+Parlay time: total: 13.7249
+Parlay time: total: 13.7824
+  220 subproblems computed.
+Parlay time: total: 13.8225
+Parlay time: total: 13.8684
+Parlay time: total: 13.9192
+Parlay time: total: 13.9764
+  230 subproblems computed.
+Parlay time: total: 14.0141
+Parlay time: total: 14.1055
+Parlay time: total: 14.2117
+Parlay time: total: 14.3239
+Parlay time: total: 14.3654
+Parlay time: total: 14.4110
+Parlay time: total: 14.4611
+  240 subproblems computed.
+Parlay time: total: 14.5100
+Parlay time: total: 14.7101
+Parlay time: total: 14.8039
+Parlay time: total: 14.8954
+  250 subproblems computed.
+Parlay time: total: 14.9546
+Parlay time: total: 15.0135
+Parlay time: total: 15.0736
+Parlay time: total: 15.1082
+  260 subproblems computed.
+Parlay time: total: 15.1468
+Parlay time: total: 15.1825
+Parlay time: total: 15.2800
+Parlay time: total: 15.3526
+Parlay time: total: 15.4235
+  270 subproblems computed.
+Parlay time: total: 15.4821
+Parlay time: total: 15.5444
+Parlay time: total: 15.6030
+Parlay time: total: 15.6447
+Parlay time: total: 15.6841
+Parlay time: total: 15.7257
+  280 subproblems computed.
+Parlay time: total: 15.7706
+Parlay time: total: 15.8166
+Parlay time: total: 15.8527
+Parlay time: total: 15.8995
+  290 subproblems computed.
+Parlay time: total: 15.9672
+Parlay time: total: 16.0058
+Parlay time: total: 16.0453
+Parlay time: total: 16.0900
+Parlay time: total: 16.1268
+  300 subproblems computed.
+Parlay time: total: 16.1834
+Parlay time: total: 16.2442
+Parlay time: total: 16.2812
+Parlay time: total: 16.3248
+  310 subproblems computed.
+Parlay time: total: 16.3875
+Parlay time: total: 16.4646
+Parlay time: total: 16.5247
+Parlay time: total: 16.5640
+Parlay time: total: 16.6027
+  320 subproblems computed.
+Parlay time: total: 16.6454
+Parlay time: total: 16.7708
+Parlay time: total: 16.8412
+Parlay time: total: 16.8895
+Parlay time: total: 16.9336
+Parlay time: total: 16.9728
+  330 subproblems computed.
+Parlay time: total: 17.0197
+Parlay time: total: 17.0583
+Parlay time: total: 17.1017
+Parlay time: total: 17.1509
+  340 subproblems computed.
+Parlay time: total: 17.2030
+Parlay time: total: 17.2417
+Parlay time: total: 17.2839
+Parlay time: total: 17.3364
+Parlay time: total: 17.3744
+  350 subproblems computed.
+Parlay time: total: 17.4310
+Parlay time: total: 17.4801
+Parlay time: total: 17.5710
+Parlay time: total: 17.6348
+Parlay time: total: 17.6866
+Parlay time: total: 17.7263
+  360 subproblems computed.
+Parlay time: total: 17.7685
+Parlay time: total: 17.8226
+Parlay time: total: 17.8824
+Parlay time: total: 17.9395
+  370 subproblems computed.
+Parlay time: total: 17.9883
+Parlay time: total: 18.0434
+Parlay time: total: 18.1020
+Parlay time: total: 18.1508
+Parlay time: total: 18.1962
+  380 subproblems computed.
+Parlay time: total: 18.2702
+Parlay time: total: 18.3326
+Parlay time: total: 18.3895
+Parlay time: total: 18.4346
+Parlay time: total: 18.4779
+Parlay time: total: 18.5145
+  390 subproblems computed.
+Parlay time: total: 18.5635
+Parlay time: total: 18.6051
+Parlay time: total: 18.6430
+  400 subproblems computed.
+  401 subproblems computed.
+Printing species tree
+(((((((((((((((((((((((((Noctuoidea_Noctuidae_Noctuinae_Agrotis_infusa_WHANIsrmTMATRAAPEI__46,Noctuoidea_Noctuidae_Noctuinae_Striacosta_albicosta_Striacosta),Noctuoidea_Noctuidae_Noctuinae_Mythimna_separata),Noctuoidea_Noctuidae_Amphipyrinae_Sesamia_inferens),((Noctuoidea_Noctuidae_Heliothinae_Heliothis_virescens_Hv,Noctuoidea_Noctuidae_Heliothinae_Helicoverpa_zea_Hz2),(Noctuoidea_Noctuidae_Noctuinae_Spodoptera_exigua_Noctuoidea,Noctuoidea_Noctuidae_Noctuinae_Spodoptera_frugiperda))),Noctuoidea_Noctuidae_Amphipyrinae_Amphipyra_pyramidea_INShauTAVRAAPEI__16),Noctuoidea_Euteliidae_Anigraea_sp_SW130103),(((((Noctuoidea_Erebidae_Arctiinae_Phragmatobia_fuliginosa_INShauTBDRAAPEI__31,Noctuoidea_Erebidae_Arctiinae_Arctia_plantaginis_ERR1466856),Noctuoidea_Erebidae_Arctiinae_Melese_sp_FG120095),(Noctuoidea_Erebidae_Arctiinae_Amata_phegea_INShauTAERAAPEI__8,Noctuoidea_Erebidae_Arctiinae_Auriculoceryx_pterodactyliformis_RINSinlTDRRAAPEI__36)),(Noctuoidea_Erebidae_Calpinae_Phyllodes_eyndhovii_RINSinlTDNRAAPEI__171,Noctuoidea_Erebidae_Calpinae_Eudocima_salaminia_SW130232)),(Noctuoidea_Erebidae_Lymantriinae_Euproctis_chrysorrhoea,Noctuoidea_Erebidae_Lymantriinae_Lymantria_dispar_Ly3))),Noctuoidea_Nolidae_Nolinae_Manoba_major_SW130224),(Noctuoidea_Notodontidae_Nystaleinae_Notoplusia_minuta_FG120015,Noctuoidea_Notodontidae_Notodontinae_Pheosia_gnoma_INSqiqTBHRAAPEI__71)),(((((((((((Bombycoidea_Sphingidae_Macroglossinae_Xylophanes_tersa_Xter2,Bombycoidea_Sphingidae_Macroglossinae_Hyles_euphorbiae_INSinlTAYRAAPEI__56),Bombycoidea_Sphingidae_Macroglossinae_Darapsa_myron_Dara),Bombycoidea_Sphingidae_Macroglossinae_Macroglossum_pyrrhosticta_MacrH),Bombycoidea_Sphingidae_Macroglossinae_Enyo_lugubris_elug1),Bombycoidea_Sphingidae_Macroglossinae_Hemaris_diffinis_HEMA2),(((Bombycoidea_Sphingidae_Sphinginae_Sphinx_pinastri_INShauTAZRAAPEI__20,Bombycoidea_Sphingidae_Sphinginae_Ceratomia_undulosa_cunda3),Bombycoidea_Sphingidae_Sphinginae_Manduca_sexta),((Bombycoidea_Sphingidae_Smerinthinae_Parum_colligata_V005T,Bombycoidea_Sphingidae_Smerinthinae_Smerinthus_saliceti_AZ130010T),Bombycoidea_Sphingidae_Smerinthinae_Adhemarius_daphne_FG120049B))),((((Bombycoidea_Saturniidae_Saturniinae_Actias_luna_acti2,Bombycoidea_Saturniidae_Saturniinae_Saturnia_pyri_INShkeTACRAAPEI__87),Bombycoidea_Saturniidae_Saturniinae_Attacus_atlas_Attac),(Bombycoidea_Saturniidae_Ceratocampinae_Eacles_sp_FG120096B,Bombycoidea_Saturniidae_Hemileucinae_Hemileuca_maia_BuckH)),Bombycoidea_Saturniidae_Oxyteninae_Therinia_lactucina_FG120016)),(Bombycoidea_Bombycidae_Bombyx_mori_BMORI,Bombycoidea_Bombycidae_Colla_micacea_FG120013)),Bombycoidea_Endromidae_Mustilizans_dierli_RINSinlTDURAAPEI__43),(((Bombycoidea_Eupterotidae_Eupterotinae_Ganisa_similis_RINSinlTDMRAAPEI__136,Bombycoidea_Eupterotidae_Eupterotinae_Eupterote_muluana_SW13020T),Bombycoidea_Brahmaeidae_Brahmaea_hearseyi_RINSinlTDQRAAPEI__35),Bombycoidea_Bombycidae_Apatelodes_pithala_FG120036B)),((Lasiocampoidea_Lasiocampidae_Macromphaliinae_Artace_sp_FG120070B,Lasiocampoidea_Lasiocampidae_Macromphaliinae_Tolype_notialis_Tol),Lasiocampoidea_Lasiocampidae_Dendrolimus_pini_INSlupTBORAAPEI__36))),(((((((Geometroidea_Geometridae_Ennominae_Ectropis_obliqua,Geometroidea_Geometridae_Ennominae_Biston_betularia_Bb),Geometroidea_Geometridae_Ennominae_Macaria_distribuaria_GNV120029),(Geometroidea_Geometridae_Geometrinae_Nemoria_lixaria_GNV120032,Geometroidea_Geometridae_Geometrinae_Chlorosea_margaretaria_Chl)),Geometroidea_Geometridae_Larentiinae_Operophtera_brumata),Geometroidea_Geometridae_Sterrhinae_Idaea_sp_Id),(Geometroidea_Uraniidae_Epipleminae_Calledapteryx_dryopterata_Cal,Geometroidea_Uraniidae_Uraniinae_Lyssa_zampa_RINSinlTDLRAAPEI__126)),(Geometroidea_Epicopeiidae_Epicopeia_hainseii_Epc3,Geometroidea_Sematuridae_Sematurinae_Mania_lunus_INSerlTAWRABPEI__19))),(((((Drepanoidea_Drepanidae_Thyatirinae_Pseudothyatira_cymatophoroides_Pc,Drepanoidea_Drepanidae_Thyatirinae_Thyatira_batis_INSnfrTBCRAAPEI__17),Drepanoidea_Drepanidae_Cyclidiinae_Cyclidia_substigmaria_Dcy),(Drepanoidea_Drepanidae_Drepaninae_Tridrepana_flava_SW130064,Drepanoidea_Drepanidae_Drepaninae_Macrauzata_submontana_RINSinlTDPRAAPEI__34)),Drepanoidea_Doidae_Doa_sp_Do2),Drepanoidea_Cimeliidae_Axia_margarita_Ax)),(Mimallonoidea_Mimallonidae_Menevia_lantona_INSerlTBRRAAPEI__75,Mimallonoidea_Mimallonidae_Lacosoma_chiridota_Mim)),((((Pyraloidea_Crambidae_Crambinae_Catoptria_oregonicus_Cr4,Pyraloidea_Crambidae_Crambinae_Catoptria_falsella_INSlupTAXRAAPEI__11),(Pyraloidea_Crambidae_Crambinae_Chilo_suppressalis,Pyraloidea_Crambidae_Crambinae_Myelobia_sp_FG120071B)),((Pyraloidea_Crambidae_Spilomelinae_Cnaphalocrocis_medinalis_SRR64791,Pyraloidea_Pyralidae_Spilomelinae_Spilomela_sp_INSerlTAIRAAPEI__75),Pyraloidea_Crambidae_Spilomelinae_Cirrhochrista_sp_RINSinlTDSRAAPEI__37)),((Pyraloidea_Pyralidae_Phycitinae_Plodia_interpunctella,Pyraloidea_Pyralidae_Amyelois_transitella_Pyraloidea),Pyraloidea_Pyralidae_Galleriinae_Galleria_melonella_Gal))),((((Gelechioidea_Cosmopterigidae_Cosmopteriginae_Hyposmocoma_kahamanoa_RINysjTAAABRAAPEI__215,Gelechioidea_Autostichidae_Autostichinae_Autosticha_sp_RINSinlTDTRAAPEI__41),(Gelechioidea_Gelechiidae_Dichomeridinae_Dichomeris_punctidiscella_Dch,Gelechioidea_Gelechiidae_Gelechiinae_Tuta_absoluta)),Gelechioidea_Depressariidae_Psilocorsis_reflexella_Psi),Gelechioidea_Depressariidae_Stenomatinae_Antaeotricha_schlaegeri_Ant)),((((Thyridoidea_Thyrididae_Canaea_sp_RINSinlTDVRAAPEI__44,Thyridoidea_Thyrididae_Striglinae_Striglina_suzukii_Ssk),Thyridoidea_Thyrididae_Pseudothyris_sepulchralis_GNV139006),Thyridoidea_Thyrididae_Siculodinae_Zeuzerodes_maculata_FG120079),Calliduloidea_Callidulidae_Callidulinae_Pterodecta_felderi_INSerlTABRAAPEI__84)),(((Pterophoroidea_Pterophoridae_Pterophorinae_Pterophorus_pentadactyla_INSlupTBTRAAPEI__44,Pterophoroidea_Pterophoridae_Pterophorinae_Emmelina_monodactyla_Emm),Pterophoroidea_Pterophoridae_Pterophorinae_Lantanophaga_pusillidactyla_GNV120027),Alucitoidea_Alucitidae_Alucita_desmodactyla_ANIsrmTAAORAAPEI__215)),((((((Papilionoidea_Pieridae_Coliadinae_Colias_croceus_INShkeTBFRAAPEI__79,Papilionoidea_Pieridae_Coliadinae_Phoebis_sennae),((Papilionoidea_Pieridae_Pierinae_Hebomoia_glaucippe_BRF140003,Papilionoidea_Pieridae_Pierinae_Anthocharis_cardamines_INSnfrTAYRAAPEI__13),Papilionoidea_Pieridae_Pierinae_Ascia_monuste_BRF140001)),(((((Papilionoidea_Nymphalidae_Satyrinae_Bicyclus_anynana_INShkeTATRAAPEI__56,Papilionoidea_Nymphalidae_Satyrinae_Pararge_aegeria_INSfrgTADRAAPEI__22),Papilionoidea_Nymphalidae_Satyrinae_Maniola_jurtina),(((Papilionoidea_Nymphalidae_Nymphalinae_Junonia_coenia,Papilionoidea_Nymphalidae_Nymphalinae_Melitaea_cinxia),Papilionoidea_Nymphalidae_Nymphalinae_Polygonia_c*album_INSfrgTAJRAAPEI__20),Papilionoidea_Nymphalidae_Heliconiinae_Heliconius_melpomene_Papilionoidea)),Papilionoidea_Nymphalidae_Danainae_Danaus_plexippus_DPLEX),((((Papilionoidea_Lycaenidae_Polyommatinae_Hemiargus_ceraunus_GNV120025,Papilionoidea_Lycaenidae_Polyommatinae_Polyommatus_icarus_INShauTBGRAAPEI__35),Papilionoidea_Lycaenidae_Theclinae_Calycopis_cecrops_Papilionoidea),Papilionoidea_Lycaenidae_Theclinae_Cigaritis_takanonis_Papilionoidea),(Papilionoidea_Riodinidae_Riodininae_Semomesia_capanea_FG120077,Papilionoidea_Riodinidae_Riodininae_Mycastor_nealces_INSerlTBMRAAPEI__57)))),((((Papilionoidea_Hesperiidae_Hesperiinae_Thymelicus_sylvestris,Papilionoidea_Hesperiidae_Hesperiinae_Lerema_accius),Papilionoidea_Hesperiidae_Megathyminae_Megathymus_yuccae_GNV139000),Papilionoidea_Hesperiidae_Hesperiinae_Hylephila_phyleus_GNV120020),Papilionoidea_Hesperiidae_Eudamiinae_Urbanus_proteus_INSerlTBFRAAPEI__36)),(Papilionoidea_Hedylidae_Macrosoma_hedylaria_FG120122,Papilionoidea_Hedylidae_Macrosoma_sp_RINSinlTEBRAAPEI__71)),(((Papilionoidea_Papilionidae_Papilioninae_Papilio_machaon_Papilionoidea,Papilionoidea_Papilionidae_Papilioninae_Papilio_glaucus_SRR850324),Papilionoidea_Papilionidae_Papilioninae_Parides_eurimedes_INSjdsTAJRAAPEI__36),Papilionoidea_Papilionidae_Parnassiinae_Luehdorfia_chinensis))),((((Sesioidea_Sesiidae_Sesiinae_Podosesia_syringae_Podo,Sesioidea_Sesiidae_Sesiinae_Bembecia_ichneumoniformis_INSlupTBGRAAPEI__20),Sesioidea_Sesiidae_Sesiinae_Vitacea_polistiformis_Vit),(((Cossoidea_Cossidae_Zeuzerinae_Psychonoctua_personalis_Ppr2,Cossoidea_Cossidae_Zeuzerinae_Morpheis_pyracmon_INSerlTAQRAAPEI__118),((((Sesioidea_Castniidae_Castniinae_Synemon_plana_Cul,Sesioidea_Castniidae_Castniinae_Telchin_licus_SRR1204999),Cossoidea_Cossidae_Archaeoses_polygrapha_Arc),(Cossoidea_Cossidae_Cossinae_Prionoxystus_robiniae_Prob2,Cossoidea_Cossidae_Cossinae_Culama_sp_Cul2)),Cossoidea_Cossidae_Hypoptinae_Givira_mucida_Giv2)),Cossoidea_Cossidae_Cossulinae_Spinulata_maruga_Mar)),(((Zygaenoidea_Megalopygidae_Megalopyge_crispata_Lag,Zygaenoidea_Megalopygidae_Trosia_sp_INSerlTAFRAAPEI__62),(Zygaenoidea_Limacodidae_Demonarosa_rufotessellata_RINSinlTDXRAAPEI__56,Zygaenoidea_Dalceridae_Dalcerinae_Dalcera_abrasa_FG120035)),(Zygaenoidea_Zygaenidae_Zygaeninae_Zygaena_fausta_INSjdsTAWRAAPEI__39,Zygaenoidea_Lacturidae_Lactura_subfervens_Sub)))),((((Tortricoidea_Tortricidae_Olethreutinae_Grapholita_dimorpha_SRR803483,Tortricoidea_Tortricidae_Olethreutinae_Cydia_pomonella_Cyd),Tortricoidea_Tortricidae_Olethreutinae_Phaecasiophora_niveiguttana_Cro),Immoidea_Immidae_Imma_tetrascia_Imm),Choreutoidea_Choreutidae_Choreutinae_Hemerophila_diva_Cor5)),Urodoidea_Urodidae_Urodus_decens_Ur2),((((((((Gracillarioidea_Gracillariidae_Acrocercopinae_Acrocercops_transecta,Gracillarioidea_Gracillariidae_Phyllocnistinae_Phyllocnistis_citrella_Pcit2),Gracillarioidea_Gracillariidae_Lithocolletinae_Cameraria_ohridella_INSeqtTDMRAAPEI__95),Gracillarioidea_Gracillariidae_Ornixolinae_Philodoria_sp_CJ260),Gracillarioidea_Gracillariidae_Gracillariinae_Caloptilia_triadicae_calo),Gracillarioidea_Bucculatricidae_Bucculatrix_cristatella_ANIsrmTAASRAAPEI__220),(Yponomeutoidea_Plutellidae_Plutella_xylostella,Yponomeutoidea_Yponomeutidae_Yponomeutinae_Yponomeuta_evonymellus_INShauTBFRAAPEI__34)),Gracillarioidea_Roeslerstammiidae_Amphithera_heteroleuca_INSpmbTAHRAAPEI__206),Yponomeutoidea_Lyonetiidae_Cemiostominae_Leucoptera_coffeella_RINysjTAAAARAAPEI__214)),((Tineoidea_Tineidae_Harmacloninae_Harmaclona_sp_RINSinlTDYRAAPEI__57,Tineoidea_Tineidae_Tineinae_Tineola_bisselliella_INSswpTACRAAPEI__13),Tineoidea_Dryadaulidae_Dryadaula_visaliella_Dry)),Tineoidea_Psychidae_Oiketicinae_Thyridopteryx_ephemeraeformis_Tep2),(((((((((((((((Trichoptera_Polycentropodidae_Polycentropodinae_Plectrocnemia_sp,Trichoptera_Psychomyiidae_Psychomyiinae_Psychomyia_flavida),(Trichoptera_Stenopsychidae_Stenopsychodes_sp,Trichoptera_Philopotamidae_Philopotaminae_Philopotamus_ludificatus_Philopotamus)),Trichoptera_Hydropsychidae_Arctopsychinae_Arctopsyche_palpata),(((Trichoptera_Leptoceridae_Leptocerinae_Nectopsyche_candida,Trichoptera_Helicopsychidae_Helicopsyche_borealis),Trichoptera_Phryganeidae_Phryganeinae_Ptilostomis_semifasciata),Trichoptera_Hydroptilidae_Ptilocolepinae_Palaeagapetus_nearcticus_RINSramTAARAAPEI__209_zz)),((((Siphonaptera_Pulicidae_Archaeopsyllini_Ctenocephalides_felis,Siphonaptera_Ceratophyllidae_Ceratophyllinae_Ceratophyllus_gallinae),(Mecoptera_Boreidae_Boreus_hyemalis,Mecoptera_Bittacidae_Bittacus_pilicornis_)),((Diptera_Drosophilidae_Drosophilinae_Drosophila_melanogaster,Diptera_Tachinidae_Tachininae_Triarthria_setipennis),Diptera_Culicidae_Anophelinae_Anopheles_gambiae)),Coleoptera_Tenebrionidae_Tenebrioninae_Tribolium_castaneum_TCAST)),Micropterigoidea_Micropterigidae_Micropterix_calthella_Mica__N),Agathiphagoidea_Agathiphagidae_Agathiphaga_queenslandensis_Aga3),Heterobathmioidea_Heterobathmiidae_Heterobathmia_sp_Hsp),((Neopseustoidea_Neopseustidae_Neopseustinae_Neopseustis_meyricki_RINSinlTEERAAPEI__79,Neopseustoidea_Acanthopteroctetidae_Acanthopteroctetes_unifascia_Aca4),Eriocranioidea_Eriocraniidae_Dyseriocrania_subpurpurella_INSbusTBDRAAPEI__79)),(((Hepialoidea_Hepialidae_Phymatopus_californicus_Phm,Hepialoidea_Hepialidae_Triodia_sylvina_INSnfrTAVRAAPEI__9),Hepialoidea_Hepialidae_Cibyra_sp_FG120028B),Lophocoronoidea_Lophocoronidae_Lophocorona_astipica_Loas)),((Nepticuloidea_Nepticulidae_Nepticulinae_Enteucha_acetosae_Enac2,Nepticuloidea_Nepticulidae_Nepticulinae_Stigmella_atricapitella_ANIsrmTAAWRAAPEI__225),Nepticuloidea_Opostegidae_Oposteginae_Pseudopostega_cf.quadristrigella_Pqd)),((Adeloidea_Prodoxidae_Tegeticula_yuccasella_Tyu4,Adeloidea_Adelidae_Adelinae_Nemophora_degeerella_INShauTABRAAPEI__93),Andesianoidea_Andesianidae_Andesiana_lamellata_RINSinlTEARAAPEI__62)),(Palaephatoidea_Palaephatidae_Palaephatus_nielseni_Pro43D,Palaephatoidea_Palaephatidae_Palaephatus_luteolus_Pal)),((Tischerioidea_Tischeriidae_Tischeria_quercitella_Ts2,Tischerioidea_Tischeriidae_Coptotriche_citrinipennella_INSpmbTAIRAAPEI__207),(Palaephatoidea_Palaephatidae_Ptyssoptera_sp_Ptys,Palaephatoidea_Palaephatidae_Metaphatus_ochraceus_Met4))),Tineoidea_Meessiidae_Meessiinae_Eudarcia_simulatricella_Euds));
+Writing species tree
+Parlay time: Execution time: : 37.0222
+203,200,200,0,0,0.000000
+
+Running on zhang_cetacean.tre
+rm: cannot remove 'zhang_cetacean.out': No such file or directory
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/zhang_cetacean.tre -o zhang_cetacean.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/zhang_cetacean.tre
+output file: zhang_cetacean.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+Found
+    3191 trees
+    98 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 191 subproblems:
+    0 subproblems computed.
+Parlay time: total: 1.3117
+Parlay time: total: 1.5317
+Parlay time: total: 1.6113
+Parlay time: total: 1.6656
+Parlay time: total: 1.7026
+Parlay time: total: 1.7489
+Parlay time: total: 1.7876
+   10 subproblems computed.
+Parlay time: total: 1.8248
+Parlay time: total: 1.8765
+Parlay time: total: 1.9263
+Parlay time: total: 1.9606
+Parlay time: total: 2.0139
+   20 subproblems computed.
+Parlay time: total: 2.0505
+Parlay time: total: 2.1039
+Parlay time: total: 2.1473
+Parlay time: total: 2.1854
+Parlay time: total: 2.2216
+   30 subproblems computed.
+Parlay time: total: 2.2612
+Parlay time: total: 2.2991
+Parlay time: total: 2.4339
+Parlay time: total: 2.5381
+Parlay time: total: 2.6050
+   40 subproblems computed.
+Parlay time: total: 2.6531
+Parlay time: total: 2.7098
+Parlay time: total: 2.7618
+Parlay time: total: 2.7948
+Parlay time: total: 2.8337
+   50 subproblems computed.
+Parlay time: total: 2.8773
+Parlay time: total: 2.9156
+Parlay time: total: 2.9591
+Parlay time: total: 3.0009
+   60 subproblems computed.
+Parlay time: total: 3.0895
+Parlay time: total: 3.1389
+Parlay time: total: 3.1761
+Parlay time: total: 3.2257
+Parlay time: total: 3.2782
+Parlay time: total: 3.3210
+   70 subproblems computed.
+Parlay time: total: 3.3657
+Parlay time: total: 3.4356
+Parlay time: total: 3.4864
+Parlay time: total: 3.5251
+   80 subproblems computed.
+Parlay time: total: 3.5750
+Parlay time: total: 3.6384
+Parlay time: total: 3.6979
+Parlay time: total: 3.7501
+Parlay time: total: 3.8090
+   90 subproblems computed.
+Parlay time: total: 3.8562
+Parlay time: total: 3.9013
+Parlay time: total: 3.9470
+Parlay time: total: 3.9842
+Parlay time: total: 4.0217
+  100 subproblems computed.
+Parlay time: total: 4.3304
+Parlay time: total: 4.4848
+Parlay time: total: 4.5402
+Parlay time: total: 4.5795
+Parlay time: total: 4.6146
+Parlay time: total: 4.6542
+  110 subproblems computed.
+Parlay time: total: 4.7046
+Parlay time: total: 4.7457
+Parlay time: total: 4.8431
+Parlay time: total: 4.9279
+Parlay time: total: 4.9993
+  120 subproblems computed.
+Parlay time: total: 5.0600
+Parlay time: total: 5.1123
+Parlay time: total: 5.1530
+Parlay time: total: 5.1919
+Parlay time: total: 5.2498
+  130 subproblems computed.
+Parlay time: total: 5.2972
+Parlay time: total: 5.3419
+Parlay time: total: 5.3844
+Parlay time: total: 5.4254
+  140 subproblems computed.
+Parlay time: total: 5.4652
+Parlay time: total: 5.5038
+Parlay time: total: 5.5485
+Parlay time: total: 5.5865
+Parlay time: total: 5.6324
+  150 subproblems computed.
+Parlay time: total: 5.6939
+Parlay time: total: 5.7526
+Parlay time: total: 5.8383
+Parlay time: total: 5.8950
+Parlay time: total: 5.9659
+Parlay time: total: 6.0058
+  160 subproblems computed.
+Parlay time: total: 6.0602
+Parlay time: total: 6.1075
+Parlay time: total: 6.1532
+Parlay time: total: 6.1920
+  170 subproblems computed.
+Parlay time: total: 6.2336
+Parlay time: total: 6.2848
+Parlay time: total: 6.3259
+Parlay time: total: 6.3652
+  180 subproblems computed.
+Parlay time: total: 6.4142
+Parlay time: total: 6.4802
+Parlay time: total: 6.5194
+Parlay time: total: 6.5772
+Parlay time: total: 6.6261
+  190 subproblems computed.
+  191 subproblems computed.
+Printing species tree
+((((((((((((((Mper,Mpni),Mden),Mste),MgraAUS),Mhec),((Mbow,Mcar),MlayAUS)),(((Mmir,Meur),Mgin),Mbid)),(Hamp,Hpla9120)),Zcav),Tshe),(Barn,Bbai76728)),((((((((((Bede66737,BedeAUS),Bbor),Bmus49099),((Bphy_baits,Bphy),Mnov)),Erob133443),(Bacu,BbonAUS)),Cmar59905),(((Egla13086,Ejap43864),EausAUS),Bmys)),((((((Oari,Phod),Orle),Gaar),(Btau,Treu2)),(((Vpac,Cbac),Ecab),Sscr)),(Clib,Hippo))),((Kbre,Ksim),Pmac))),((Igeo,Pbla7349),Lvex)),((((((((((((((Dcap108471,Dcap79929),(DdelSJR,Ddeltrop4525)),((Lhos30470,Lhos452),(((Slon16012,Slon24923),Scly1726),Scly1724))),Scoe),(((Sfro7784,Sfro7782),(Satt18473,Satt38219)),Tadu79924)),Ttru),Schi),Sflu9837),((((((Gmel,Gmac39091),(Fatt,Pele)),Pcra123188),Ggri),(Sbre18437,Sbre116871)),(Obre,Ohei))),((((Chea7320,Laus),Ccom40),(Lobl,Lobs)),(Lbor,LperAUS))),Lalb),Oorc),Lacu),(((((Pspi,Pdio),Ppho),Npho),Pdal),(Dleu,Mmon))));
+Writing species tree
+Parlay time: Execution time: : 11.0463
+98,95,95,0,0,0.000000
+
+Running on 1_best_intron4871.tre
+rm: cannot remove '1_best_intron4871.out': No such file or directory
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/1_best_intron4871.tre -o 1_best_intron4871.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/1_best_intron4871.tre
+output file: 1_best_intron4871.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+Found
+    4871 trees
+    125 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 245 subproblems:
+    0 subproblems computed.
+Parlay time: total: 3.0372
+    1 subproblems computed.
+Printing species tree
+(ciconimgr,nippnnppn,phncptrsr,phlcrcrxc,pdrgsstrg,phthnlptr,carmcrstt,strgpshbr,nstrntbls,amazncllr,mlpsttcsn,lptsmsdsc,cathartsr,apldrmvtt,opsthcmsh,pcdspbscn,colsstrts,pdcpscrst,mstrnsncl,gavistllt,athncnclr,nyctbsgrn,plcnscrsp,aptndytsf,pygsclsdl,columbalv,ptgnsfsct,sttrnscrp,cldrspygm,cldrspgnx,rsstrdcty,turnixvlx,chrdrsvcf,brhnsbstr,lmslppncb,atlntsrgr,chlmydtsm,cuclscnrs,apteryxwn,apteryxrw,aptryxhst,strthcmls,tnmsgttts,rheaamrcn,alctrlthm,chauntrqt,penelpplt,numdmlgrs,gallsglls,chryslphs,phsnsclch,mlgrsgllp,clnsvrgnn,cllpplsqm,ansrnssmp,ansrbrchy,ansrcydms,ansrcygnd,aythyflgl,anspltyrh,egrttgrzt,ptrclsgtt,blrcrglrm,antrstmsc,trcrythrl,agthlsbnn,calyptenn,hmprcncmt,chatrplgc,upupaepps,erystmsgl,hlcynsngl,merpsnbcs,galbulade,bcrsrhncr,erypyghls,rhynchtsj,thlssrchc,chrxphlnc,corappltr,mncsvtlln,lpdthrxcr,nplmchrys,empdnxtrl,pittasrdd,mnrnvhlln,ptlnrhync,grntllpct,crvsbrchy,crvsmndld,psdpdcshm,cynstscrl,parusmajr,strnsvlgr,cthrsstlt,fcdllbcll,serinscnr,cmrhynchs,gespzfrts,zntrchlbc,junchymls,mlspzmldm,tnpyggttt,erythrrgl,lnchrstrt,prnllstrp,hrndrstcr,stchyrsrf,zstrpsbrb,acnthsttc,frgtmgnfc,flmrsglcl,falcchrrg,flcprgrns,tytoalblb,aqlchryst,hltslccph,hltslbcll,accptrnss,pipraflcd,pslpgnhmc,ctrnxjpnc,bmbsclthr,pavcrstts,allgtrmss);
+Writing species tree
+Parlay time: Execution time: : 140.8494
+125,0,0,0,0,0.000000
+
+Running on avian14k_bs.tre
+rm: cannot remove 'avian14k_bs.out': No such file or directory
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/avian14k_bs.tre -o avian14k_bs.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/avian14k_bs.tre
+output file: avian14k_bs.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+Found
+    14446 trees
+    48 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 91 subproblems:
+    0 subproblems computed.
+Parlay time: total: 1.5724
+Parlay time: total: 1.6315
+Parlay time: total: 1.6828
+Parlay time: total: 1.7424
+Parlay time: total: 2.6342
+Parlay time: total: 4.1765
+   10 subproblems computed.
+Parlay time: total: 4.3603
+Parlay time: total: 4.5091
+Parlay time: total: 4.6731
+Parlay time: total: 4.8158
+Parlay time: total: 4.9157
+Parlay time: total: 5.0215
+   20 subproblems computed.
+Parlay time: total: 5.1098
+Parlay time: total: 5.1995
+Parlay time: total: 5.2878
+Parlay time: total: 5.3580
+   30 subproblems computed.
+Parlay time: total: 5.4352
+Parlay time: total: 5.5319
+Parlay time: total: 5.6136
+Parlay time: total: 6.2080
+Parlay time: total: 6.5014
+Parlay time: total: 6.8346
+   40 subproblems computed.
+Parlay time: total: 7.1493
+Parlay time: total: 7.2825
+Parlay time: total: 7.4151
+Parlay time: total: 7.5746
+Parlay time: total: 7.7945
+Parlay time: total: 7.8633
+Parlay time: total: 7.9978
+   50 subproblems computed.
+Parlay time: total: 8.0997
+Parlay time: total: 8.1903
+Parlay time: total: 8.2984
+   60 subproblems computed.
+Parlay time: total: 8.4126
+Parlay time: total: 8.4831
+Parlay time: total: 8.6068
+Parlay time: total: 8.6955
+Parlay time: total: 8.8236
+   70 subproblems computed.
+Parlay time: total: 8.9209
+Parlay time: total: 9.2131
+Parlay time: total: 9.2962
+Parlay time: total: 9.3812
+   80 subproblems computed.
+Parlay time: total: 9.4711
+Parlay time: total: 9.5391
+Parlay time: total: 9.6027
+Parlay time: total: 9.6942
+   90 subproblems computed.
+   91 subproblems computed.
+Printing species tree
+(((((GEOFO,TAEGU),CORBR),MANVI),ACACH),(((((((((((MELGA,GALGA),ANAPL),(TINMA,STRCA)),((PODCR,PHORU),(((PTEGU,MESUN),COLLI),((TAUER,CHLUN),CUCCA)))),((CALAN,CHAPE),CAPCA)),((((((APTFO,PYGAD),FULGL),(((EGRGA,PELCR),NIPNI),PHACA)),GAVST),(EURHE,PHALE)),((BALRE,CHAVO),OPHHO))),(((HALLE,HALAL),CATAU),TYTAL)),(((((MERNU,PICPU),BUCRH),APAVI),LEPDI),COLST)),CARCR),FALPE),(MELUN,NESNO)));
+Writing species tree
+Parlay time: Execution time: : 13.2144
+48,45,45,0,0,0.000000
+
+Running on CNEE_abayes_gene_trees_sorted.tre
+rm: cannot remove 'CNEE_abayes_gene_trees_sorted.out': No such file or directory
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/CNEE_abayes_gene_trees_sorted.tre -o CNEE_abayes_gene_trees_sorted.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/CNEE_abayes_gene_trees_sorted.tre
+output file: CNEE_abayes_gene_trees_sorted.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+Found
+    12676 trees
+    15 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 25 subproblems:
+    0 subproblems computed.
+Parlay time: total: 0.1855
+Parlay time: total: 0.2300
+Parlay time: total: 0.2653
+Parlay time: total: 0.3028
+Parlay time: total: 0.4057
+Parlay time: total: 0.4717
+   10 subproblems computed.
+Parlay time: total: 0.5328
+Parlay time: total: 0.5952
+Parlay time: total: 0.6452
+Parlay time: total: 0.6944
+   20 subproblems computed.
+Parlay time: total: 0.7394
+Parlay time: total: 0.7797
+   25 subproblems computed.
+Printing species tree
+((((cryCin,tinGut),(eudEle,notPer)),anoDid),(((((aptHaa,aptOwe),(aptRow,aptMan)),(casCas,droNov)),(rheAme,rhePen)),(strCam,galGal)));
+Writing species tree
+Parlay time: Execution time: : 1.3761
+15,12,12,0,0,0.000000
+
+Running on zhang_papilionidae.tre
+rm: cannot remove 'zhang_papilionidae.out': No such file or directory
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/zhang_papilionidae.tre -o zhang_papilionidae.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/zhang_papilionidae.tre
+output file: zhang_papilionidae.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+  WARNING: Input tree on line 348 has fewer than 4 species so ignoring
+  WARNING: Input tree on line 3996 has fewer than 4 species so ignoring
+  WARNING: Input tree on line 4474 has fewer than 4 species so ignoring
+  WARNING: Input tree on line 4760 has fewer than 4 species so ignoring
+  WARNING: Input tree on line 5154 has fewer than 4 species so ignoring
+  WARNING: Input tree on line 5252 has fewer than 4 species so ignoring
+  WARNING: Input tree on line 5387 has fewer than 4 species so ignoring
+Found
+    6398 trees
+    61 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 117 subproblems:
+    0 subproblems computed.
+Parlay time: total: 1.0215
+Parlay time: total: 1.5682
+Parlay time: total: 1.7851
+Parlay time: total: 1.8397
+Parlay time: total: 1.8735
+Parlay time: total: 1.9077
+Parlay time: total: 1.9622
+   10 subproblems computed.
+Parlay time: total: 1.9906
+Parlay time: total: 2.0298
+Parlay time: total: 2.0703
+Parlay time: total: 2.1166
+Parlay time: total: 2.1800
+   20 subproblems computed.
+Parlay time: total: 2.4055
+Parlay time: total: 2.5108
+Parlay time: total: 2.6859
+Parlay time: total: 2.7649
+Parlay time: total: 2.8162
+Parlay time: total: 2.8606
+   30 subproblems computed.
+Parlay time: total: 2.9059
+Parlay time: total: 2.9532
+Parlay time: total: 2.9890
+Parlay time: total: 3.0258
+   40 subproblems computed.
+Parlay time: total: 3.0689
+Parlay time: total: 3.1137
+Parlay time: total: 3.1513
+Parlay time: total: 3.1917
+Parlay time: total: 3.2265
+   50 subproblems computed.
+Parlay time: total: 3.2715
+Parlay time: total: 3.3130
+Parlay time: total: 3.3647
+Parlay time: total: 3.4009
+   60 subproblems computed.
+Parlay time: total: 3.4389
+Parlay time: total: 3.4724
+Parlay time: total: 3.5495
+Parlay time: total: 3.5936
+Parlay time: total: 3.6487
+Parlay time: total: 3.6827
+   70 subproblems computed.
+Parlay time: total: 3.7193
+Parlay time: total: 3.7535
+Parlay time: total: 3.7955
+Parlay time: total: 3.8296
+   80 subproblems computed.
+Parlay time: total: 3.8625
+Parlay time: total: 3.9022
+Parlay time: total: 3.9596
+Parlay time: total: 4.4377
+Parlay time: total: 4.4988
+   90 subproblems computed.
+Parlay time: total: 4.5454
+Parlay time: total: 4.5815
+Parlay time: total: 4.6149
+Parlay time: total: 4.6749
+Parlay time: total: 4.7460
+  100 subproblems computed.
+Parlay time: total: 4.8042
+Parlay time: total: 4.8810
+Parlay time: total: 4.9937
+Parlay time: total: 5.0320
+  110 subproblems computed.
+Parlay time: total: 5.0907
+Parlay time: total: 5.1263
+Parlay time: total: 5.1626
+  117 subproblems computed.
+Printing species tree
+(((((((((((((Ornithoptera_priamus2,Ornithoptera_richmondia),Troides_plateni),Trogonoptera_brookiana),((Euryades_corethrus,Parides_ascanius),Cressida_cressida)),((Atrophaneura_dixoni,Byasa_alcinous),(Losaria_neptunus,Pachliopta_kotzebuea))),Pharmacophagus_antenor),Battus_polydamus),((((((((Papilio_machaon,Papilio_machaon_gb),Papilio_zelicaon),Papilio_Xuthus),Papilio_polytes_gb),Papilio_antimachus),Papilio_alexanor),((Papilio_glaucus_gb,Papilio_slateri),Papilio_thoas)),Meandrusa_sciron)),Teinopalpus_imperialis),(((((Mimoides_lysithaus,Protographium_marcellus),(Eurytides_dolicaon,Protesilaus_nuclesilaus)),(Graphium_androcles,Graphium_sarpedon)),Iphiclides_podalirius),Lamproptera_meges)),(((((Parnassius_honrati,Parnassius_smintheus),Parnassius_imperator),Parnassius_orleans),Hypermnestra_helios),((((Zerynthia_polyxena,Allancastria_cerisyi),Bhutanitis_mansfieldi),Sericinus_montela),(Archon_apollinus,Luehdorfia_japonica)))),Baronia_brevicornis),((((((((((((Heliconius_melpomene,Laparus_doris),Eueides_tales),Agraulis_vanillae),Dryas_iulia),((Junonia_coenia,Melitaea_cinxia),Polygonia_calbum)),(Bicyclus_anynana,Pararge_aegeria)),Danaus_plexippus),Calycopis_cecrops),Phoebis_sennae),Lerema_accius),Bombyx_mori),Choristoneura_fumiferana));
+Writing species tree
+Parlay time: Execution time: : 7.8197
+61,58,58,0,0,0.000000
+
+Running on 1kp-AA-genes-bayes.tre
+rm: cannot remove '1kp-AA-genes-bayes.out': No such file or directory
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/1kp-AA-genes-bayes.tre -o 1kp-AA-genes-bayes.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/1kp-AA-genes-bayes.tre
+output file: 1kp-AA-genes-bayes.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+Found
+    410 trees
+    1178 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 2351 subproblems:
+    0 subproblems computed.
+Parlay time: total: 16.2806
+Parlay time: total: 18.5654
+Parlay time: total: 19.0971
+Parlay time: total: 19.4223
+Parlay time: total: 19.5524
+Parlay time: total: 19.6407
+Parlay time: total: 19.6929
+Parlay time: total: 19.7399
+Parlay time: total: 19.7962
+   10 subproblems computed.
+Parlay time: total: 19.8699
+Parlay time: total: 19.9572
+Parlay time: total: 20.0400
+Parlay time: total: 20.1126
+Parlay time: total: 20.1585
+   20 subproblems computed.
+Parlay time: total: 20.2126
+Parlay time: total: 20.3026
+Parlay time: total: 20.3801
+Parlay time: total: 20.4664
+Parlay time: total: 20.5810
+Parlay time: total: 20.6958
+   30 subproblems computed.
+Parlay time: total: 20.7836
+Parlay time: total: 20.8312
+Parlay time: total: 20.8764
+   40 subproblems computed.
+Parlay time: total: 20.9500
+Parlay time: total: 21.0384
+Parlay time: total: 21.1505
+Parlay time: total: 21.2644
+Parlay time: total: 21.3788
+Parlay time: total: 21.4671
+   50 subproblems computed.
+Parlay time: total: 21.5234
+Parlay time: total: 21.5691
+Parlay time: total: 21.6220
+   60 subproblems computed.
+Parlay time: total: 21.6953
+Parlay time: total: 21.7738
+Parlay time: total: 21.8612
+Parlay time: total: 21.9730
+Parlay time: total: 22.0611
+Parlay time: total: 22.1082
+   70 subproblems computed.
+Parlay time: total: 22.1555
+Parlay time: total: 22.2092
+Parlay time: total: 22.2815
+Parlay time: total: 22.3353
+Parlay time: total: 22.3834
+   80 subproblems computed.
+Parlay time: total: 22.4380
+Parlay time: total: 22.4843
+Parlay time: total: 22.5485
+Parlay time: total: 22.5946
+Parlay time: total: 22.6483
+   90 subproblems computed.
+Parlay time: total: 22.7342
+Parlay time: total: 22.8264
+Parlay time: total: 22.9499
+Parlay time: total: 23.0815
+Parlay time: total: 23.1578
+Parlay time: total: 23.2131
+  100 subproblems computed.
+Parlay time: total: 23.2871
+Parlay time: total: 23.3422
+Parlay time: total: 23.4613
+Parlay time: total: 23.5797
+  110 subproblems computed.
+Parlay time: total: 23.6557
+Parlay time: total: 23.7392
+Parlay time: total: 23.8263
+Parlay time: total: 23.8736
+  120 subproblems computed.
+Parlay time: total: 23.9376
+Parlay time: total: 24.0531
+Parlay time: total: 24.1184
+Parlay time: total: 24.1790
+Parlay time: total: 24.2253
+Parlay time: total: 24.2817
+  130 subproblems computed.
+Parlay time: total: 24.3589
+Parlay time: total: 24.4484
+Parlay time: total: 24.5219
+Parlay time: total: 24.5975
+Parlay time: total: 24.6710
+  140 subproblems computed.
+Parlay time: total: 24.7188
+Parlay time: total: 24.7746
+Parlay time: total: 24.8214
+Parlay time: total: 24.8670
+Parlay time: total: 24.9435
+  150 subproblems computed.
+Parlay time: total: 24.9995
+Parlay time: total: 25.0729
+Parlay time: total: 25.1587
+Parlay time: total: 25.2173
+Parlay time: total: 25.2932
+  160 subproblems computed.
+Parlay time: total: 25.3702
+Parlay time: total: 25.4255
+Parlay time: total: 25.4814
+Parlay time: total: 25.5273
+Parlay time: total: 25.6023
+  170 subproblems computed.
+Parlay time: total: 25.6523
+Parlay time: total: 25.7105
+Parlay time: total: 25.7689
+Parlay time: total: 25.8235
+Parlay time: total: 25.8778
+  180 subproblems computed.
+Parlay time: total: 25.9341
+Parlay time: total: 26.0094
+Parlay time: total: 26.0651
+Parlay time: total: 26.1139
+  190 subproblems computed.
+Parlay time: total: 26.1682
+Parlay time: total: 26.2226
+Parlay time: total: 26.3981
+Parlay time: total: 26.5352
+Parlay time: total: 26.6158
+Parlay time: total: 26.6849
+  200 subproblems computed.
+Parlay time: total: 26.7328
+Parlay time: total: 26.7787
+Parlay time: total: 26.8612
+Parlay time: total: 26.9095
+Parlay time: total: 26.9563
+  210 subproblems computed.
+Parlay time: total: 27.0128
+Parlay time: total: 27.1287
+Parlay time: total: 27.2517
+Parlay time: total: 27.3891
+Parlay time: total: 27.5598
+Parlay time: total: 27.7580
+Parlay time: total: 27.8385
+  220 subproblems computed.
+Parlay time: total: 27.9160
+Parlay time: total: 28.0847
+Parlay time: total: 28.1753
+Parlay time: total: 28.2625
+  230 subproblems computed.
+Parlay time: total: 28.3774
+Parlay time: total: 28.4682
+Parlay time: total: 28.5166
+Parlay time: total: 28.5634
+  240 subproblems computed.
+Parlay time: total: 28.6107
+Parlay time: total: 28.6730
+Parlay time: total: 28.7488
+Parlay time: total: 28.8389
+Parlay time: total: 28.9279
+Parlay time: total: 29.0042
+  250 subproblems computed.
+Parlay time: total: 29.0790
+Parlay time: total: 29.1343
+Parlay time: total: 29.1823
+Parlay time: total: 29.2300
+  260 subproblems computed.
+Parlay time: total: 29.2846
+Parlay time: total: 29.3318
+Parlay time: total: 29.3809
+Parlay time: total: 29.4275
+  270 subproblems computed.
+Parlay time: total: 29.4851
+Parlay time: total: 29.5418
+Parlay time: total: 29.5950
+Parlay time: total: 29.6435
+Parlay time: total: 29.6999
+Parlay time: total: 29.7776
+  280 subproblems computed.
+Parlay time: total: 29.8245
+Parlay time: total: 29.8820
+Parlay time: total: 29.9414
+Parlay time: total: 30.0176
+  290 subproblems computed.
+Parlay time: total: 30.0757
+Parlay time: total: 30.1346
+Parlay time: total: 30.1844
+Parlay time: total: 30.2416
+Parlay time: total: 30.3216
+  300 subproblems computed.
+Parlay time: total: 30.4124
+Parlay time: total: 30.4900
+Parlay time: total: 30.5681
+Parlay time: total: 30.6170
+  310 subproblems computed.
+Parlay time: total: 30.7344
+Parlay time: total: 30.8374
+Parlay time: total: 30.8947
+Parlay time: total: 30.9478
+Parlay time: total: 30.9995
+Parlay time: total: 31.0591
+Parlay time: total: 31.1099
+Parlay time: total: 31.1875
+  320 subproblems computed.
+Parlay time: total: 31.2641
+Parlay time: total: 31.3209
+Parlay time: total: 31.3766
+  330 subproblems computed.
+Parlay time: total: 31.4353
+Parlay time: total: 31.4836
+Parlay time: total: 31.5617
+Parlay time: total: 31.6369
+Parlay time: total: 31.7373
+  340 subproblems computed.
+Parlay time: total: 31.8656
+Parlay time: total: 31.9259
+Parlay time: total: 32.0044
+Parlay time: total: 32.0953
+Parlay time: total: 32.1735
+Parlay time: total: 32.2308
+  350 subproblems computed.
+Parlay time: total: 32.2810
+Parlay time: total: 32.3387
+Parlay time: total: 32.4592
+Parlay time: total: 32.5781
+Parlay time: total: 32.6698
+  360 subproblems computed.
+Parlay time: total: 32.7272
+Parlay time: total: 32.8035
+Parlay time: total: 32.8520
+Parlay time: total: 32.8991
+  370 subproblems computed.
+Parlay time: total: 32.9483
+Parlay time: total: 33.0048
+Parlay time: total: 33.0824
+Parlay time: total: 33.1320
+Parlay time: total: 33.1892
+  380 subproblems computed.
+Parlay time: total: 33.2660
+Parlay time: total: 33.3433
+Parlay time: total: 33.4042
+Parlay time: total: 33.4668
+Parlay time: total: 33.5463
+Parlay time: total: 33.6231
+  390 subproblems computed.
+Parlay time: total: 33.6803
+Parlay time: total: 33.7551
+Parlay time: total: 33.8457
+Parlay time: total: 33.8943
+  400 subproblems computed.
+Parlay time: total: 33.9442
+Parlay time: total: 33.9900
+Parlay time: total: 34.0445
+Parlay time: total: 34.1207
+Parlay time: total: 34.2099
+  410 subproblems computed.
+Parlay time: total: 34.2617
+Parlay time: total: 34.3104
+Parlay time: total: 34.3680
+Parlay time: total: 34.4472
+Parlay time: total: 34.5245
+  420 subproblems computed.
+Parlay time: total: 34.5818
+Parlay time: total: 34.6376
+Parlay time: total: 34.6953
+Parlay time: total: 34.7498
+  430 subproblems computed.
+Parlay time: total: 34.7985
+Parlay time: total: 35.8434
+Parlay time: total: 36.0102
+Parlay time: total: 36.1014
+Parlay time: total: 36.2029
+Parlay time: total: 36.3122
+Parlay time: total: 36.3660
+Parlay time: total: 36.4255
+  440 subproblems computed.
+Parlay time: total: 36.4760
+Parlay time: total: 36.6129
+Parlay time: total: 36.6740
+Parlay time: total: 36.7324
+Parlay time: total: 36.8125
+  450 subproblems computed.
+Parlay time: total: 36.8717
+Parlay time: total: 36.9989
+Parlay time: total: 37.0515
+Parlay time: total: 37.1116
+  460 subproblems computed.
+Parlay time: total: 37.2524
+Parlay time: total: 37.3481
+Parlay time: total: 37.4888
+Parlay time: total: 37.5871
+Parlay time: total: 37.6713
+  470 subproblems computed.
+Parlay time: total: 37.7264
+Parlay time: total: 37.7893
+Parlay time: total: 37.8748
+Parlay time: total: 37.9622
+Parlay time: total: 38.0619
+  480 subproblems computed.
+Parlay time: total: 38.1486
+Parlay time: total: 38.2011
+Parlay time: total: 38.2624
+Parlay time: total: 38.3485
+  490 subproblems computed.
+Parlay time: total: 38.4037
+Parlay time: total: 38.4655
+Parlay time: total: 38.5260
+Parlay time: total: 38.5874
+Parlay time: total: 38.6408
+  500 subproblems computed.
+Parlay time: total: 38.6942
+Parlay time: total: 38.7577
+Parlay time: total: 38.8204
+Parlay time: total: 38.9071
+Parlay time: total: 39.0057
+  510 subproblems computed.
+Parlay time: total: 39.0898
+Parlay time: total: 39.1546
+Parlay time: total: 39.2184
+Parlay time: total: 39.2714
+Parlay time: total: 39.3338
+Parlay time: total: 39.3965
+  520 subproblems computed.
+Parlay time: total: 39.4807
+Parlay time: total: 39.5392
+Parlay time: total: 39.6036
+Parlay time: total: 39.6563
+Parlay time: total: 39.7110
+  530 subproblems computed.
+Parlay time: total: 39.8000
+Parlay time: total: 39.8885
+Parlay time: total: 39.9878
+Parlay time: total: 40.0744
+  540 subproblems computed.
+Parlay time: total: 40.1379
+Parlay time: total: 40.1913
+Parlay time: total: 40.2449
+Parlay time: total: 40.3068
+  550 subproblems computed.
+Parlay time: total: 40.3688
+Parlay time: total: 40.4590
+Parlay time: total: 41.1440
+Parlay time: total: 41.6876
+Parlay time: total: 41.8781
+Parlay time: total: 41.9713
+Parlay time: total: 42.0613
+  560 subproblems computed.
+Parlay time: total: 42.1174
+Parlay time: total: 42.1799
+Parlay time: total: 42.2333
+Parlay time: total: 42.2972
+Parlay time: total: 42.3834
+Parlay time: total: 42.4716
+  570 subproblems computed.
+Parlay time: total: 42.6194
+Parlay time: total: 42.7339
+Parlay time: total: 42.7920
+Parlay time: total: 42.8438
+  580 subproblems computed.
+Parlay time: total: 42.9825
+Parlay time: total: 43.0389
+Parlay time: total: 43.1023
+Parlay time: total: 43.2552
+Parlay time: total: 43.4454
+  590 subproblems computed.
+Parlay time: total: 43.6544
+Parlay time: total: 43.9131
+Parlay time: total: 44.1000
+Parlay time: total: 44.3020
+Parlay time: total: 44.5538
+Parlay time: total: 44.7053
+Parlay time: total: 44.8082
+  600 subproblems computed.
+Parlay time: total: 44.8964
+Parlay time: total: 44.9939
+Parlay time: total: 45.1242
+Parlay time: total: 45.2104
+  610 subproblems computed.
+Parlay time: total: 45.3095
+Parlay time: total: 45.4096
+Parlay time: total: 45.4631
+Parlay time: total: 45.5269
+  620 subproblems computed.
+Parlay time: total: 45.6102
+Parlay time: total: 45.6948
+Parlay time: total: 45.7523
+Parlay time: total: 45.8059
+Parlay time: total: 45.8589
+  630 subproblems computed.
+Parlay time: total: 45.9217
+Parlay time: total: 46.0044
+Parlay time: total: 46.0598
+Parlay time: total: 46.1199
+Parlay time: total: 46.1723
+  640 subproblems computed.
+Parlay time: total: 46.2333
+Parlay time: total: 46.3393
+Parlay time: total: 46.4034
+Parlay time: total: 46.4586
+Parlay time: total: 46.5217
+Parlay time: total: 46.6073
+  650 subproblems computed.
+Parlay time: total: 46.6919
+Parlay time: total: 46.7445
+Parlay time: total: 46.7961
+Parlay time: total: 46.8581
+Parlay time: total: 46.9220
+  660 subproblems computed.
+Parlay time: total: 46.9839
+Parlay time: total: 47.0468
+Parlay time: total: 47.1101
+Parlay time: total: 47.1746
+Parlay time: total: 47.2378
+  670 subproblems computed.
+Parlay time: total: 47.2993
+Parlay time: total: 47.3649
+Parlay time: total: 47.4182
+  680 subproblems computed.
+Parlay time: total: 47.4827
+Parlay time: total: 47.6294
+Parlay time: total: 47.6890
+Parlay time: total: 47.7452
+Parlay time: total: 47.8102
+Parlay time: total: 47.8944
+  690 subproblems computed.
+Parlay time: total: 47.9607
+Parlay time: total: 48.0486
+Parlay time: total: 48.1541
+Parlay time: total: 48.2383
+Parlay time: total: 48.3227
+  700 subproblems computed.
+Parlay time: total: 48.3756
+Parlay time: total: 48.4268
+Parlay time: total: 48.5378
+Parlay time: total: 48.5949
+Parlay time: total: 48.6585
+  710 subproblems computed.
+Parlay time: total: 48.7463
+Parlay time: total: 48.8474
+Parlay time: total: 48.9471
+Parlay time: total: 49.0330
+  720 subproblems computed.
+Parlay time: total: 49.0850
+Parlay time: total: 49.1462
+Parlay time: total: 49.2812
+Parlay time: total: 49.3475
+Parlay time: total: 49.4332
+Parlay time: total: 49.5157
+  730 subproblems computed.
+Parlay time: total: 49.6151
+Parlay time: total: 49.7478
+Parlay time: total: 49.8936
+Parlay time: total: 50.0771
+Parlay time: total: 50.2098
+  740 subproblems computed.
+Parlay time: total: 50.3105
+Parlay time: total: 50.3964
+Parlay time: total: 50.4950
+Parlay time: total: 50.5493
+  750 subproblems computed.
+Parlay time: total: 50.6046
+Parlay time: total: 50.7761
+Parlay time: total: 50.8510
+Parlay time: total: 50.9163
+Parlay time: total: 50.9752
+Parlay time: total: 51.0436
+Parlay time: total: 51.0978
+  760 subproblems computed.
+Parlay time: total: 51.1624
+Parlay time: total: 51.2483
+Parlay time: total: 51.3514
+Parlay time: total: 51.4812
+Parlay time: total: 51.5840
+  770 subproblems computed.
+Parlay time: total: 51.6378
+Parlay time: total: 51.6993
+Parlay time: total: 51.7619
+Parlay time: total: 51.8156
+  780 subproblems computed.
+Parlay time: total: 51.8779
+Parlay time: total: 51.9318
+Parlay time: total: 52.0174
+Parlay time: total: 52.1171
+Parlay time: total: 52.2160
+  790 subproblems computed.
+Parlay time: total: 52.2828
+Parlay time: total: 52.3356
+Parlay time: total: 52.3965
+Parlay time: total: 52.4848
+  800 subproblems computed.
+Parlay time: total: 52.5486
+Parlay time: total: 52.6381
+Parlay time: total: 52.7379
+Parlay time: total: 52.8262
+  810 subproblems computed.
+Parlay time: total: 52.9909
+Parlay time: total: 53.1415
+Parlay time: total: 53.2256
+Parlay time: total: 53.2942
+Parlay time: total: 53.3834
+Parlay time: total: 53.4830
+Parlay time: total: 53.5710
+  820 subproblems computed.
+Parlay time: total: 53.6258
+Parlay time: total: 53.6832
+Parlay time: total: 53.7468
+Parlay time: total: 53.8365
+Parlay time: total: 53.9378
+Parlay time: total: 54.0394
+  830 subproblems computed.
+Parlay time: total: 54.0939
+Parlay time: total: 54.1492
+Parlay time: total: 54.2038
+Parlay time: total: 54.2677
+Parlay time: total: 54.3562
+  840 subproblems computed.
+Parlay time: total: 54.4436
+Parlay time: total: 54.5292
+Parlay time: total: 54.5840
+Parlay time: total: 54.6472
+  850 subproblems computed.
+Parlay time: total: 54.7105
+Parlay time: total: 54.7630
+Parlay time: total: 54.8492
+Parlay time: total: 54.9502
+  860 subproblems computed.
+Parlay time: total: 55.0943
+Parlay time: total: 55.1551
+Parlay time: total: 55.2216
+Parlay time: total: 55.3092
+Parlay time: total: 55.3735
+Parlay time: total: 55.4588
+  870 subproblems computed.
+Parlay time: total: 55.5120
+Parlay time: total: 55.5669
+Parlay time: total: 55.6192
+Parlay time: total: 55.7698
+  880 subproblems computed.
+Parlay time: total: 55.9615
+Parlay time: total: 56.0950
+Parlay time: total: 56.2405
+Parlay time: total: 56.3464
+Parlay time: total: 56.4470
+Parlay time: total: 56.5102
+  890 subproblems computed.
+Parlay time: total: 56.6113
+Parlay time: total: 56.7124
+Parlay time: total: 56.8156
+Parlay time: total: 56.8708
+Parlay time: total: 57.0013
+  900 subproblems computed.
+Parlay time: total: 57.1030
+Parlay time: total: 57.1575
+Parlay time: total: 57.2710
+Parlay time: total: 57.3299
+  910 subproblems computed.
+Parlay time: total: 57.3857
+Parlay time: total: 57.4516
+Parlay time: total: 57.5146
+Parlay time: total: 57.5807
+Parlay time: total: 57.6358
+Parlay time: total: 57.7014
+  920 subproblems computed.
+Parlay time: total: 57.7897
+Parlay time: total: 57.8444
+Parlay time: total: 57.9308
+Parlay time: total: 58.0308
+  930 subproblems computed.
+Parlay time: total: 58.1175
+Parlay time: total: 58.1856
+Parlay time: total: 58.2417
+Parlay time: total: 58.2954
+Parlay time: total: 58.3601
+  940 subproblems computed.
+Parlay time: total: 58.4457
+Parlay time: total: 58.4998
+Parlay time: total: 58.5869
+Parlay time: total: 58.6780
+Parlay time: total: 58.7687
+Parlay time: total: 58.8675
+  950 subproblems computed.
+Parlay time: total: 58.9547
+Parlay time: total: 59.0182
+Parlay time: total: 59.1808
+  960 subproblems computed.
+Parlay time: total: 59.3138
+Parlay time: total: 59.3764
+Parlay time: total: 59.4432
+Parlay time: total: 59.5074
+Parlay time: total: 59.5727
+Parlay time: total: 59.6275
+  970 subproblems computed.
+Parlay time: total: 59.7185
+Parlay time: total: 59.8187
+Parlay time: total: 59.9196
+Parlay time: total: 59.9740
+Parlay time: total: 60.0363
+  980 subproblems computed.
+Parlay time: total: 60.1836
+Parlay time: total: 60.3266
+Parlay time: total: 60.3841
+Parlay time: total: 60.4379
+Parlay time: total: 60.5013
+  990 subproblems computed.
+Parlay time: total: 60.5644
+Parlay time: total: 60.7116
+Parlay time: total: 60.7700
+Parlay time: total: 60.8329
+Parlay time: total: 61.0216
+ 1000 subproblems computed.
+Parlay time: total: 61.2329
+Parlay time: total: 61.3825
+Parlay time: total: 61.4722
+Parlay time: total: 61.6012
+Parlay time: total: 61.7047
+ 1010 subproblems computed.
+Parlay time: total: 61.8068
+Parlay time: total: 61.8967
+Parlay time: total: 61.9672
+Parlay time: total: 62.0569
+Parlay time: total: 62.1117
+ 1020 subproblems computed.
+Parlay time: total: 62.2144
+Parlay time: total: 62.3178
+Parlay time: total: 62.3836
+Parlay time: total: 62.4487
+ 1030 subproblems computed.
+Parlay time: total: 62.5033
+Parlay time: total: 62.5679
+Parlay time: total: 62.6216
+Parlay time: total: 62.7073
+Parlay time: total: 62.8098
+Parlay time: total: 62.9080
+ 1040 subproblems computed.
+Parlay time: total: 63.0131
+Parlay time: total: 63.1489
+Parlay time: total: 63.2525
+Parlay time: total: 63.3539
+Parlay time: total: 63.4459
+Parlay time: total: 63.5102
+ 1050 subproblems computed.
+Parlay time: total: 63.6001
+Parlay time: total: 63.6550
+Parlay time: total: 63.7245
+Parlay time: total: 63.7806
+ 1060 subproblems computed.
+Parlay time: total: 63.8479
+Parlay time: total: 63.9363
+Parlay time: total: 64.0267
+Parlay time: total: 64.1181
+Parlay time: total: 64.2076
+ 1070 subproblems computed.
+Parlay time: total: 64.2727
+Parlay time: total: 64.3324
+Parlay time: total: 64.3866
+Parlay time: total: 64.4426
+Parlay time: total: 64.5082
+ 1080 subproblems computed.
+Parlay time: total: 64.5779
+Parlay time: total: 64.6679
+Parlay time: total: 64.7334
+Parlay time: total: 64.8227
+ 1090 subproblems computed.
+Parlay time: total: 64.8779
+Parlay time: total: 64.9316
+Parlay time: total: 69.1458
+Parlay time: total: 69.4295
+Parlay time: total: 69.5393
+Parlay time: total: 69.6025
+ 1100 subproblems computed.
+Parlay time: total: 69.6706
+Parlay time: total: 69.7377
+Parlay time: total: 69.8260
+Parlay time: total: 69.8925
+Parlay time: total: 69.9467
+ 1110 subproblems computed.
+Parlay time: total: 70.0022
+Parlay time: total: 70.0680
+Parlay time: total: 70.1329
+Parlay time: total: 70.1966
+Parlay time: total: 70.2509
+ 1120 subproblems computed.
+Parlay time: total: 70.3265
+Parlay time: total: 70.3946
+Parlay time: total: 70.4848
+Parlay time: total: 70.5503
+Parlay time: total: 70.6057
+ 1130 subproblems computed.
+Parlay time: total: 70.6603
+Parlay time: total: 70.7243
+Parlay time: total: 70.7799
+Parlay time: total: 70.8448
+ 1140 subproblems computed.
+Parlay time: total: 70.9357
+Parlay time: total: 71.0272
+Parlay time: total: 71.0948
+Parlay time: total: 71.1833
+Parlay time: total: 71.4171
+ 1150 subproblems computed.
+Parlay time: total: 71.6067
+Parlay time: total: 71.7463
+Parlay time: total: 71.8231
+Parlay time: total: 71.9172
+Parlay time: total: 72.0221
+Parlay time: total: 72.1230
+Parlay time: total: 72.1910
+Parlay time: total: 72.2802
+ 1160 subproblems computed.
+Parlay time: total: 72.3354
+Parlay time: total: 72.4007
+Parlay time: total: 72.4583
+Parlay time: total: 72.5255
+ 1170 subproblems computed.
+Parlay time: total: 72.6151
+Parlay time: total: 72.6832
+Parlay time: total: 72.7384
+Parlay time: total: 72.8051
+ 1180 subproblems computed.
+Parlay time: total: 72.9144
+Parlay time: total: 72.9745
+Parlay time: total: 73.0412
+Parlay time: total: 73.1065
+Parlay time: total: 73.1633
+ 1190 subproblems computed.
+Parlay time: total: 73.2283
+Parlay time: total: 73.3434
+Parlay time: total: 73.4600
+Parlay time: total: 73.5196
+Parlay time: total: 73.5743
+Parlay time: total: 73.6412
+ 1200 subproblems computed.
+Parlay time: total: 73.7319
+Parlay time: total: 73.7992
+Parlay time: total: 73.9463
+Parlay time: total: 74.0048
+Parlay time: total: 74.0712
+ 1210 subproblems computed.
+Parlay time: total: 74.1258
+Parlay time: total: 74.2743
+Parlay time: total: 74.4241
+Parlay time: total: 74.5327
+Parlay time: total: 74.6362
+ 1220 subproblems computed.
+Parlay time: total: 74.7395
+Parlay time: total: 74.8067
+Parlay time: total: 74.8737
+Parlay time: total: 74.9275
+ 1230 subproblems computed.
+Parlay time: total: 75.0184
+Parlay time: total: 75.0747
+Parlay time: total: 75.1796
+Parlay time: total: 75.2993
+Parlay time: total: 75.4227
+ 1240 subproblems computed.
+Parlay time: total: 75.5721
+Parlay time: total: 75.7078
+Parlay time: total: 75.8565
+Parlay time: total: 75.9492
+Parlay time: total: 76.0513
+Parlay time: total: 76.1831
+ 1250 subproblems computed.
+Parlay time: total: 76.3164
+Parlay time: total: 76.4217
+Parlay time: total: 76.5123
+Parlay time: total: 76.5802
+Parlay time: total: 76.6690
+ 1260 subproblems computed.
+Parlay time: total: 76.7768
+Parlay time: total: 76.9111
+Parlay time: total: 77.0148
+Parlay time: total: 77.0705
+ 1270 subproblems computed.
+Parlay time: total: 77.1259
+Parlay time: total: 77.1815
+Parlay time: total: 77.2469
+Parlay time: total: 77.3136
+ 1280 subproblems computed.
+Parlay time: total: 77.3778
+Parlay time: total: 77.4443
+Parlay time: total: 77.5332
+Parlay time: total: 77.6351
+Parlay time: total: 77.7245
+Parlay time: total: 77.7808
+ 1290 subproblems computed.
+Parlay time: total: 77.8387
+Parlay time: total: 77.9084
+Parlay time: total: 78.0001
+Parlay time: total: 78.1053
+Parlay time: total: 78.2107
+Parlay time: total: 78.3010
+ 1300 subproblems computed.
+Parlay time: total: 78.3665
+Parlay time: total: 78.4224
+Parlay time: total: 78.4780
+ 1310 subproblems computed.
+Parlay time: total: 78.5633
+Parlay time: total: 78.6247
+Parlay time: total: 78.6838
+Parlay time: total: 78.7524
+Parlay time: total: 78.8436
+Parlay time: total: 78.9315
+ 1320 subproblems computed.
+Parlay time: total: 78.9970
+Parlay time: total: 79.0623
+Parlay time: total: 79.1480
+Parlay time: total: 79.2287
+Parlay time: total: 79.3255
+ 1330 subproblems computed.
+Parlay time: total: 79.3835
+Parlay time: total: 79.4500
+Parlay time: total: 79.5156
+Parlay time: total: 79.6215
+Parlay time: total: 79.6787
+ 1340 subproblems computed.
+Parlay time: total: 79.8089
+Parlay time: total: 79.9155
+Parlay time: total: 80.0186
+Parlay time: total: 80.0860
+ 1350 subproblems computed.
+Parlay time: total: 80.1434
+Parlay time: total: 80.2096
+Parlay time: total: 80.2974
+Parlay time: total: 80.3538
+Parlay time: total: 80.4203
+Parlay time: total: 80.4861
+ 1360 subproblems computed.
+Parlay time: total: 80.5423
+Parlay time: total: 80.6105
+Parlay time: total: 80.6668
+Parlay time: total: 80.7340
+Parlay time: total: 80.7997
+ 1370 subproblems computed.
+Parlay time: total: 80.8897
+Parlay time: total: 80.9789
+Parlay time: total: 81.0463
+Parlay time: total: 81.1112
+ 1380 subproblems computed.
+Parlay time: total: 84.0445
+Parlay time: total: 85.1829
+Parlay time: total: 85.7354
+Parlay time: total: 86.0713
+Parlay time: total: 86.3678
+Parlay time: total: 86.4933
+Parlay time: total: 86.5658
+Parlay time: total: 86.6245
+ 1390 subproblems computed.
+Parlay time: total: 86.6819
+Parlay time: total: 86.7502
+Parlay time: total: 86.8367
+Parlay time: total: 86.9112
+Parlay time: total: 86.9808
+ 1400 subproblems computed.
+Parlay time: total: 87.0383
+Parlay time: total: 87.1083
+Parlay time: total: 87.1759
+Parlay time: total: 87.2630
+Parlay time: total: 87.3642
+ 1410 subproblems computed.
+Parlay time: total: 87.4517
+Parlay time: total: 87.5205
+Parlay time: total: 87.5858
+Parlay time: total: 87.6536
+ 1420 subproblems computed.
+Parlay time: total: 87.7192
+Parlay time: total: 87.8273
+Parlay time: total: 87.8882
+Parlay time: total: 87.9559
+Parlay time: total: 88.0440
+Parlay time: total: 88.1105
+ 1430 subproblems computed.
+Parlay time: total: 88.1660
+Parlay time: total: 88.2228
+Parlay time: total: 88.3341
+Parlay time: total: 88.4298
+Parlay time: total: 88.5187
+ 1440 subproblems computed.
+Parlay time: total: 88.6181
+Parlay time: total: 88.7169
+Parlay time: total: 88.8038
+Parlay time: total: 88.8728
+Parlay time: total: 88.9405
+ 1450 subproblems computed.
+Parlay time: total: 89.0069
+Parlay time: total: 89.0732
+Parlay time: total: 89.1402
+Parlay time: total: 89.2339
+ 1460 subproblems computed.
+Parlay time: total: 89.2905
+Parlay time: total: 89.3465
+Parlay time: total: 89.4482
+Parlay time: total: 89.7600
+Parlay time: total: 89.8187
+ 1470 subproblems computed.
+Parlay time: total: 90.0305
+Parlay time: total: 90.1317
+Parlay time: total: 90.2291
+Parlay time: total: 90.3968
+Parlay time: total: 90.5634
+ 1480 subproblems computed.
+Parlay time: total: 90.7269
+Parlay time: total: 90.8227
+Parlay time: total: 90.8789
+Parlay time: total: 90.9454
+Parlay time: total: 91.0007
+Parlay time: total: 91.0997
+ 1490 subproblems computed.
+Parlay time: total: 91.1572
+Parlay time: total: 91.2751
+Parlay time: total: 91.4057
+Parlay time: total: 91.5259
+Parlay time: total: 91.6252
+ 1500 subproblems computed.
+Parlay time: total: 91.7549
+Parlay time: total: 91.8911
+Parlay time: total: 92.0280
+Parlay time: total: 92.1476
+Parlay time: total: 92.2470
+ 1510 subproblems computed.
+Parlay time: total: 92.3154
+Parlay time: total: 92.3724
+Parlay time: total: 92.4568
+Parlay time: total: 92.5147
+Parlay time: total: 92.5717
+ 1520 subproblems computed.
+Parlay time: total: 92.6368
+Parlay time: total: 92.7032
+Parlay time: total: 92.7685
+Parlay time: total: 92.8528
+ 1530 subproblems computed.
+Parlay time: total: 92.9194
+Parlay time: total: 93.0058
+Parlay time: total: 93.0804
+Parlay time: total: 93.1525
+Parlay time: total: 93.2112
+Parlay time: total: 93.2793
+Parlay time: total: 93.3654
+ 1540 subproblems computed.
+Parlay time: total: 93.4550
+Parlay time: total: 93.5415
+Parlay time: total: 93.6396
+ 1550 subproblems computed.
+Parlay time: total: 93.7067
+Parlay time: total: 93.7917
+Parlay time: total: 93.8486
+Parlay time: total: 93.9082
+Parlay time: total: 93.9750
+Parlay time: total: 94.0621
+ 1560 subproblems computed.
+Parlay time: total: 94.1591
+Parlay time: total: 94.2160
+Parlay time: total: 94.2828
+Parlay time: total: 94.3389
+ 1570 subproblems computed.
+Parlay time: total: 94.4058
+Parlay time: total: 94.4915
+Parlay time: total: 94.5591
+Parlay time: total: 94.6291
+Parlay time: total: 94.7168
+Parlay time: total: 94.7848
+ 1580 subproblems computed.
+Parlay time: total: 94.8407
+Parlay time: total: 94.8959
+Parlay time: total: 94.9622
+ 1590 subproblems computed.
+Parlay time: total: 95.0261
+Parlay time: total: 95.0829
+Parlay time: total: 95.1399
+Parlay time: total: 95.2062
+Parlay time: total: 95.2756
+Parlay time: total: 95.3442
+ 1600 subproblems computed.
+Parlay time: total: 95.4294
+Parlay time: total: 95.5145
+Parlay time: total: 95.5835
+Parlay time: total: 95.6717
+Parlay time: total: 95.7590
+ 1610 subproblems computed.
+Parlay time: total: 95.8451
+Parlay time: total: 95.9113
+Parlay time: total: 96.0075
+Parlay time: total: 96.0978
+Parlay time: total: 96.1677
+ 1620 subproblems computed.
+Parlay time: total: 96.2367
+Parlay time: total: 96.3041
+Parlay time: total: 96.3895
+Parlay time: total: 96.4741
+ 1630 subproblems computed.
+Parlay time: total: 96.5512
+Parlay time: total: 96.6272
+Parlay time: total: 96.7161
+Parlay time: total: 96.8181
+Parlay time: total: 96.9033
+Parlay time: total: 96.9904
+ 1640 subproblems computed.
+Parlay time: total: 97.0502
+Parlay time: total: 97.1193
+Parlay time: total: 97.2081
+Parlay time: total: 97.2755
+Parlay time: total: 97.3610
+Parlay time: total: 97.4476
+ 1650 subproblems computed.
+Parlay time: total: 97.5158
+Parlay time: total: 97.6043
+Parlay time: total: 97.6918
+Parlay time: total: 97.7585
+ 1660 subproblems computed.
+Parlay time: total: 97.8243
+Parlay time: total: 97.8925
+Parlay time: total: 97.9550
+Parlay time: total: 98.0165
+Parlay time: total: 98.0848
+ 1670 subproblems computed.
+Parlay time: total: 98.1758
+Parlay time: total: 98.2762
+Parlay time: total: 98.3963
+Parlay time: total: 98.4853
+Parlay time: total: 98.5816
+ 1680 subproblems computed.
+Parlay time: total: 98.6491
+Parlay time: total: 98.7343
+Parlay time: total: 98.8211
+ 1690 subproblems computed.
+Parlay time: total: 98.9433
+Parlay time: total: 99.0372
+Parlay time: total: 99.1361
+Parlay time: total: 99.2069
+Parlay time: total: 99.2738
+Parlay time: total: 99.3304
+Parlay time: total: 99.3976
+ 1700 subproblems computed.
+Parlay time: total: 99.4644
+Parlay time: total: 99.5347
+Parlay time: total: 99.6245
+Parlay time: total: 99.6958
+Parlay time: total: 99.7525
+Parlay time: total: 99.8207
+ 1710 subproblems computed.
+Parlay time: total: 99.9044
+Parlay time: total: 100.0024
+Parlay time: total: 100.0900
+ 1720 subproblems computed.
+Parlay time: total: 100.1871
+Parlay time: total: 100.2729
+Parlay time: total: 100.3568
+Parlay time: total: 100.4212
+Parlay time: total: 100.4914
+Parlay time: total: 100.5591
+ 1730 subproblems computed.
+Parlay time: total: 100.6432
+Parlay time: total: 100.7418
+Parlay time: total: 100.8090
+Parlay time: total: 100.8653
+ 1740 subproblems computed.
+Parlay time: total: 100.9504
+Parlay time: total: 101.0355
+Parlay time: total: 101.0923
+Parlay time: total: 101.1588
+Parlay time: total: 101.2147
+ 1750 subproblems computed.
+Parlay time: total: 101.2950
+Parlay time: total: 101.3763
+Parlay time: total: 101.4704
+Parlay time: total: 101.5281
+Parlay time: total: 101.6336
+Parlay time: total: 101.7557
+ 1760 subproblems computed.
+Parlay time: total: 101.8411
+Parlay time: total: 101.9264
+Parlay time: total: 102.0218
+Parlay time: total: 102.0805
+Parlay time: total: 102.1482
+ 1770 subproblems computed.
+Parlay time: total: 102.2329
+Parlay time: total: 102.3007
+Parlay time: total: 102.3831
+Parlay time: total: 102.4409
+ 1780 subproblems computed.
+Parlay time: total: 102.4984
+Parlay time: total: 102.5559
+Parlay time: total: 102.6226
+Parlay time: total: 102.6889
+ 1790 subproblems computed.
+Parlay time: total: 102.7509
+Parlay time: total: 102.8123
+Parlay time: total: 102.8793
+Parlay time: total: 102.9459
+Parlay time: total: 103.0029
+Parlay time: total: 103.0594
+ 1800 subproblems computed.
+Parlay time: total: 103.1283
+Parlay time: total: 103.1962
+Parlay time: total: 103.2621
+Parlay time: total: 103.3292
+ 1810 subproblems computed.
+Parlay time: total: 103.3948
+Parlay time: total: 103.5555
+Parlay time: total: 103.6427
+Parlay time: total: 103.7174
+Parlay time: total: 103.7938
+Parlay time: total: 103.8815
+Parlay time: total: 103.9484
+ 1820 subproblems computed.
+Parlay time: total: 104.0042
+Parlay time: total: 104.0905
+Parlay time: total: 104.1879
+Parlay time: total: 104.3071
+Parlay time: total: 104.4018
+ 1830 subproblems computed.
+Parlay time: total: 104.4606
+Parlay time: total: 104.5292
+Parlay time: total: 104.6121
+Parlay time: total: 104.6957
+ 1840 subproblems computed.
+Parlay time: total: 104.7586
+Parlay time: total: 104.8156
+Parlay time: total: 104.8832
+Parlay time: total: 104.9489
+Parlay time: total: 105.0144
+ 1850 subproblems computed.
+Parlay time: total: 105.0996
+Parlay time: total: 105.1757
+Parlay time: total: 105.2449
+Parlay time: total: 105.3022
+Parlay time: total: 105.3690
+ 1860 subproblems computed.
+Parlay time: total: 105.4551
+Parlay time: total: 105.5127
+Parlay time: total: 105.6086
+Parlay time: total: 105.6937
+ 1870 subproblems computed.
+Parlay time: total: 105.7626
+Parlay time: total: 105.8484
+Parlay time: total: 105.9176
+Parlay time: total: 106.0010
+Parlay time: total: 106.0578
+ 1880 subproblems computed.
+Parlay time: total: 106.1892
+Parlay time: total: 106.2945
+Parlay time: total: 106.3608
+Parlay time: total: 106.4336
+Parlay time: total: 106.4912
+Parlay time: total: 106.5577
+Parlay time: total: 106.6244
+ 1890 subproblems computed.
+Parlay time: total: 106.7113
+Parlay time: total: 106.7980
+Parlay time: total: 106.8947
+Parlay time: total: 106.9885
+Parlay time: total: 107.0557
+ 1900 subproblems computed.
+Parlay time: total: 107.1124
+Parlay time: total: 107.1693
+Parlay time: total: 107.2348
+ 1910 subproblems computed.
+Parlay time: total: 107.3379
+Parlay time: total: 107.4567
+Parlay time: total: 107.5153
+Parlay time: total: 107.6676
+Parlay time: total: 107.7636
+Parlay time: total: 107.8599
+ 1920 subproblems computed.
+Parlay time: total: 107.9220
+Parlay time: total: 107.9859
+Parlay time: total: 108.0402
+Parlay time: total: 108.1260
+ 1930 subproblems computed.
+Parlay time: total: 108.1882
+Parlay time: total: 108.2596
+Parlay time: total: 108.3454
+Parlay time: total: 108.4133
+Parlay time: total: 108.4966
+Parlay time: total: 108.5539
+ 1940 subproblems computed.
+Parlay time: total: 108.6112
+Parlay time: total: 108.6675
+Parlay time: total: 108.7340
+Parlay time: total: 108.8254
+ 1950 subproblems computed.
+Parlay time: total: 108.9137
+Parlay time: total: 109.0111
+Parlay time: total: 109.0935
+Parlay time: total: 109.1509
+Parlay time: total: 109.2177
+ 1960 subproblems computed.
+Parlay time: total: 109.2892
+Parlay time: total: 109.3800
+Parlay time: total: 109.4366
+Parlay time: total: 109.5332
+Parlay time: total: 109.6198
+Parlay time: total: 109.7163
+ 1970 subproblems computed.
+Parlay time: total: 109.8008
+Parlay time: total: 110.1679
+Parlay time: total: 110.3044
+Parlay time: total: 110.4105
+Parlay time: total: 110.4829
+ 1980 subproblems computed.
+Parlay time: total: 110.5445
+Parlay time: total: 110.6131
+Parlay time: total: 110.6963
+Parlay time: total: 110.7525
+Parlay time: total: 110.8101
+Parlay time: total: 110.8753
+ 1990 subproblems computed.
+Parlay time: total: 110.9473
+Parlay time: total: 111.0431
+Parlay time: total: 111.1386
+Parlay time: total: 111.3128
+Parlay time: total: 111.4069
+ 2000 subproblems computed.
+Parlay time: total: 111.4643
+Parlay time: total: 111.5298
+Parlay time: total: 111.5879
+Parlay time: total: 111.6439
+ 2010 subproblems computed.
+Parlay time: total: 111.7004
+Parlay time: total: 111.7663
+Parlay time: total: 111.8494
+Parlay time: total: 111.9581
+Parlay time: total: 112.0184
+ 2020 subproblems computed.
+Parlay time: total: 112.0870
+Parlay time: total: 112.1560
+Parlay time: total: 112.2119
+Parlay time: total: 112.2776
+ 2030 subproblems computed.
+Parlay time: total: 112.3849
+Parlay time: total: 112.4857
+Parlay time: total: 112.5422
+Parlay time: total: 112.6071
+Parlay time: total: 112.7256
+Parlay time: total: 112.7849
+Parlay time: total: 112.8510
+ 2040 subproblems computed.
+Parlay time: total: 113.0062
+Parlay time: total: 113.1231
+Parlay time: total: 113.2175
+ 2050 subproblems computed.
+Parlay time: total: 113.2876
+Parlay time: total: 113.3703
+Parlay time: total: 113.4640
+Parlay time: total: 113.5594
+Parlay time: total: 113.6529
+Parlay time: total: 113.7358
+Parlay time: total: 113.8281
+ 2060 subproblems computed.
+Parlay time: total: 113.9167
+Parlay time: total: 113.9912
+Parlay time: total: 114.0654
+Parlay time: total: 114.1510
+Parlay time: total: 114.2083
+ 2070 subproblems computed.
+Parlay time: total: 114.3034
+Parlay time: total: 114.3980
+Parlay time: total: 114.4784
+Parlay time: total: 114.5439
+ 2080 subproblems computed.
+Parlay time: total: 114.6010
+Parlay time: total: 114.6574
+Parlay time: total: 114.7219
+Parlay time: total: 114.7885
+Parlay time: total: 114.8699
+ 2090 subproblems computed.
+Parlay time: total: 114.9299
+Parlay time: total: 114.9944
+Parlay time: total: 115.0504
+Parlay time: total: 115.1333
+ 2100 subproblems computed.
+Parlay time: total: 115.2154
+Parlay time: total: 115.2732
+Parlay time: total: 115.5033
+Parlay time: total: 115.6251
+Parlay time: total: 115.6900
+Parlay time: total: 115.7475
+ 2110 subproblems computed.
+Parlay time: total: 115.8134
+Parlay time: total: 115.8804
+Parlay time: total: 115.9472
+Parlay time: total: 116.0165
+Parlay time: total: 116.0832
+ 2120 subproblems computed.
+Parlay time: total: 116.1511
+Parlay time: total: 116.2171
+Parlay time: total: 116.3293
+Parlay time: total: 116.4455
+Parlay time: total: 116.5292
+ 2130 subproblems computed.
+Parlay time: total: 116.6210
+Parlay time: total: 116.6788
+Parlay time: total: 116.7364
+Parlay time: total: 116.8027
+Parlay time: total: 116.8830
+ 2140 subproblems computed.
+Parlay time: total: 116.9784
+Parlay time: total: 117.1026
+Parlay time: total: 117.2183
+Parlay time: total: 117.3127
+Parlay time: total: 117.3789
+ 2150 subproblems computed.
+Parlay time: total: 117.4438
+Parlay time: total: 117.5033
+Parlay time: total: 117.5611
+Parlay time: total: 117.6273
+Parlay time: total: 117.6932
+ 2160 subproblems computed.
+Parlay time: total: 117.7588
+Parlay time: total: 117.8394
+Parlay time: total: 117.9347
+Parlay time: total: 117.9932
+Parlay time: total: 118.0624
+ 2170 subproblems computed.
+Parlay time: total: 118.1659
+Parlay time: total: 118.2922
+Parlay time: total: 118.4432
+Parlay time: total: 118.5121
+Parlay time: total: 118.5941
+ 2180 subproblems computed.
+Parlay time: total: 118.7273
+Parlay time: total: 118.8439
+Parlay time: total: 118.9385
+Parlay time: total: 119.0207
+Parlay time: total: 119.1023
+ 2190 subproblems computed.
+Parlay time: total: 119.1672
+Parlay time: total: 119.2273
+Parlay time: total: 119.2949
+Parlay time: total: 119.3532
+Parlay time: total: 119.4334
+ 2200 subproblems computed.
+Parlay time: total: 119.5280
+Parlay time: total: 119.5851
+Parlay time: total: 119.6454
+Parlay time: total: 119.7137
+ 2210 subproblems computed.
+Parlay time: total: 119.7965
+Parlay time: total: 119.8638
+Parlay time: total: 119.9441
+Parlay time: total: 120.0254
+Parlay time: total: 120.0841
+ 2220 subproblems computed.
+Parlay time: total: 120.1489
+Parlay time: total: 120.2064
+Parlay time: total: 120.3504
+Parlay time: total: 120.4142
+Parlay time: total: 120.4737
+Parlay time: total: 120.5304
+ 2230 subproblems computed.
+Parlay time: total: 120.5962
+Parlay time: total: 120.6630
+Parlay time: total: 120.7310
+Parlay time: total: 120.8149
+ 2240 subproblems computed.
+Parlay time: total: 120.8976
+Parlay time: total: 120.9524
+Parlay time: total: 121.0940
+Parlay time: total: 121.2119
+Parlay time: total: 121.2794
+Parlay time: total: 121.3379
+ 2250 subproblems computed.
+Parlay time: total: 121.4048
+Parlay time: total: 121.4699
+Parlay time: total: 121.5411
+Parlay time: total: 121.6332
+Parlay time: total: 121.6904
+ 2260 subproblems computed.
+Parlay time: total: 121.7884
+Parlay time: total: 121.8733
+Parlay time: total: 121.9694
+Parlay time: total: 122.0527
+Parlay time: total: 122.1380
+ 2270 subproblems computed.
+Parlay time: total: 122.2040
+Parlay time: total: 122.2852
+Parlay time: total: 122.3898
+Parlay time: total: 122.5184
+Parlay time: total: 122.6581
+ 2280 subproblems computed.
+Parlay time: total: 123.2050
+Parlay time: total: 123.4661
+Parlay time: total: 124.1411
+Parlay time: total: 124.2805
+Parlay time: total: 124.4130
+Parlay time: total: 124.4967
+Parlay time: total: 124.6121
+ 2290 subproblems computed.
+Parlay time: total: 124.7061
+Parlay time: total: 124.7730
+Parlay time: total: 124.8889
+Parlay time: total: 124.9848
+ 2300 subproblems computed.
+Parlay time: total: 125.0426
+Parlay time: total: 125.1094
+ 2310 subproblems computed.
+Parlay time: total: 125.2030
+Parlay time: total: 125.2605
+Parlay time: total: 125.3262
+Parlay time: total: 125.4302
+Parlay time: total: 125.5208
+Parlay time: total: 125.6060
+Parlay time: total: 125.7027
+ 2320 subproblems computed.
+Parlay time: total: 125.7686
+Parlay time: total: 125.8639
+Parlay time: total: 125.9461
+Parlay time: total: 126.0144
+ 2330 subproblems computed.
+Parlay time: total: 126.0969
+Parlay time: total: 126.1642
+Parlay time: total: 126.2458
+Parlay time: total: 126.3306
+Parlay time: total: 126.3987
+ 2340 subproblems computed.
+Parlay time: total: 126.4803
+Parlay time: total: 126.5651
+Parlay time: total: 126.6602
+Parlay time: total: 126.7544
+ 2350 subproblems computed.
+ 2351 subproblems computed.
+Printing species tree
+((((((((((((((((((((((((((((((((((XMBA,WHNV),IYDF),PHCE),(FUMQ,PUCW)),((EQDA,FDMM),TAGM)),(FYUH,BAHE)),((((RTNA,GNPX),(UCNM,LRRR)),(((SNNC,EAAA),GETL),ATYL)),DMLT)),Mimgu_v2.0),(((((FROP,FAMO),VYDM),EJCM),OWAS),UMUL)),(((UTQR,XAYK),TKEK),((WOHL,EDXZ),ZRIN))),((PSHB,MQIV),GCFE)),((((NBMW,WEAC),AYIY),PCGJ),((JCMU,MXFG),HRUR))),GDZS),(((SIBR,XXYA),(XRLM,GRFT)),EJBY)),((((YKZB,PTBJ),GNRI),(YRHD,XISJ)),CLRW)),((RWKR,DTNC),DCCI)),COBX),(((KTAR,YZGX),TORX),MZLD)),((((((((VXKB,XQRV),(NAUM,EMBR)),((NHAG,QSLH),OQBM)),((IZNU,ERWT),ALUC)),CPOC),AHRN),((((((LQJY,NMDZ),UGJI),((Solly_iTAGv2.3,DLAI),(GHLP,DLJZ))),(AIOU,JNVS)),((LWCK,OSMU),BOLZ)),MKZR)),((((((((((OUER,IDGE),((ABEH,JWEY),MZOB)),MDJK),OEKO),NIGS),(DIHD,XVRU)),((HANM,SMUR),EMAL)),YQIJ),DKFZ),((((((((((JCLQ,YFQX),(YADI,DSUV)),JGYZ),EDEQ),MGVU),(QEHE,UOYN)),GGJD),HGSM),(KPUM,ECTD)),(((PCNH,KTWL),ZSGF),WQRD))))),QZZU),(GIPR,SZUO)),(((SXML,ASMV),DFYF),QACK)),((((((((((((((((((QXWF,HXCD),(ZCUA,JEPE)),NVSO),((UYED,JYMN),LYPZ)),(AQZD,YRBQ)),BIDT),UBLN),DUNJ),AFQQ),((((((MHYG,DESP),TEZA),XRCX),DOVJ),((OAGK,GUMF),DUQG)),BMSE)),((((KGJF,KFZY),FUPX),DDRL),(JNKW,RFSD))),(EYKJ,CFRN)),HUQC),IXVJ),((AUIP,GIOY),TPEM)),FXGI),(IZLO,IHPC)),(((((((((CWYJ,TQKZ),WEQK),AJFN),((EDBB,SUVN),OINM)),(NTEO,SALZ)),(MVSE,QIKZ)),SBZH),(((CAQZ,GSZA),(JTRM,FFFY)),(HLJG,ZJRC))),(CLNU,CLMX)))),(((((((((((PPPZ,WXVX),AVJK),(SERM,LRTN)),(QAUE,HUSX)),((UFHF,ADHK),(JPDJ,AXBO))),NGRR),((WRPP,BEFC),OXYP)),((((ODDO,DAAD),PTFA),VKJD),KVFU)),((FNEN,WVMY),YSRZ)),(JEXA,BNTL)),(((ZETY,QURC),VTLJ),((FWBF,BFJL),VUSY)))),(((((((((((((((BWRK,ZBPY),(EYRD,OHKC)),CUTE),(PDQH,HDSY)),(XSSD,WMLW)),(((((ONLQ,AAXJ),CBJR),SMMC),WGET),(FVXD,Betvu_v1.1))),(((((SHEZ,SKNL),OLES),FZQN),TJES),RXEN)),(((((((((((IWIS,GCYL),LDEL),CPLT),(KDCH,BYNZ)),LLQV),(UQCB,EZGR)),(CPKP,JLOV)),LKKX),CTYH),((((((((DVXD,EGOS),(VJPU,ZBTA)),JGAB),JAFJ),(SFKQ,AZBL)),(MRKX,BKQU)),GIWN),(((((HZTS,EDIT),GJNX),BERS),OMYK),BJKT))),(((RNBN,SCAO),NXTS),KJAA))),YNFJ),RUUB),CVDF),WQUF),(FYSJ,WOBD)),((((((((((((BHYC,AEPI),BVOF),((POZS,OODC),MYVH)),HNCF),(((TXMP,VXOD),KCPT),AXPJ)),(((((((((((IEPQ,KKDQ),GLVK),(LFOG,TDTF)),RZTJ),INQX),Poptr_v3.0),(((SIZE,ZIWB),EZZT),COAQ)),(NJLF,LPGY)),((((((XNLP,Manes_v4.1),VVPY),PAZJ),(PXYR,RHAU)),RVGH),(ZTLR,RPPC))),(YGAT,VNMY)),(((((FWCQ,OSIP),NFXV),BNDE),(CKDK,TVCU)),((HBUQ,ZBVT),XPBC)))),(IHCQ,MFEA)),(((((((((((((((((((BXBF,UVQL),LAPO),LJQF),GTSV),HABV),TZWR),((VMNH,IPWB),CSUV)),Arath_TAIR10),((UPZX,VDKG),(LVUS,QSKP))),RTTY),(UAXP,SWPE)),JOIS),DZTK),CRNC),((MYZV,HYZL),(Carpa_ASGPBv0.4,CZPV))),((((((OLXF,ZSAB),WYIG),Theca_v1.1),((WMUK,PKMO),KPTE)),ATFX),(PUDI,AWJM))),((((((RJIM,UVDC),(IKFD,QICX)),UHJR),(((FCCA,JSZD),YUOM),BCAA)),((HBHB,VFFP),WAXR)),OBTI)),(((TIUZ,THHD),YZVJ),JHCN)),WWKL)),((((((((((DZLN,GVCB),(HKMQ,CJGZ)),(((IDAU,ROLB),(BZDF,ZINQ)),((KBRW,YHLF),(IMZV,ARYD)))),(EQYT,SJAN)),(((AXNH,PMTB),JKNQ),(UJGI,TLCA))),FEDW),(YNUE,RJNQ)),(((FGDU,NEBM),(Eucgr_v1.1,AYMT)),(WWQZ,SWGX))),AJJE),((UDUT,KVAY),ZHMB))),((((((((((((((((KEGA,TVSH),Phavu_v1.0),SUAK),NXOH),(((HJMP,MYMP),KNMB),((JTQQ,PEZP),RMWJ))),VLNB),(CMFF,TTRG)),SLYR),ZSSR),(((GEHT,VHZV),QZXQ),(((PJSX,ZCDJ),XOOE),KZED))),((RKFX,JETM),RKLL)),OQHZ),OHAE),(((((UZWG,NHUA),HENI),SVVG),(((LWDA,CWZU),LNER),(INSP,DXQW))),TJLC)),(((((((((QIEH,BLVL),VCIN),EAVM),ZPKK),((Prupe_v1.0,NCVK),TJQY)),SXCE),(SQCF,XFFT)),((IANR,QNOC),DHAW)),((((((BJSW,AQGE),KYAD),((EDHN,XVJB),(WKCY,ACFP))),CQMG),((WVEF,EILE),ZHEE)),RBYC))),((OCTM,NNGU),AXAF))),(VYGG,PTLU)),(HDWF,YGCX))),EHNF)),(((((((((((DAYQ,CTSS),SLOI),ERIA),(CKKR,OOVX)),((UHBY,CIAC),YKFU)),FCBJ),SYHW),UWFU),(((((HQRJ,OMDH),YKQR),NUZN),FYTP),HTIP)),(((ZJUL,DRIL),KWGC),(TOKV,IUSR))),(((((RSPO,XGFU),(QKMG,BSEY)),VGVI),XKPS),(((SZPD,BBBA),Vitvi_Genoscope.12X),BGZG)))),XMQO),(QUTB,HAEU)),IWMW),SWOH),((((SIIK,RQUG),GRRW),VQFW),(FAKD,Nelnu_v1.0))),AALA),((((((((((RQNK,QCOU),BEKN),SSDU),IRAF),(XMVD,XHKT)),EVOD),(((UDHA,ZGQD),AUGV),NMGG)),((((UPOG,ZUHO),(GBVZ,Aquco_v1.1)),VGHH),(WFBF,YHFG))),CCID),QTJY)),((((((((((((((((((((((((((HFIK,FIKG),FOMH),((((JGGD,VYER),YRMA),LDRY),RWXW)),((((((VRGZ,JCXF),ULXR),QLMZ),ASZK),((RAPY,SRSQ),FIDQ)),FSQE)),LIRF),APTP),((VKVG,DBYD),BOGT)),((((((LLEN,VJED),NMAK),RFAD),EBWI),(BAJW,LXRN)),(((IRZA,IAYV),ROZZ),BAKF))),((((((((((WEJN,UGPM),SBLT),CKXF),IEHF),((IHJY,BWVJ),JEBK)),((((LJPN,VNAL),(FTRP,PWKQ)),IKWM),(((ZJOJ,IKIZ),URSB),PYDB))),(((XAXW,UYFR),YSBD),VZWX)),ZULJ),(((PVGP,OBUY),(RTLC,RSOF)),(JJZR,LLXJ))),Cyame_v1.0)),(((PQED,POOW),JKHA),QFND)),((((((((((((((((((((((((((((WRSL,JWGT),Volca_v2.0),(RNAT,RYJX)),ISPU),KUJU),(Chlre_v5.5,IHOI)),BCYF),JKKI),(QWRA,USIX)),IRYH),(XDLL,OFUE)),(((((((WDWX,ZDIZ),RHVC),UKUC),SYJM),ZFXU),(((PRIQ,QRTH),ZLQE),(KFEB,GUBD))),(((LNIL,ACRY),ZIVZ),(((MULF,VALZ),JRGZ),(TSBQ,GFUR))))),((((AJUW,LBRP),AOUJ),UTRE),RUIF)),FXHG),VIAU),(ENAU,MXDS)),(((((((XKWQ,XTON),VJDZ),(PZIF,MWAN)),OTQG),FOYQ),BZSH),DZPJ)),(((((RAWF,ISGT),(VFIV,JMUI)),IJMT),BAZF),(DVYE,SDPC))),(((((((((CQQP,OAEZ),OQON),(NQYP,LSHT)),KSFK),GJIY),(((LETF,CBNG),AJAU),JIWJ)),(ALZF,NSTT)),KADG),((((YDCQ,NATT),VHIJ),VBLH),(GYBH,JTIG)))),((((((EEJO,Chlva_v1.0),AKCR),BILC),JQFK),((MFYC,MNCB),PFUD)),((WCLV,WXRI),(((QYXY,ETGN),GXBM),((EATP,ZNUM),NKXU))))),(((HVNO,HHXJ),DUMA),FMVB)),(RRSV,PUAN)),AYPS),TGNL),JMTE),(MMKU,ISIM)),((((((Micpu_v3.0,QXSZ),(Ostlu_v2.0,MCPK)),XOAL),BTFM),EGNB),(TNAW,XIVI))),((HYHN,XJGM),XMCL))),((NNHQ,AZZW),KYIO)),(((FQLP,Klefl_v1.0),FPCO),BFIK)),(Chabr_v0.1,MWXT)),((VQBJ,QPDY),DRGY)),(((((((((((((((((((DFDS,GGWH),QWFV),(MNNM,ISHC)),GYRP),(((((STKJ,WDGV),(GBGT,MOYY)),MCHJ),WCQU),(RPRU,BHBK))),RQFE),HIDG),RPQV),YSQT),AEKF),DRFX),KEYW),XRTZ),SNOX),KMNX),FFGR),HAOX),((((RPGL,VAZE),YOXI),(((MFZO,NBYP),JOJQ),(HKZW,ZRMT))),(WDCW,WSJO))),TPHT)),(((((((((((((((((((((((TMAJ,QMWB),(VBMM,JADL)),(WSPM,MIRS)),((LNSF,EEMJ),TAVP)),(ZACW,IGUH)),QKQO),DHWX),WNGH),CMEQ),((XWHK,JMXW),BGXB)),ORKS),YWNF),((((VMXJ,RGKI),((GRKU,FFPD),NGTD)),(RDOO,ABCD)),BPSG)),ZQRI),((Phypa_v3.0,YEPO),KEFD)),AWOI),HRWG),((SZYG,ZTHV),HVBQ)),WOGB),((GOWD,RCBT),UHLI)),SKQD),(((((((((((IRBN,OFTV),YBQN),RTMU),WZYK),LGOW),HPXA),((KRUQ,UUHD),(TGKW,BNCU))),NRWZ),YFGP),(JHFI,PIUF)),(((((HMHL,JPYU),TFYI),(WJLO,ILBQ)),TXVB),HERT))),((((((DXOU,TCBC),UCRN),AKXB),((WCZB,WEEQ),FAJB)),(BSNI,TWUW)),ANON))),(((((CBAE,GAON),(GKAG,YHZW)),ZZEI),(((ENQF,WAFT),(XNXF,PQTO)),(UPMJ,ULKT))),((((((ZZOL,Selmo_v1.0),(LGDQ,ABIJ)),KJYC),((JKAA,ZYCD),ZFGK)),KUXM),(PKOX,PYHZ)))),(((((((((((((((((((((((CJNT,IXLH),GYFU),YLJA),ZQYU),UJWU),ORJE),OQWW),NWWI),(FQGQ,JBLI)),WGTU),RFRB),((((((XXHP,YOWV),(LHLE,RICC)),HNDZ),HEGQ),(((((((AFPO,URCP),UFJN),(HTFH,VITX)),FCHS),(YQEC,YJJY)),MROH),OCZL)),((BMIF,PSKY),KJZG))),MTGC),((((((DCDT,ZXJO),YCKE),(XDDT,GSXD)),((NDUV,SKYV),(WCLG,BMJR))),WQML),(((POPJ,FLTD),UJTT),PIVW))),((NOKI,YIXP),VVRN)),(((UWOD,PNZO),EWXK),GANB)),(CVEG,KIIX)),(PBUU,CQPW)),(QIAD,MEKP)),((UOMY,VIBO),RFMZ)),((UGNK,NHCM),DFHO)),(((EEAQ,BEGM),DJSE),(QVMR,ALVQ))),(JVSZ,CAPN))),(((((((((((((((JDQB,RMMV),IFLI),(AUDE,GKCZ)),((YYPE,OVIJ),ETCJ)),((((XMGP,QNGJ),(((BUWV,XQSG),CGDN),FRPM)),(AIGO,UEVI)),(VFYZ,NKIN))),((FHST,OXGJ),GMHZ)),(((QFAE,HBGV),NRXL),XIRK)),QSNJ),ZQVF),((((ZYAX,WWSS),(BTTS,YLPM)),NVGZ),((EFMS,HQOM),IAJW))),YFZK),((((((((VGSX,UUJS),(SCEB,XLGK)),(((ROWR,QHBI),IZGN),FMWZ)),HILW),MHGD),QCGM),((EGLZ,KLGF),((((CDFR,ZQWM),JZVE),(BBDD,JRNA)),OWFC))),(((MIXZ,ACWS),RSCE),XTZO))),(((((((MFTM,JBND),(DZQM,Pinta_v2.0)),IIOL),AWQB),NPRL),(IOVS,WVWN)),((((GAMH,AREG),AQFM),(VSRH,JUWL)),GGEA))),((TOXE,GTHK),VDAO)),((((GNQG,KAWQ),WLIC),XZUY),SGTW))),(Ambtr_v1.0.27,URDJ)),(PZRT,WTKZ)),((VZCI,NWMY),FZJL)),(((((((((((ABSS,BCGB),KAYP),WIGA),VYLQ),BSVG),KRJP),(WAIL,MAQO)),(FALI,WPHN)),((((YZRI,PSJT),DHPO),(WBOD,XQWC)),OBPL)),((((XSZI,MUNP),(CSSK,OPDF)),(QDVW,PAWA)),(WKSU,SJEV))),(WZFE,OSHQ))),(((((((((((((((((((((ZENX,VQYB),XUAB),BXAY),NNOK),(ZMGN,BPKH)),(WCOR,XBKS)),SOHV),((ROEI,Sorbi_v2.1),YPIC)),((RCAH,YLWW),(YXNR,EFCZ))),HATH),((RMVB,IADP),Orysa_v7.0)),WXNT),BSTR),(((WBIB,PWSG),XPAF),CIEA)),BYPY),(PPQR,BRUD)),((((LEMW,BDJQ),(TZNS,JNUB)),(((LSKK,UOEL),XHHU),Musac_v1.0)),(((HXJE,HWUP),Elagu_v2.0),NSPR))),((((((((((((((((((RQZP,HOKG),((XFJG,RCUX),UZXL)),TCYS),LSJW),MVRF),ONBE),FGRF),MUMD),((((ICNN,YBML),KXSK),(PLBZ,CMCY)),((SVTS,KOFB),IXEM))),((((((JDTY,DPFW),LDME),(DMIN,ZKPF)),TRRQ),(GJPF,KBXS)),PRFO)),((((BLAJ,JHUL),WTDE),FCEL),JVBR)),SART),LTZF),(KYNE,RDYY)),YJUG),EMJJ),(((((LELS,VTUS),XZME),MTHW),(JSAG,CNTZ)),THDM)),(((QNPH,NHIX),GDKK),((AFLV,OOSO),(THEW,MWYQ))))),(((QOXT,SILJ),((VVVV,DGXS),VBHQ)),OCWZ)),(((YMES,MFIN),Spipo_v2),((COCP,BYQM),DWZT))),MTII)),NPND));
+Writing species tree
+Parlay time: Execution time: : 460.8168
+1178,1175,1175,0,0,0.000000
+
+Running on swallowtail_bayes.tre
+rm: cannot remove 'swallowtail_bayes.out': No such file or directory
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/swallowtail_bayes.tre -o swallowtail_bayes.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/swallowtail_bayes.tre
+output file: swallowtail_bayes.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+  WARNING: Input tree on line 348 has fewer than 4 species so ignoring
+  WARNING: Input tree on line 3996 has fewer than 4 species so ignoring
+  WARNING: Input tree on line 4474 has fewer than 4 species so ignoring
+  WARNING: Input tree on line 4760 has fewer than 4 species so ignoring
+  WARNING: Input tree on line 5154 has fewer than 4 species so ignoring
+  WARNING: Input tree on line 5252 has fewer than 4 species so ignoring
+  WARNING: Input tree on line 5387 has fewer than 4 species so ignoring
+Found
+    6398 trees
+    61 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 117 subproblems:
+    0 subproblems computed.
+Parlay time: total: 1.0625
+Parlay time: total: 1.6631
+Parlay time: total: 1.8859
+Parlay time: total: 1.9643
+Parlay time: total: 1.9975
+Parlay time: total: 2.0340
+Parlay time: total: 2.0783
+   10 subproblems computed.
+Parlay time: total: 2.1075
+Parlay time: total: 2.1499
+Parlay time: total: 2.2045
+Parlay time: total: 2.2546
+Parlay time: total: 2.3147
+   20 subproblems computed.
+Parlay time: total: 2.5154
+Parlay time: total: 2.6366
+Parlay time: total: 2.7222
+Parlay time: total: 2.7774
+Parlay time: total: 2.8228
+Parlay time: total: 2.8659
+   30 subproblems computed.
+Parlay time: total: 2.9053
+Parlay time: total: 2.9528
+Parlay time: total: 2.9937
+Parlay time: total: 3.0289
+   40 subproblems computed.
+Parlay time: total: 3.0725
+Parlay time: total: 3.1177
+Parlay time: total: 3.1575
+Parlay time: total: 3.1965
+Parlay time: total: 3.2320
+   50 subproblems computed.
+Parlay time: total: 3.2744
+Parlay time: total: 3.3172
+Parlay time: total: 3.3707
+Parlay time: total: 3.4057
+   60 subproblems computed.
+Parlay time: total: 3.4392
+Parlay time: total: 3.4733
+Parlay time: total: 3.5524
+Parlay time: total: 3.5964
+Parlay time: total: 3.6455
+Parlay time: total: 3.6812
+   70 subproblems computed.
+Parlay time: total: 3.7156
+Parlay time: total: 3.7511
+Parlay time: total: 3.7938
+Parlay time: total: 3.8295
+   80 subproblems computed.
+Parlay time: total: 3.8621
+Parlay time: total: 3.9011
+Parlay time: total: 3.9352
+Parlay time: total: 4.0556
+Parlay time: total: 4.1141
+   90 subproblems computed.
+Parlay time: total: 4.1555
+Parlay time: total: 4.1895
+Parlay time: total: 4.2207
+Parlay time: total: 4.2570
+Parlay time: total: 4.3006
+  100 subproblems computed.
+Parlay time: total: 4.3333
+Parlay time: total: 4.3913
+Parlay time: total: 4.4974
+Parlay time: total: 4.5566
+  110 subproblems computed.
+Parlay time: total: 4.5936
+Parlay time: total: 4.6298
+Parlay time: total: 4.6597
+  117 subproblems computed.
+Printing species tree
+(((((((((((((Ornithoptera_priamus2,Ornithoptera_richmondia),Troides_plateni),Trogonoptera_brookiana),((Euryades_corethrus,Parides_ascanius),Cressida_cressida)),((Atrophaneura_dixoni,Byasa_alcinous),(Losaria_neptunus,Pachliopta_kotzebuea))),Pharmacophagus_antenor),Battus_polydamus),((((((((Papilio_machaon,Papilio_machaon_gb),Papilio_zelicaon),Papilio_Xuthus),Papilio_polytes_gb),Papilio_antimachus),Papilio_alexanor),((Papilio_glaucus_gb,Papilio_slateri),Papilio_thoas)),Meandrusa_sciron)),Teinopalpus_imperialis),(((((Mimoides_lysithaus,Protographium_marcellus),(Eurytides_dolicaon,Protesilaus_nuclesilaus)),(Graphium_androcles,Graphium_sarpedon)),Iphiclides_podalirius),Lamproptera_meges)),(((((Parnassius_honrati,Parnassius_smintheus),Parnassius_imperator),Parnassius_orleans),Hypermnestra_helios),((((Zerynthia_polyxena,Allancastria_cerisyi),Bhutanitis_mansfieldi),Sericinus_montela),(Archon_apollinus,Luehdorfia_japonica)))),Baronia_brevicornis),((((((((((((Heliconius_melpomene,Laparus_doris),Eueides_tales),Agraulis_vanillae),Dryas_iulia),((Junonia_coenia,Melitaea_cinxia),Polygonia_calbum)),(Bicyclus_anynana,Pararge_aegeria)),Danaus_plexippus),Calycopis_cecrops),Phoebis_sennae),Lerema_accius),Bombyx_mori),Choristoneura_fumiferana));
+Writing species tree
+Parlay time: Execution time: : 7.3274
+61,58,58,0,0,0.000000
+
+Running on 1kp-AA-genes-bs.tre
+rm: cannot remove '1kp-AA-genes-bs.out': No such file or directory
+TREE-QMC version 3.0.4
+COMMAND: ./tree-qmc --hybrid --bootstrap -i /ssd1/treeqmc/1kp-AA-genes-bs.tre -o 1kp-AA-genes-bs.out 
+
+SETTINGS:
+input file: /ssd1/treeqmc/1kp-AA-genes-bs.tre
+output file: 1kp-AA-genes-bs.out
+weighting mode: hybrid
+support min: 0
+support max: 100
+support default: 0
+normalization for artifical taxa mode: n2
+execution mode: efficient
+random seed for refinement: 12345
+random seed for max-cut: 1
+max-cut heuristic iteration limit: 10
+
+LOGGING:
+Reading input
+Found
+    410 trees
+    1178 taxa
+    0 polytomies across all trees
+Constructing species tree
+At most 2351 subproblems:
+    0 subproblems computed.
+Parlay time: total: 16.8883
+Parlay time: total: 18.8165
+Parlay time: total: 19.6538
+Parlay time: total: 19.9500
+Parlay time: total: 20.0724
+Parlay time: total: 20.1778
+Parlay time: total: 20.3204
+Parlay time: total: 20.4007
+Parlay time: total: 20.4486
+Parlay time: total: 20.5043
+   10 subproblems computed.
+Parlay time: total: 20.5981
+Parlay time: total: 20.6753
+Parlay time: total: 20.7701
+Parlay time: total: 20.8932
+   20 subproblems computed.
+Parlay time: total: 21.0311
+Parlay time: total: 21.1226
+Parlay time: total: 21.2015
+Parlay time: total: 21.2902
+Parlay time: total: 21.3383
+   30 subproblems computed.
+Parlay time: total: 21.3863
+Parlay time: total: 21.4349
+Parlay time: total: 21.4981
+Parlay time: total: 21.5456
+Parlay time: total: 21.5929
+   40 subproblems computed.
+Parlay time: total: 21.6491
+Parlay time: total: 21.7103
+Parlay time: total: 21.7903
+Parlay time: total: 21.8823
+Parlay time: total: 21.9405
+   50 subproblems computed.
+Parlay time: total: 22.0316
+Parlay time: total: 22.0878
+Parlay time: total: 22.1449
+Parlay time: total: 22.2040
+Parlay time: total: 22.2828
+   60 subproblems computed.
+Parlay time: total: 22.3545
+Parlay time: total: 22.4131
+Parlay time: total: 22.4648
+Parlay time: total: 22.5220
+Parlay time: total: 22.6032
+   70 subproblems computed.
+Parlay time: total: 22.6939
+Parlay time: total: 22.7726
+Parlay time: total: 22.8190
+Parlay time: total: 22.8978
+   80 subproblems computed.
+Parlay time: total: 22.9533
+Parlay time: total: 23.0026
+Parlay time: total: 23.0502
+Parlay time: total: 23.1069
+   90 subproblems computed.
+Parlay time: total: 23.1637
+Parlay time: total: 23.2439
+Parlay time: total: 23.3205
+Parlay time: total: 23.3689
+Parlay time: total: 23.4431
+  100 subproblems computed.
+Parlay time: total: 23.5028
+Parlay time: total: 23.5642
+Parlay time: total: 23.6134
+Parlay time: total: 23.6700
+Parlay time: total: 23.7504
+Parlay time: total: 23.8315
+  110 subproblems computed.
+Parlay time: total: 23.9110
+Parlay time: total: 24.0047
+Parlay time: total: 24.1278
+Parlay time: total: 24.2205
+  120 subproblems computed.
+Parlay time: total: 24.2702
+Parlay time: total: 24.3173
+Parlay time: total: 24.3738
+Parlay time: total: 24.4312
+Parlay time: total: 24.4879
+  130 subproblems computed.
+Parlay time: total: 24.5650
+Parlay time: total: 24.6374
+Parlay time: total: 24.6959
+Parlay time: total: 24.7441
+Parlay time: total: 24.8087
+  140 subproblems computed.
+Parlay time: total: 24.8922
+Parlay time: total: 24.9417
+Parlay time: total: 25.0335
+Parlay time: total: 25.1140
+Parlay time: total: 25.1733
+  150 subproblems computed.
+Parlay time: total: 25.2324
+Parlay time: total: 25.3142
+Parlay time: total: 25.3728
+Parlay time: total: 25.4527
+Parlay time: total: 25.5017
+  160 subproblems computed.
+Parlay time: total: 25.5602
+Parlay time: total: 25.6081
+Parlay time: total: 26.0378
+Parlay time: total: 26.3066
+Parlay time: total: 26.5196
+Parlay time: total: 26.6902
+  170 subproblems computed.
+Parlay time: total: 26.7515
+Parlay time: total: 26.8163
+Parlay time: total: 26.8756
+Parlay time: total: 26.9337
+Parlay time: total: 26.9928
+Parlay time: total: 27.0496
+  180 subproblems computed.
+Parlay time: total: 27.1088
+Parlay time: total: 27.1900
+Parlay time: total: 27.2854
+Parlay time: total: 27.3672
+Parlay time: total: 27.4167
+  190 subproblems computed.
+Parlay time: total: 27.4745
+Parlay time: total: 27.5310
+Parlay time: total: 27.5803
+Parlay time: total: 27.6284
+  200 subproblems computed.
+Parlay time: total: 27.6865
+Parlay time: total: 27.7681
+Parlay time: total: 27.8611
+Parlay time: total: 27.9726
+Parlay time: total: 28.1075
+Parlay time: total: 28.2048
+Parlay time: total: 28.3329
+  210 subproblems computed.
+Parlay time: total: 28.4750
+Parlay time: total: 28.5700
+Parlay time: total: 28.6638
+Parlay time: total: 28.7130
+  220 subproblems computed.
+Parlay time: total: 28.7963
+Parlay time: total: 28.8559
+Parlay time: total: 28.9137
+Parlay time: total: 28.9723
+Parlay time: total: 29.0333
+  230 subproblems computed.
+Parlay time: total: 29.0918
+Parlay time: total: 29.1751
+Parlay time: total: 29.2689
+Parlay time: total: 29.3618
+Parlay time: total: 29.4405
+  240 subproblems computed.
+Parlay time: total: 29.4907
+Parlay time: total: 29.5471
+Parlay time: total: 29.5966
+Parlay time: total: 29.6445
+  250 subproblems computed.
+Parlay time: total: 29.7037
+Parlay time: total: 29.7830
+Parlay time: total: 29.8756
+Parlay time: total: 29.9258
+  260 subproblems computed.
+Parlay time: total: 30.1399
+Parlay time: total: 30.2860
+Parlay time: total: 30.3426
+Parlay time: total: 30.3928
+Parlay time: total: 30.4523
+Parlay time: total: 30.5316
+  270 subproblems computed.
+Parlay time: total: 30.5908
+Parlay time: total: 30.6396
+Parlay time: total: 30.6974
+Parlay time: total: 30.7769
+Parlay time: total: 30.8698
+  280 subproblems computed.
+Parlay time: total: 31.0185
+Parlay time: total: 31.0749
+Parlay time: total: 31.1355
+Parlay time: total: 31.1951
+Parlay time: total: 31.2767
+Parlay time: total: 31.3355
+  290 subproblems computed.
+Parlay time: total: 31.4156
+Parlay time: total: 31.4675
+Parlay time: total: 31.5258
+Parlay time: total: 31.7210
+  300 subproblems computed.
+Parlay time: total: 31.7785
+Parlay time: total: 31.8379
+Parlay time: total: 31.9180
+Parlay time: total: 31.9997
+Parlay time: total: 32.0507
+  310 subproblems computed.
+Parlay time: total: 32.1003
+Parlay time: total: 32.1580
+Parlay time: total: 32.3638
+Parlay time: total: 32.6299
+Parlay time: total: 32.8251
+Parlay time: total: 32.9233
+  320 subproblems computed.
+Parlay time: total: 33.0501
+Parlay time: total: 33.1468
+Parlay time: total: 33.2415
+  330 subproblems computed.
+Parlay time: total: 33.3196
+Parlay time: total: 33.3794
+Parlay time: total: 33.4265
+Parlay time: total: 33.5090
+Parlay time: total: 33.5684
+Parlay time: total: 33.6491
+  340 subproblems computed.
+Parlay time: total: 33.7086
+Parlay time: total: 33.7652
+Parlay time: total: 33.8273
+Parlay time: total: 33.8859
+Parlay time: total: 33.9676
+Parlay time: total: 34.0502
+  350 subproblems computed.
+Parlay time: total: 34.1115
+Parlay time: total: 34.1957
+Parlay time: total: 34.2557
+Parlay time: total: 34.3371
+Parlay time: total: 34.4198
+  360 subproblems computed.
+Parlay time: total: 34.4702
+Parlay time: total: 34.5199
+Parlay time: total: 34.5795
+  370 subproblems computed.
+Parlay time: total: 34.6586
+Parlay time: total: 34.7196
+Parlay time: total: 34.7829
+Parlay time: total: 34.8672
+Parlay time: total: 34.9498
+Parlay time: total: 35.0317
+Parlay time: total: 35.0916
+  380 subproblems computed.
+Parlay time: total: 35.1479
+Parlay time: total: 35.2025
+Parlay time: total: 35.2666
+Parlay time: total: 35.3485
+  390 subproblems computed.
+Parlay time: total: 35.4302
+Parlay time: total: 35.4827
+Parlay time: total: 35.5436
+Parlay time: total: 35.6297
+Parlay time: total: 35.7256
+  400 subproblems computed.
+Parlay time: total: 35.8551
+Parlay time: total: 35.9377
+Parlay time: total: 36.0320
+Parlay time: total: 36.1286
+  410 subproblems computed.
+Parlay time: total: 36.1935
+Parlay time: total: 36.2800
+Parlay time: total: 36.3769
+Parlay time: total: 36.4587
+Parlay time: total: 36.5413
+  420 subproblems computed.
+Parlay time: total: 36.5940
+Parlay time: total: 36.6540
+Parlay time: total: 36.7378
+Parlay time: total: 36.8188
+Parlay time: total: 36.8793
+Parlay time: total: 36.9609
+  430 subproblems computed.
+Parlay time: total: 37.0239
+Parlay time: total: 37.0835
+Parlay time: total: 37.1640
+Parlay time: total: 37.2138
+  440 subproblems computed.
+Parlay time: total: 37.2738
+Parlay time: total: 37.3592
+Parlay time: total: 37.4177
+Parlay time: total: 37.5014
+Parlay time: total: 37.5831
+  450 subproblems computed.
+Parlay time: total: 37.7040
+Parlay time: total: 37.7982
+Parlay time: total: 37.8696
+Parlay time: total: 37.9565
+Parlay time: total: 38.0511
+Parlay time: total: 38.1336
+  460 subproblems computed.
+Parlay time: total: 38.2158
+Parlay time: total: 38.2708
+Parlay time: total: 38.3213
+Parlay time: total: 38.3720
+Parlay time: total: 38.4303
+  470 subproblems computed.
+Parlay time: total: 38.4928
+Parlay time: total: 38.5543
+Parlay time: total: 38.6367
+Parlay time: total: 38.7315
+  480 subproblems computed.
+Parlay time: total: 38.7930
+Parlay time: total: 38.8743
+Parlay time: total: 38.9566
+Parlay time: total: 39.0074
+Parlay time: total: 39.0789
+  490 subproblems computed.
+Parlay time: total: 39.1452
+Parlay time: total: 39.2091
+Parlay time: total: 39.2625
+Parlay time: total: 39.3240
+Parlay time: total: 39.3739
+Parlay time: total: 39.4588
+  500 subproblems computed.
+Parlay time: total: 39.5549
+Parlay time: total: 39.6846
+Parlay time: total: 39.7811
+Parlay time: total: 39.8323
+  510 subproblems computed.
+Parlay time: total: 39.8919
+Parlay time: total: 39.9415
+Parlay time: total: 40.0050
+Parlay time: total: 40.0653
+Parlay time: total: 40.1245
+  520 subproblems computed.
+Parlay time: total: 40.1825
+Parlay time: total: 40.2433
+Parlay time: total: 40.3241
+Parlay time: total: 40.4217
+Parlay time: total: 40.4731
+  530 subproblems computed.
+Parlay time: total: 40.5328
+Parlay time: total: 40.6067
+Parlay time: total: 40.6621
+Parlay time: total: 40.7157
+Parlay time: total: 40.7680
+  540 subproblems computed.
+Parlay time: total: 40.8293
+Parlay time: total: 40.8897
+Parlay time: total: 40.9503
+Parlay time: total: 41.0104
+  550 subproblems computed.
+Parlay time: total: 41.0843
+Parlay time: total: 41.1394
+Parlay time: total: 41.1913
+Parlay time: total: 41.2515
+Parlay time: total: 41.3105
+  560 subproblems computed.
+Parlay time: total: 41.4023
+Parlay time: total: 41.4550
+Parlay time: total: 41.5622
+Parlay time: total: 41.6285
+Parlay time: total: 41.7159
+Parlay time: total: 41.8172
+  570 subproblems computed.
+Parlay time: total: 41.9141
+Parlay time: total: 41.9970
+Parlay time: total: 42.0800
+Parlay time: total: 42.1417
+Parlay time: total: 42.2016
+Parlay time: total: 42.2835
+  580 subproblems computed.
+Parlay time: total: 42.3830
+Parlay time: total: 42.4452
+Parlay time: total: 42.5039
+Parlay time: total: 42.5655
+  590 subproblems computed.
+Parlay time: total: 42.6617
+Parlay time: total: 43.0245
+Parlay time: total: 43.2647
+Parlay time: total: 43.4484
+Parlay time: total: 43.5063
+Parlay time: total: 43.5589
+  600 subproblems computed.
+Parlay time: total: 43.6200
+Parlay time: total: 43.6826
+Parlay time: total: 43.7449
+Parlay time: total: 43.8082
+Parlay time: total: 43.8700
+  610 subproblems computed.
+Parlay time: total: 43.9331
+Parlay time: total: 43.9942
+Parlay time: total: 44.1022
+Parlay time: total: 44.2232
+Parlay time: total: 44.3592
+  620 subproblems computed.
+Parlay time: total: 44.5171
+Parlay time: total: 44.7678
+Parlay time: total: 44.8245
+Parlay time: total: 44.8760
+Parlay time: total: 44.9385
+Parlay time: total: 44.9908
+  630 subproblems computed.
+Parlay time: total: 45.0766
+Parlay time: total: 45.1780
+Parlay time: total: 45.3858
+Parlay time: total: 45.6239
+Parlay time: total: 45.6926
+Parlay time: total: 45.7764
+  640 subproblems computed.
+Parlay time: total: 45.9961
+Parlay time: total: 46.1046
+Parlay time: total: 46.2407
+Parlay time: total: 46.3299
+Parlay time: total: 46.4314
+  650 subproblems computed.
+Parlay time: total: 46.4927
+Parlay time: total: 46.5910
+Parlay time: total: 46.6780
+Parlay time: total: 46.8316
+  660 subproblems computed.
+Parlay time: total: 46.9215
+Parlay time: total: 47.0076
+Parlay time: total: 47.0691
+Parlay time: total: 47.2041
+Parlay time: total: 47.3044
+  670 subproblems computed.
+Parlay time: total: 47.3581
+Parlay time: total: 47.4181
+Parlay time: total: 47.5034
+Parlay time: total: 47.5874
+  680 subproblems computed.
+Parlay time: total: 47.6395
+Parlay time: total: 47.7003
+Parlay time: total: 47.7530
+Parlay time: total: 47.8040
+Parlay time: total: 47.8657
+  690 subproblems computed.
+Parlay time: total: 47.9273
+Parlay time: total: 47.9883
+Parlay time: total: 48.0439
+Parlay time: total: 48.0967
+Parlay time: total: 48.1484
+  700 subproblems computed.
+Parlay time: total: 48.2084
+Parlay time: total: 48.2725
+Parlay time: total: 48.3622
+Parlay time: total: 48.4501
+  710 subproblems computed.
+Parlay time: total: 48.5525
+Parlay time: total: 48.6396
+Parlay time: total: 48.7973
+Parlay time: total: 48.9594
+Parlay time: total: 49.0851
+Parlay time: total: 49.1388
+  720 subproblems computed.
+Parlay time: total: 49.2020
+Parlay time: total: 49.3138
+Parlay time: total: 49.4359
+Parlay time: total: 49.5811
+Parlay time: total: 49.7431
+Parlay time: total: 49.9517
+  730 subproblems computed.
+Parlay time: total: 50.1532
+Parlay time: total: 50.3108
+Parlay time: total: 50.4155
+Parlay time: total: 50.5142
+Parlay time: total: 50.6001
+  740 subproblems computed.
+Parlay time: total: 50.6865
+Parlay time: total: 50.7738
+Parlay time: total: 50.8597
+Parlay time: total: 50.9237
+  750 subproblems computed.
+Parlay time: total: 50.9745
+Parlay time: total: 51.0361
+Parlay time: total: 51.1216
+Parlay time: total: 51.2330
+  760 subproblems computed.
+Parlay time: total: 51.3567
+Parlay time: total: 51.4139
+Parlay time: total: 51.4767
+Parlay time: total: 51.5391
+Parlay time: total: 51.6906
+  770 subproblems computed.
+Parlay time: total: 51.8647
+Parlay time: total: 52.0856
+Parlay time: total: 52.3298
+Parlay time: total: 52.3922
+Parlay time: total: 52.4555
+Parlay time: total: 52.5430
+Parlay time: total: 52.6315
+  780 subproblems computed.
+Parlay time: total: 52.6943
+Parlay time: total: 52.7550
+Parlay time: total: 53.0313
+Parlay time: total: 53.3657
+Parlay time: total: 53.6551
+  790 subproblems computed.
+Parlay time: total: 53.7295
+Parlay time: total: 54.0086
+Parlay time: total: 54.1712
+Parlay time: total: 54.2765
+Parlay time: total: 54.3777
+  800 subproblems computed.
+Parlay time: total: 54.5159
+Parlay time: total: 54.6201
+Parlay time: total: 54.7072
+Parlay time: total: 54.7958
+Parlay time: total: 54.8987
+  810 subproblems computed.
+Parlay time: total: 54.9988
+Parlay time: total: 55.0527
+Parlay time: total: 55.1148
+  820 subproblems computed.
+Parlay time: total: 55.1713
+Parlay time: total: 55.2335
+Parlay time: total: 55.2869
+Parlay time: total: 55.3736
+Parlay time: total: 55.4629
+  830 subproblems computed.
+Parlay time: total: 55.5182
+Parlay time: total: 55.5700
+Parlay time: total: 55.6331
+Parlay time: total: 55.6941
+  840 subproblems computed.
+Parlay time: total: 55.8061
+Parlay time: total: 55.8757
+Parlay time: total: 55.9326
+Parlay time: total: 55.9869
+Parlay time: total: 56.0503
+Parlay time: total: 56.1040
+  850 subproblems computed.
+Parlay time: total: 56.1913
+Parlay time: total: 56.2806
+Parlay time: total: 56.3503
+Parlay time: total: 56.4168
+Parlay time: total: 56.5097
+Parlay time: total: 56.6155
+  860 subproblems computed.
+Parlay time: total: 56.7037
+Parlay time: total: 56.7666
+Parlay time: total: 56.8558
+Parlay time: total: 56.9081
+  870 subproblems computed.
+Parlay time: total: 56.9599
+Parlay time: total: 57.0209
+Parlay time: total: 57.0739
+Parlay time: total: 57.1364
+  880 subproblems computed.
+Parlay time: total: 57.2240
+Parlay time: total: 57.3259
+Parlay time: total: 57.3938
+Parlay time: total: 57.4501
+Parlay time: total: 57.5149
+Parlay time: total: 57.5677
+  890 subproblems computed.
+Parlay time: total: 57.6557
+Parlay time: total: 57.7437
+Parlay time: total: 57.7959
+Parlay time: total: 57.8645
+Parlay time: total: 57.9566
+  900 subproblems computed.
+Parlay time: total: 58.0618
+Parlay time: total: 58.1154
+Parlay time: total: 58.2550
+Parlay time: total: 58.3610
+Parlay time: total: 58.4501
+  910 subproblems computed.
+Parlay time: total: 58.5039
+Parlay time: total: 58.5567
+Parlay time: total: 58.6094
+Parlay time: total: 58.6729
+Parlay time: total: 58.7654
+  920 subproblems computed.
+Parlay time: total: 58.8707
+Parlay time: total: 58.9280
+Parlay time: total: 58.9834
+Parlay time: total: 59.0479
+  930 subproblems computed.
+Parlay time: total: 59.1123
+Parlay time: total: 59.1756
+Parlay time: total: 59.2903
+Parlay time: total: 59.3994
+Parlay time: total: 59.4543
+Parlay time: total: 59.5161
+  940 subproblems computed.
+Parlay time: total: 59.6569
+Parlay time: total: 59.8145
+Parlay time: total: 59.9577
+Parlay time: total: 60.0623
+  950 subproblems computed.
+Parlay time: total: 60.1157
+Parlay time: total: 60.1785
+Parlay time: total: 60.2432
+Parlay time: total: 60.3347
+Parlay time: total: 60.4406
+  960 subproblems computed.
+Parlay time: total: 60.5462
+Parlay time: total: 60.6517
+Parlay time: total: 60.7411
+Parlay time: total: 60.8046
+  970 subproblems computed.
+Parlay time: total: 65.3941
+Parlay time: total: 65.7573
+Parlay time: total: 65.9419
+Parlay time: total: 66.0864
+Parlay time: total: 66.2151
+Parlay time: total: 66.2751
+Parlay time: total: 66.3419
+Parlay time: total: 66.4092
+  980 subproblems computed.
+Parlay time: total: 66.4747
+Parlay time: total: 66.5658
+Parlay time: total: 66.6309
+Parlay time: total: 66.7633
+Parlay time: total: 66.9248
+  990 subproblems computed.
+Parlay time: total: 67.0256
+Parlay time: total: 67.0812
+Parlay time: total: 67.1457
+Parlay time: total: 67.2546
+Parlay time: total: 67.3984
+Parlay time: total: 67.4922
+ 1000 subproblems computed.
+Parlay time: total: 67.5987
+Parlay time: total: 67.7246
+Parlay time: total: 67.7819
+Parlay time: total: 67.8477
+Parlay time: total: 67.9381
+ 1010 subproblems computed.
+Parlay time: total: 68.0043
+Parlay time: total: 68.0594
+Parlay time: total: 68.2056
+Parlay time: total: 68.2636
+Parlay time: total: 68.3286
+ 1020 subproblems computed.
+Parlay time: total: 68.3823
+Parlay time: total: 68.5450
+Parlay time: total: 68.6158
+Parlay time: total: 68.7044
+Parlay time: total: 68.7974
+ 1030 subproblems computed.
+Parlay time: total: 68.8623
+Parlay time: total: 69.0211
+Parlay time: total: 69.1656
+Parlay time: total: 69.2736
+ 1040 subproblems computed.
+Parlay time: total: 69.3657
+Parlay time: total: 69.4236
+Parlay time: total: 69.4891
+Parlay time: total: 69.5534
+ 1050 subproblems computed.
+Parlay time: total: 69.6078
+Parlay time: total: 69.6731
+Parlay time: total: 69.7532
+Parlay time: total: 69.8129
+Parlay time: total: 69.8805
+ 1060 subproblems computed.
+Parlay time: total: 69.9763
+Parlay time: total: 70.0687
+Parlay time: total: 70.1358
+Parlay time: total: 70.2002
+Parlay time: total: 70.3622
+ 1070 subproblems computed.
+Parlay time: total: 70.4699
+Parlay time: total: 70.5286
+Parlay time: total: 70.5947
+Parlay time: total: 70.6882
+Parlay time: total: 70.8107
+Parlay time: total: 70.9610
+ 1080 subproblems computed.
+Parlay time: total: 71.1295
+Parlay time: total: 71.2722
+Parlay time: total: 71.3827
+Parlay time: total: 71.4756
+Parlay time: total: 71.5680
+ 1090 subproblems computed.
+Parlay time: total: 71.6635
+Parlay time: total: 71.7752
+Parlay time: total: 71.8862
+Parlay time: total: 71.9931
+Parlay time: total: 72.0592
+ 1100 subproblems computed.
+Parlay time: total: 72.1138
+Parlay time: total: 72.1701
+Parlay time: total: 72.2355
+Parlay time: total: 72.3027
+ 1110 subproblems computed.
+Parlay time: total: 72.3586
+Parlay time: total: 72.4139
+Parlay time: total: 72.4791
+Parlay time: total: 72.5447
+ 1120 subproblems computed.
+Parlay time: total: 72.6200
+Parlay time: total: 72.6952
+Parlay time: total: 72.7659
+Parlay time: total: 72.8214
+Parlay time: total: 72.8790
+Parlay time: total: 72.9728
+Parlay time: total: 73.0646
+ 1130 subproblems computed.
+Parlay time: total: 73.1341
+Parlay time: total: 73.2295
+Parlay time: total: 73.2974
+Parlay time: total: 73.3903
+ 1140 subproblems computed.
+Parlay time: total: 73.4829
+Parlay time: total: 73.5390
+Parlay time: total: 73.6059
+Parlay time: total: 73.6665
+Parlay time: total: 73.7349
+ 1150 subproblems computed.
+Parlay time: total: 73.8315
+Parlay time: total: 73.9254
+Parlay time: total: 73.9938
+Parlay time: total: 74.0487
+ 1160 subproblems computed.
+Parlay time: total: 74.1045
+Parlay time: total: 74.1718
+Parlay time: total: 74.2373
+Parlay time: total: 74.3042
+Parlay time: total: 74.3588
+ 1170 subproblems computed.
+Parlay time: total: 74.5276
+Parlay time: total: 74.6683
+Parlay time: total: 74.7390
+Parlay time: total: 74.7996
+Parlay time: total: 74.8690
+Parlay time: total: 74.9640
+Parlay time: total: 75.0763
+ 1180 subproblems computed.
+Parlay time: total: 75.1869
+Parlay time: total: 75.2960
+Parlay time: total: 75.3633
+Parlay time: total: 75.4180
+ 1190 subproblems computed.
+Parlay time: total: 75.4728
+Parlay time: total: 75.5397
+Parlay time: total: 75.6332
+Parlay time: total: 75.7436
+Parlay time: total: 75.8371
+Parlay time: total: 75.9323
+ 1200 subproblems computed.
+Parlay time: total: 76.0944
+Parlay time: total: 76.1551
+Parlay time: total: 76.2122
+Parlay time: total: 76.2789
+ 1210 subproblems computed.
+Parlay time: total: 76.3459
+Parlay time: total: 76.5028
+Parlay time: total: 76.5752
+Parlay time: total: 76.6318
+Parlay time: total: 76.7241
+ 1220 subproblems computed.
+Parlay time: total: 76.8336
+Parlay time: total: 76.9739
+Parlay time: total: 77.0847
+Parlay time: total: 77.2309
+Parlay time: total: 77.3828
+ 1230 subproblems computed.
+Parlay time: total: 77.5449
+Parlay time: total: 77.7469
+Parlay time: total: 77.9456
+Parlay time: total: 78.0580
+Parlay time: total: 78.2001
+ 1240 subproblems computed.
+Parlay time: total: 78.3091
+Parlay time: total: 78.4153
+Parlay time: total: 78.4828
+Parlay time: total: 78.5386
+ 1250 subproblems computed.
+Parlay time: total: 78.6312
+Parlay time: total: 78.7372
+Parlay time: total: 78.8305
+Parlay time: total: 78.9196
+Parlay time: total: 78.9819
+Parlay time: total: 79.0400
+ 1260 subproblems computed.
+Parlay time: total: 79.0974
+Parlay time: total: 79.1634
+Parlay time: total: 79.2331
+Parlay time: total: 79.3281
+Parlay time: total: 79.3960
+ 1270 subproblems computed.
+Parlay time: total: 79.4884
+Parlay time: total: 79.5439
+Parlay time: total: 79.5998
+Parlay time: total: 79.7029
+ 1280 subproblems computed.
+Parlay time: total: 79.7645
+Parlay time: total: 79.8323
+Parlay time: total: 79.9247
+Parlay time: total: 79.9815
+Parlay time: total: 80.0479
+ 1290 subproblems computed.
+Parlay time: total: 80.1622
+Parlay time: total: 80.2198
+Parlay time: total: 80.3657
+Parlay time: total: 80.5313
+Parlay time: total: 80.6289
+Parlay time: total: 80.7238
+ 1300 subproblems computed.
+Parlay time: total: 80.8657
+Parlay time: total: 80.9802
+Parlay time: total: 81.0477
+Parlay time: total: 81.1541
+Parlay time: total: 81.2467
+ 1310 subproblems computed.
+Parlay time: total: 81.3391
+Parlay time: total: 84.3525
+Parlay time: total: 85.6486
+Parlay time: total: 86.6546
+Parlay time: total: 87.5232
+ 1320 subproblems computed.
+Parlay time: total: 87.6277
+Parlay time: total: 87.6924
+Parlay time: total: 87.7658
+Parlay time: total: 87.8628
+Parlay time: total: 87.9594
+Parlay time: total: 88.0659
+Parlay time: total: 88.1594
+ 1330 subproblems computed.
+Parlay time: total: 88.2268
+Parlay time: total: 88.2834
+Parlay time: total: 88.3504
+Parlay time: total: 88.4442
+Parlay time: total: 88.5370
+ 1340 subproblems computed.
+Parlay time: total: 88.5951
+Parlay time: total: 88.6611
+Parlay time: total: 88.7310
+ 1350 subproblems computed.
+Parlay time: total: 88.8032
+Parlay time: total: 88.8611
+Parlay time: total: 88.9297
+Parlay time: total: 89.0231
+Parlay time: total: 89.0804
+Parlay time: total: 89.1357
+ 1360 subproblems computed.
+Parlay time: total: 89.2319
+Parlay time: total: 89.2984
+Parlay time: total: 89.3939
+Parlay time: total: 89.5006
+ 1370 subproblems computed.
+Parlay time: total: 89.5942
+Parlay time: total: 90.6109
+Parlay time: total: 90.6846
+Parlay time: total: 90.7437
+Parlay time: total: 90.8014
+Parlay time: total: 90.8591
+Parlay time: total: 90.9149
+ 1380 subproblems computed.
+Parlay time: total: 90.9836
+Parlay time: total: 91.0517
+Parlay time: total: 91.1208
+Parlay time: total: 91.2138
+ 1390 subproblems computed.
+Parlay time: total: 91.3075
+Parlay time: total: 91.3778
+Parlay time: total: 91.4473
+Parlay time: total: 91.5149
+Parlay time: total: 91.5809
+ 1400 subproblems computed.
+Parlay time: total: 91.6471
+Parlay time: total: 91.7168
+Parlay time: total: 91.7751
+Parlay time: total: 91.8415
+ 1410 subproblems computed.
+Parlay time: total: 92.5674
+Parlay time: total: 93.4105
+Parlay time: total: 93.5071
+Parlay time: total: 93.5719
+Parlay time: total: 93.6426
+Parlay time: total: 93.7357
+Parlay time: total: 93.8435
+ 1420 subproblems computed.
+Parlay time: total: 93.9020
+Parlay time: total: 93.9594
+Parlay time: total: 94.0171
+Parlay time: total: 94.0843
+ 1430 subproblems computed.
+Parlay time: total: 94.1515
+Parlay time: total: 94.2467
+Parlay time: total: 94.3399
+Parlay time: total: 94.4326
+Parlay time: total: 94.5070
+ 1440 subproblems computed.
+Parlay time: total: 94.5647
+Parlay time: total: 94.6327
+Parlay time: total: 94.7257
+Parlay time: total: 94.8338
+Parlay time: total: 94.8924
+ 1450 subproblems computed.
+Parlay time: total: 94.9872
+Parlay time: total: 95.0968
+Parlay time: total: 95.2025
+Parlay time: total: 95.2964
+Parlay time: total: 95.3543
+ 1460 subproblems computed.
+Parlay time: total: 95.8200
+Parlay time: total: 96.1371
+Parlay time: total: 96.2064
+Parlay time: total: 96.2642
+Parlay time: total: 96.3315
+ 1470 subproblems computed.
+Parlay time: total: 96.4034
+Parlay time: total: 96.4726
+Parlay time: total: 96.5441
+Parlay time: total: 96.6395
+Parlay time: total: 96.7461
+Parlay time: total: 96.8527
+ 1480 subproblems computed.
+Parlay time: total: 96.9103
+Parlay time: total: 97.6671
+Parlay time: total: 97.7407
+Parlay time: total: 97.7993
+Parlay time: total: 97.8717
+ 1490 subproblems computed.
+Parlay time: total: 97.9666
+Parlay time: total: 98.0372
+Parlay time: total: 98.0951
+Parlay time: total: 98.1906
+Parlay time: total: 98.2481
+ 1500 subproblems computed.
+Parlay time: total: 98.3547
+Parlay time: total: 98.4494
+Parlay time: total: 98.5413
+Parlay time: total: 98.9474
+ 1510 subproblems computed.
+Parlay time: total: 99.8477
+Parlay time: total: 100.1041
+Parlay time: total: 100.1715
+Parlay time: total: 100.2451
+Parlay time: total: 100.3427
+Parlay time: total: 100.4524
+Parlay time: total: 100.5617
+Parlay time: total: 100.6620
+ 1520 subproblems computed.
+Parlay time: total: 100.7197
+Parlay time: total: 100.7868
+Parlay time: total: 101.0214
+ 1530 subproblems computed.
+Parlay time: total: 101.3481
+Parlay time: total: 101.6204
+Parlay time: total: 101.6872
+Parlay time: total: 101.9747
+Parlay time: total: 102.3511
+Parlay time: total: 102.5411
+Parlay time: total: 102.6541
+Parlay time: total: 102.7135
+ 1540 subproblems computed.
+Parlay time: total: 102.8386
+Parlay time: total: 102.9478
+Parlay time: total: 103.0866
+Parlay time: total: 103.2536
+Parlay time: total: 103.3644
+ 1550 subproblems computed.
+Parlay time: total: 103.4932
+Parlay time: total: 103.5999
+Parlay time: total: 103.7406
+ 1560 subproblems computed.
+Parlay time: total: 103.9080
+Parlay time: total: 104.0171
+Parlay time: total: 104.1437
+Parlay time: total: 104.2495
+Parlay time: total: 104.3427
+ 1570 subproblems computed.
+Parlay time: total: 104.4006
+Parlay time: total: 104.4567
+Parlay time: total: 104.5251
+Parlay time: total: 104.6172
+ 1580 subproblems computed.
+Parlay time: total: 104.7113
+Parlay time: total: 104.8159
+Parlay time: total: 104.9602
+Parlay time: total: 105.0210
+Parlay time: total: 105.0882
+ 1590 subproblems computed.
+Parlay time: total: 105.1450
+Parlay time: total: 105.2117
+Parlay time: total: 105.3683
+Parlay time: total: 105.5577
+Parlay time: total: 105.7562
+Parlay time: total: 105.8198
+ 1600 subproblems computed.
+Parlay time: total: 105.8866
+Parlay time: total: 105.9448
+Parlay time: total: 106.1651
+Parlay time: total: 106.4060
+Parlay time: total: 106.5175
+ 1610 subproblems computed.
+Parlay time: total: 106.7008
+Parlay time: total: 106.8336
+Parlay time: total: 106.9277
+Parlay time: total: 107.0329
+Parlay time: total: 107.1377
+ 1620 subproblems computed.
+Parlay time: total: 107.2625
+Parlay time: total: 107.3679
+Parlay time: total: 107.4261
+Parlay time: total: 107.4827
+ 1630 subproblems computed.
+Parlay time: total: 107.5493
+Parlay time: total: 107.6160
+Parlay time: total: 107.6742
+Parlay time: total: 107.7418
+ 1640 subproblems computed.
+Parlay time: total: 107.8025
+Parlay time: total: 107.8607
+Parlay time: total: 107.9171
+Parlay time: total: 107.9852
+Parlay time: total: 108.0415
+ 1650 subproblems computed.
+Parlay time: total: 108.1324
+Parlay time: total: 108.2012
+Parlay time: total: 108.2919
+Parlay time: total: 108.3821
+Parlay time: total: 108.4422
+ 1660 subproblems computed.
+Parlay time: total: 108.5125
+Parlay time: total: 108.5815
+Parlay time: total: 108.9815
+Parlay time: total: 109.0786
+Parlay time: total: 109.1358
+ 1670 subproblems computed.
+Parlay time: total: 109.2429
+Parlay time: total: 109.3520
+Parlay time: total: 109.4217
+Parlay time: total: 109.5140
+Parlay time: total: 109.6204
+ 1680 subproblems computed.
+Parlay time: total: 109.6886
+Parlay time: total: 109.7672
+Parlay time: total: 109.8764
+Parlay time: total: 109.9368
+Parlay time: total: 110.0494
+ 1690 subproblems computed.
+Parlay time: total: 110.1821
+Parlay time: total: 110.3307
+Parlay time: total: 110.4769
+Parlay time: total: 110.5692
+Parlay time: total: 110.6372
+Parlay time: total: 110.7627
+ 1700 subproblems computed.
+Parlay time: total: 110.8893
+Parlay time: total: 110.9832
+Parlay time: total: 111.0869
+Parlay time: total: 111.1886
+ 1710 subproblems computed.
+Parlay time: total: 111.2586
+Parlay time: total: 111.3153
+Parlay time: total: 111.3826
+Parlay time: total: 111.4757
+ 1720 subproblems computed.
+Parlay time: total: 111.5391
+Parlay time: total: 111.5990
+Parlay time: total: 111.6564
+Parlay time: total: 111.7250
+Parlay time: total: 111.7823
+Parlay time: total: 111.8739
+ 1730 subproblems computed.
+Parlay time: total: 111.9427
+Parlay time: total: 112.0010
+Parlay time: total: 112.0679
+Parlay time: total: 112.1634
+ 1740 subproblems computed.
+Parlay time: total: 112.2737
+Parlay time: total: 112.3926
+Parlay time: total: 112.5307
+Parlay time: total: 112.6902
+Parlay time: total: 112.8657
+Parlay time: total: 113.0591
+Parlay time: total: 113.2809
+Parlay time: total: 113.5210
+Parlay time: total: 113.6318
+ 1750 subproblems computed.
+Parlay time: total: 113.8124
+Parlay time: total: 114.0273
+Parlay time: total: 114.1585
+Parlay time: total: 114.2633
+Parlay time: total: 114.3685
+ 1760 subproblems computed.
+Parlay time: total: 114.5110
+Parlay time: total: 114.6149
+Parlay time: total: 114.7164
+Parlay time: total: 114.8173
+ 1770 subproblems computed.
+Parlay time: total: 114.8754
+Parlay time: total: 114.9433
+Parlay time: total: 115.0012
+ 1780 subproblems computed.
+Parlay time: total: 115.0702
+Parlay time: total: 115.1616
+Parlay time: total: 115.2498
+Parlay time: total: 115.3081
+ 1790 subproblems computed.
+Parlay time: total: 115.3640
+Parlay time: total: 115.4225
+Parlay time: total: 115.4896
+Parlay time: total: 115.5490
+Parlay time: total: 115.6181
+ 1800 subproblems computed.
+Parlay time: total: 115.7069
+Parlay time: total: 115.7983
+Parlay time: total: 115.8765
+Parlay time: total: 115.9496
+Parlay time: total: 116.0395
+Parlay time: total: 116.1466
+ 1810 subproblems computed.
+Parlay time: total: 116.2154
+Parlay time: total: 116.3169
+Parlay time: total: 116.4073
+Parlay time: total: 116.4651
+ 1820 subproblems computed.
+Parlay time: total: 116.5325
+Parlay time: total: 116.6035
+Parlay time: total: 116.6662
+Parlay time: total: 116.7254
+Parlay time: total: 116.7930
+ 1830 subproblems computed.
+Parlay time: total: 116.8645
+Parlay time: total: 116.9212
+Parlay time: total: 116.9896
+Parlay time: total: 117.0823
+Parlay time: total: 117.1848
+ 1840 subproblems computed.
+Parlay time: total: 117.3113
+Parlay time: total: 117.4150
+Parlay time: total: 117.4873
+Parlay time: total: 117.5421
+ 1850 subproblems computed.
+Parlay time: total: 117.6327
+Parlay time: total: 117.7015
+Parlay time: total: 117.7894
+Parlay time: total: 117.8914
+Parlay time: total: 117.9942
+ 1860 subproblems computed.
+Parlay time: total: 118.1151
+Parlay time: total: 118.2207
+Parlay time: total: 118.3329
+Parlay time: total: 118.4504
+Parlay time: total: 118.5909
+Parlay time: total: 118.7349
+Parlay time: total: 118.8071
+Parlay time: total: 118.8965
+Parlay time: total: 118.9984
+ 1870 subproblems computed.
+Parlay time: total: 119.0885
+Parlay time: total: 119.2136
+Parlay time: total: 119.3581
+Parlay time: total: 119.4828
+Parlay time: total: 119.5852
+ 1880 subproblems computed.
+Parlay time: total: 119.6733
+Parlay time: total: 119.7630
+Parlay time: total: 119.8200
+ 1890 subproblems computed.
+Parlay time: total: 119.8859
+Parlay time: total: 119.9536
+Parlay time: total: 120.0208
+Parlay time: total: 120.0879
+Parlay time: total: 120.1758
+ 1900 subproblems computed.
+Parlay time: total: 120.2351
+Parlay time: total: 120.3021
+Parlay time: total: 120.3600
+Parlay time: total: 120.4186
+ 1910 subproblems computed.
+Parlay time: total: 120.4873
+Parlay time: total: 120.5552
+Parlay time: total: 120.6430
+Parlay time: total: 120.7092
+Parlay time: total: 120.7709
+ 1920 subproblems computed.
+Parlay time: total: 120.8413
+Parlay time: total: 120.9331
+Parlay time: total: 121.0353
+Parlay time: total: 121.1248
+Parlay time: total: 121.1827
+ 1930 subproblems computed.
+Parlay time: total: 121.2517
+Parlay time: total: 121.3190
+Parlay time: total: 121.3859
+Parlay time: total: 121.4537
+ 1940 subproblems computed.
+Parlay time: total: 121.5260
+Parlay time: total: 121.5876
+Parlay time: total: 121.6462
+Parlay time: total: 121.7138
+Parlay time: total: 121.7832
+Parlay time: total: 121.8734
+ 1950 subproblems computed.
+Parlay time: total: 121.9501
+Parlay time: total: 122.0215
+Parlay time: total: 122.1151
+Parlay time: total: 122.2201
+Parlay time: total: 122.3433
+Parlay time: total: 122.4450
+ 1960 subproblems computed.
+Parlay time: total: 122.5340
+Parlay time: total: 122.5929
+Parlay time: total: 122.6497
+ 1970 subproblems computed.
+Parlay time: total: 122.7191
+Parlay time: total: 122.8067
+Parlay time: total: 122.8663
+Parlay time: total: 122.9332
+Parlay time: total: 123.0002
+ 1980 subproblems computed.
+Parlay time: total: 123.3682
+Parlay time: total: 123.6054
+Parlay time: total: 123.7931
+Parlay time: total: 123.9106
+Parlay time: total: 123.9760
+Parlay time: total: 124.0360
+Parlay time: total: 124.0946
+ 1990 subproblems computed.
+Parlay time: total: 124.1649
+Parlay time: total: 124.2501
+Parlay time: total: 124.3470
+Parlay time: total: 124.4184
+Parlay time: total: 124.5053
+ 2000 subproblems computed.
+Parlay time: total: 124.6028
+Parlay time: total: 124.6970
+Parlay time: total: 124.7549
+Parlay time: total: 124.8277
+ 2010 subproblems computed.
+Parlay time: total: 124.9167
+Parlay time: total: 124.9847
+Parlay time: total: 125.0426
+Parlay time: total: 125.1286
+Parlay time: total: 125.1970
+ 2020 subproblems computed.
+Parlay time: total: 125.2573
+Parlay time: total: 125.3263
+Parlay time: total: 125.4130
+Parlay time: total: 125.4983
+Parlay time: total: 125.5656
+ 2030 subproblems computed.
+Parlay time: total: 125.7211
+Parlay time: total: 125.8776
+Parlay time: total: 125.9448
+Parlay time: total: 126.0077
+Parlay time: total: 126.0764
+Parlay time: total: 126.1458
+ 2040 subproblems computed.
+Parlay time: total: 126.2049
+Parlay time: total: 126.2745
+Parlay time: total: 126.3590
+Parlay time: total: 126.4272
+Parlay time: total: 126.4860
+ 2050 subproblems computed.
+Parlay time: total: 126.5530
+Parlay time: total: 126.6379
+Parlay time: total: 126.7233
+Parlay time: total: 126.7807
+ 2060 subproblems computed.
+Parlay time: total: 126.8900
+Parlay time: total: 126.9527
+Parlay time: total: 127.0110
+Parlay time: total: 127.0809
+Parlay time: total: 127.1654
+ 2070 subproblems computed.
+Parlay time: total: 127.2334
+Parlay time: total: 127.3045
+Parlay time: total: 127.3884
+Parlay time: total: 127.5129
+Parlay time: total: 127.5730
+Parlay time: total: 127.6399
+ 2080 subproblems computed.
+Parlay time: total: 127.7782
+Parlay time: total: 127.8991
+Parlay time: total: 127.9974
+Parlay time: total: 128.0815
+ 2090 subproblems computed.
+Parlay time: total: 128.1791
+Parlay time: total: 128.2649
+Parlay time: total: 128.3512
+Parlay time: total: 128.4559
+Parlay time: total: 128.5220
+ 2100 subproblems computed.
+Parlay time: total: 128.5934
+Parlay time: total: 128.6782
+Parlay time: total: 128.7770
+Parlay time: total: 128.8394
+Parlay time: total: 128.9073
+Parlay time: total: 128.9651
+ 2110 subproblems computed.
+Parlay time: total: 129.0508
+Parlay time: total: 129.1339
+Parlay time: total: 129.2462
+Parlay time: total: 129.3364
+ 2120 subproblems computed.
+Parlay time: total: 129.3955
+Parlay time: total: 129.4958
+Parlay time: total: 129.5961
+Parlay time: total: 129.7165
+Parlay time: total: 129.8138
+Parlay time: total: 129.9102
+ 2130 subproblems computed.
+Parlay time: total: 129.9998
+Parlay time: total: 130.0580
+Parlay time: total: 130.1252
+ 2140 subproblems computed.
+Parlay time: total: 130.2253
+Parlay time: total: 130.3494
+Parlay time: total: 130.4189
+Parlay time: total: 130.5385
+Parlay time: total: 130.6605
+Parlay time: total: 130.7594
+ 2150 subproblems computed.
+Parlay time: total: 130.8600
+Parlay time: total: 130.9478
+Parlay time: total: 131.0214
+Parlay time: total: 131.1113
+Parlay time: total: 131.2008
+Parlay time: total: 131.2872
+ 2160 subproblems computed.
+Parlay time: total: 131.3572
+Parlay time: total: 131.4141
+Parlay time: total: 131.4982
+ 2170 subproblems computed.
+Parlay time: total: 131.5795
+Parlay time: total: 131.6714
+Parlay time: total: 131.7311
+Parlay time: total: 131.8010
+Parlay time: total: 131.9062
+Parlay time: total: 131.9652
+ 2180 subproblems computed.
+Parlay time: total: 132.0862
+Parlay time: total: 132.1869
+Parlay time: total: 132.2730
+Parlay time: total: 132.3591
+Parlay time: total: 132.4440
+ 2190 subproblems computed.
+Parlay time: total: 132.5316
+Parlay time: total: 132.6271
+Parlay time: total: 132.6873
+Parlay time: total: 132.7546
+ 2200 subproblems computed.
+Parlay time: total: 132.8124
+Parlay time: total: 132.8711
+Parlay time: total: 132.9348
+Parlay time: total: 133.0080
+Parlay time: total: 133.0783
+ 2210 subproblems computed.
+Parlay time: total: 133.1483
+Parlay time: total: 133.2183
+Parlay time: total: 133.3041
+Parlay time: total: 133.3717
+Parlay time: total: 133.4391
+ 2220 subproblems computed.
+Parlay time: total: 133.4979
+Parlay time: total: 133.5658
+Parlay time: total: 133.6341
+Parlay time: total: 133.7577
+Parlay time: total: 133.8319
+ 2230 subproblems computed.
+Parlay time: total: 133.8963
+Parlay time: total: 133.9671
+Parlay time: total: 134.0374
+Parlay time: total: 134.1065
+Parlay time: total: 134.1935
+ 2240 subproblems computed.
+Parlay time: total: 134.2546
+Parlay time: total: 134.3216
+Parlay time: total: 134.4076
+Parlay time: total: 134.4652
+Parlay time: total: 134.5356
+ 2250 subproblems computed.
+Parlay time: total: 134.5946
+Parlay time: total: 134.6629
+Parlay time: total: 134.7501
+Parlay time: total: 134.8076
+Parlay time: total: 134.9066
+ 2260 subproblems computed.
+Parlay time: total: 134.9907
+Parlay time: total: 135.0761
+Parlay time: total: 135.1839
+Parlay time: total: 135.2699
+Parlay time: total: 135.3283
+Parlay time: total: 135.3878
+ 2270 subproblems computed.
+Parlay time: total: 135.4873
+Parlay time: total: 135.6012
+Parlay time: total: 135.7328
+Parlay time: total: 135.8794
+Parlay time: total: 136.0463
+Parlay time: total: 136.2312
+ 2280 subproblems computed.
+Parlay time: total: 136.3934
+Parlay time: total: 136.5544
+Parlay time: total: 136.6547
+Parlay time: total: 136.7730
+Parlay time: total: 136.8597
+ 2290 subproblems computed.
+Parlay time: total: 136.9575
+Parlay time: total: 137.0455
+Parlay time: total: 137.1287
+Parlay time: total: 137.1860
+ 2300 subproblems computed.
+Parlay time: total: 137.2421
+Parlay time: total: 137.2991
+Parlay time: total: 137.3579
+Parlay time: total: 137.4275
+Parlay time: total: 137.4942
+ 2310 subproblems computed.
+Parlay time: total: 137.5723
+Parlay time: total: 137.6486
+Parlay time: total: 137.7389
+Parlay time: total: 137.7980
+Parlay time: total: 137.8660
+ 2320 subproblems computed.
+Parlay time: total: 137.9249
+Parlay time: total: 138.0254
+Parlay time: total: 138.1450
+Parlay time: total: 138.2302
+Parlay time: total: 138.3275
+ 2330 subproblems computed.
+Parlay time: total: 138.4135
+Parlay time: total: 138.4701
+Parlay time: total: 138.5292
+Parlay time: total: 138.5954
+ 2340 subproblems computed.
+Parlay time: total: 138.6628
+Parlay time: total: 138.7449
+Parlay time: total: 138.8032
+Parlay time: total: 138.8620
+ 2350 subproblems computed.
+ 2351 subproblems computed.
+Printing species tree
+(((((((((((((((((((((HFIK,FIKG),FOMH),((((JGGD,VYER),YRMA),LDRY),RWXW)),((((((VRGZ,ULXR),JCXF),QLMZ),ASZK),((RAPY,SRSQ),FIDQ)),FSQE)),LIRF),APTP),((VKVG,DBYD),BOGT)),((((((VJED,NMAK),LLEN),RFAD),EBWI),(BAJW,LXRN)),(((IRZA,IAYV),ROZZ),BAKF))),((((((((((BWVJ,IHJY),JEBK),((((WEJN,UGPM),SBLT),CKXF),IEHF)),((((LJPN,VNAL),(PWKQ,FTRP)),IKWM),(((IKIZ,ZJOJ),URSB),PYDB))),(((UYFR,XAXW),YSBD),VZWX)),ZULJ),LLXJ),JJZR),((PVGP,OBUY),(RSOF,RTLC))),Cyame_v1.0)),(((POOW,PQED),JKHA),QFND)),((((((((((((((((((((((((((((JWGT,WRSL),Volca_v2.0),(RNAT,RYJX)),ISPU),KUJU),IHOI),Chlre_v5.5),BCYF),JKKI),(QWRA,USIX)),IRYH),(XDLL,OFUE)),(((((((WDWX,ZDIZ),RHVC),UKUC),SYJM),ZFXU),(((PRIQ,QRTH),ZLQE),(KFEB,GUBD))),(((LNIL,ACRY),ZIVZ),(((VALZ,MULF),JRGZ),(TSBQ,GFUR))))),((((LBRP,AJUW),AOUJ),UTRE),RUIF)),FXHG),VIAU),((((((((XKWQ,XTON),VJDZ),(MWAN,PZIF)),OTQG),BZSH),FOYQ),DZPJ),(MXDS,ENAU))),(((((RAWF,ISGT),(VFIV,JMUI)),IJMT),(DVYE,SDPC)),BAZF)),(((((((((OAEZ,CQQP),OQON),(LSHT,NQYP)),KSFK),GJIY),(((LETF,CBNG),AJAU),JIWJ)),KADG),(ALZF,NSTT)),(((NATT,YDCQ),(VHIJ,VBLH)),(GYBH,JTIG)))),(((((Chlva_v1.0,EEJO),AKCR),(JQFK,BILC)),((MFYC,MNCB),PFUD)),((WCLV,WXRI),(((((QYXY,ETGN),GXBM),NKXU),EATP),ZNUM)))),(((HVNO,HHXJ),DUMA),FMVB)),(RRSV,PUAN)),AYPS),TGNL),JMTE),(ISIM,MMKU)),((((((Micpu_v3.0,QXSZ),(Ostlu_v2.0,MCPK)),XOAL),BTFM),(TNAW,XIVI)),EGNB)),((HYHN,XJGM),XMCL))),((NNHQ,AZZW),KYIO)),(((Klefl_v1.0,FQLP),FPCO),BFIK)),(Chabr_v0.1,MWXT)),((QPDY,VQBJ),DRGY)),(((((((((((((((((((DFDS,GGWH),QWFV),(MNNM,ISHC)),GYRP),((((((STKJ,WDGV),MOYY),GBGT),MCHJ),(BHBK,RPRU)),WCQU)),RQFE),HIDG),RPQV),YSQT),AEKF),DRFX),KEYW),XRTZ),SNOX),KMNX),FFGR),HAOX),((((VAZE,RPGL),YOXI),(((NBYP,MFZO),JOJQ),(HKZW,ZRMT))),(WSJO,WDCW))),TPHT)),((((((((((((((((((((IGUH,ZACW),((((QMWB,TMAJ),(JADL,VBMM)),(MIRS,WSPM)),((EEMJ,LNSF),TAVP))),QKQO),DHWX),WNGH),CMEQ),((XWHK,JMXW),BGXB)),ORKS),YWNF),((((VMXJ,RGKI),((FFPD,GRKU),NGTD)),(ABCD,RDOO)),BPSG)),ZQRI),((YEPO,Phypa_v3.0),KEFD)),AWOI),HRWG),((SZYG,ZTHV),HVBQ)),WOGB),((GOWD,RCBT),UHLI)),SKQD),((((((((((IRBN,OFTV),YBQN),(RTMU,WZYK)),LGOW),HPXA),((KRUQ,UUHD),(TGKW,BNCU))),NRWZ),YFGP),(PIUF,JHFI)),(((((JPYU,HMHL),TFYI),(ILBQ,WJLO)),TXVB),HERT))),((((((TCBC,DXOU),UCRN),AKXB),((WCZB,WEEQ),FAJB)),(BSNI,TWUW)),ANON))),(((((CBAE,GAON),(YHZW,GKAG)),ZZEI),(((WAFT,ENQF),(PQTO,XNXF)),(UPMJ,ULKT))),((((((Selmo_v1.0,ZZOL),(LGDQ,ABIJ)),KJYC),((JKAA,ZYCD),ZFGK)),KUXM),(PKOX,PYHZ)))),(((((((((((((((((((((((CJNT,IXLH),GYFU),YLJA),ZQYU),UJWU),ORJE),OQWW),NWWI),(FQGQ,JBLI)),WGTU),RFRB),((((((YOWV,XXHP),(LHLE,RICC)),HNDZ),HEGQ),(((((((URCP,AFPO),UFJN),FCHS),(HTFH,VITX)),(YQEC,YJJY)),MROH),OCZL)),((BMIF,PSKY),KJZG))),MTGC),((((((ZXJO,DCDT),YCKE),(XDDT,GSXD)),((NDUV,SKYV),(BMJR,WCLG))),WQML),(((FLTD,POPJ),UJTT),PIVW))),((YIXP,NOKI),VVRN)),(((UWOD,PNZO),EWXK),GANB)),(CVEG,KIIX)),(PBUU,CQPW)),(MEKP,QIAD)),((UOMY,VIBO),RFMZ)),((UGNK,NHCM),DFHO)),(((EEAQ,BEGM),DJSE),(QVMR,ALVQ))),(JVSZ,CAPN))),((((((((((((((RMMV,JDQB),IFLI),(AUDE,GKCZ)),((YYPE,OVIJ),ETCJ)),((((XMGP,QNGJ),(((XQSG,BUWV),CGDN),FRPM)),(UEVI,AIGO)),(VFYZ,NKIN))),((OXGJ,FHST),GMHZ)),(((QFAE,HBGV),NRXL),XIRK)),QSNJ),ZQVF),((((ZYAX,WWSS),(BTTS,YLPM)),NVGZ),((EFMS,HQOM),IAJW))),YFZK),((((((((UUJS,VGSX),(SCEB,XLGK)),(((ROWR,QHBI),IZGN),FMWZ)),HILW),MHGD),QCGM),((EGLZ,KLGF),((((ZQWM,CDFR),JZVE),OWFC),(JRNA,BBDD)))),(((MIXZ,ACWS),RSCE),XTZO))),(((((((((JBND,MFTM),DZQM),Pinta_v2.0),IIOL),AWQB),NPRL),(WVWN,IOVS)),((((GAMH,AREG),AQFM),(VSRH,JUWL)),GGEA)),((TOXE,GTHK),VDAO))),((((GNQG,KAWQ),WLIC),XZUY),SGTW))),(((((((((((((((((((((((((((((((((((WHNV,XMBA),IYDF),PHCE),(PUCW,FUMQ)),((FDMM,EQDA),TAGM)),(BAHE,FYUH)),((((GNPX,RTNA),(UCNM,LRRR)),(((EAAA,SNNC),GETL),ATYL)),DMLT)),((((((FAMO,FROP),VYDM),EJCM),OWAS),UMUL),Mimgu_v2.0)),((WOHL,EDXZ),ZRIN)),(((PSHB,MQIV),GCFE),((UTQR,XAYK),TKEK))),((((NBMW,WEAC),AYIY),PCGJ),((MXFG,JCMU),HRUR))),GDZS),(((XXYA,SIBR),(GRFT,XRLM)),EJBY)),((((PTBJ,YKZB),GNRI),(YRHD,XISJ)),CLRW)),((RWKR,DTNC),DCCI)),((((KTAR,YZGX),TORX),MZLD),COBX)),((((((((NMDZ,LQJY),UGJI),((Solly_iTAGv2.3,DLAI),(GHLP,DLJZ))),(AIOU,JNVS)),((OSMU,LWCK),BOLZ)),MKZR),((((((XQRV,VXKB),(EMBR,NAUM)),((QSLH,NHAG),OQBM)),((IZNU,ERWT),ALUC)),CPOC),AHRN)),(((((((((IDGE,OUER),((ABEH,JWEY),MZOB)),(OEKO,MDJK)),NIGS),(DIHD,XVRU)),((SMUR,HANM),EMAL)),YQIJ),DKFZ),(((((((((JCLQ,YFQX),(YADI,DSUV)),JGYZ),EDEQ),MGVU),(UOYN,QEHE)),GGJD),((KPUM,ECTD),HGSM)),(((KTWL,PCNH),ZSGF),WQRD))))),QZZU),((((ASMV,SXML),DFYF),QACK),(GIPR,SZUO))),((((((((((((((((((QXWF,HXCD),(ZCUA,JEPE)),NVSO),((JYMN,UYED),LYPZ)),(AQZD,YRBQ)),BIDT),UBLN),DUNJ),AFQQ),((((((DESP,MHYG),TEZA),XRCX),DOVJ),((OAGK,GUMF),DUQG)),BMSE)),((((KFZY,KGJF),FUPX),DDRL),(JNKW,RFSD))),(CFRN,EYKJ)),HUQC),IXVJ),((TPEM,GIOY),AUIP)),FXGI),(IHPC,IZLO)),((((((((CWYJ,TQKZ),WEQK),AJFN),((SUVN,EDBB),OINM)),(NTEO,SALZ)),(QIKZ,MVSE)),SBZH),((((CAQZ,GSZA),(JTRM,FFFY)),(ZJRC,HLJG)),(CLNU,CLMX))))),(((((((((WXVX,PPPZ),AVJK),(LRTN,SERM)),(QAUE,HUSX)),(((ADHK,UFHF),AXBO),JPDJ)),NGRR),((((((ODDO,DAAD),PTFA),VKJD),KVFU),((BEFC,WRPP),OXYP)),((FNEN,WVMY),YSRZ))),(BNTL,JEXA)),(((ZETY,QURC),VTLJ),((BFJL,FWBF),VUSY)))),(QUTB,HAEU)),XMQO),((((((((((((((DZLN,GVCB),(HKMQ,CJGZ)),(((ROLB,IDAU),(ZINQ,BZDF)),((ARYD,IMZV),(KBRW,YHLF)))),(SJAN,EQYT)),(((AXNH,PMTB),JKNQ),(UJGI,TLCA))),FEDW),(RJNQ,YNUE)),(((NEBM,FGDU),(Eucgr_v1.1,AYMT)),(SWGX,WWQZ))),AJJE),((UDUT,KVAY),ZHMB)),((VYGG,PTLU),(HDWF,YGCX))),((((((((((((((((TVSH,KEGA),Phavu_v1.0),SUAK),NXOH),((((HJMP,MYMP),KNMB),(JTQQ,PEZP)),RMWJ)),VLNB),(CMFF,TTRG)),SLYR),ZSSR),(((VHZV,GEHT),QZXQ),(((ZCDJ,PJSX),XOOE),KZED))),((JETM,RKFX),RKLL)),OQHZ),OHAE),(((((UZWG,NHUA),HENI),SVVG),(((LWDA,CWZU),LNER),(INSP,DXQW))),TJLC)),(((((((((QIEH,BLVL),(EAVM,VCIN)),((Prupe_v1.0,NCVK),TJQY)),ZPKK),SXCE),(SQCF,XFFT)),((IANR,QNOC),DHAW)),(((((BJSW,AQGE),KYAD),((EDHN,XVJB),(WKCY,ACFP))),CQMG),(((WVEF,EILE),ZHEE),RBYC))),((OCTM,NNGU),AXAF))),(((((((((((((((((((BXBF,UVQL),LAPO),LJQF),GTSV),HABV),TZWR),((VMNH,IPWB),CSUV)),Arath_TAIR10),((UPZX,VDKG),(QSKP,LVUS))),RTTY),(SWPE,UAXP)),JOIS),DZTK),CRNC),((MYZV,HYZL),(CZPV,Carpa_ASGPBv0.4))),((((((OLXF,ZSAB),WYIG),Theca_v1.1),((PKMO,WMUK),KPTE)),ATFX),(PUDI,AWJM))),((((((UVDC,RJIM),UHJR),(QICX,IKFD)),(((FCCA,JSZD),YUOM),BCAA)),((VFFP,HBHB),WAXR)),OBTI)),((((YZVJ,THHD),TIUZ),JHCN),WWKL)),((((((((((BHYC,AEPI),BVOF),((POZS,OODC),MYVH)),HNCF),(((TXMP,VXOD),KCPT),AXPJ)),(ZBVT,HBUQ)),((((FWCQ,OSIP),(BNDE,NFXV)),(CKDK,TVCU)),XPBC)),(((((((((IEPQ,KKDQ),GLVK),(LFOG,TDTF)),RZTJ),INQX),Poptr_v3.0),(((SIZE,ZIWB),EZZT),COAQ)),(NJLF,LPGY)),(YGAT,VNMY))),(((((XNLP,Manes_v4.1),VVPY),PAZJ),(RHAU,PXYR)),((RPPC,ZTLR),RVGH))),(IHCQ,MFEA))))),(((((((((DAYQ,CTSS),SLOI),ERIA),(((UHBY,CIAC),YKFU),(OOVX,CKKR))),FCBJ),SYHW),UWFU),(((DRIL,ZJUL),KWGC),(IUSR,TOKV))),(((((HQRJ,OMDH),YKQR),NUZN),FYTP),HTIP))),(((((XGFU,RSPO),(QKMG,BSEY)),VGVI),XKPS),(((SZPD,BBBA),Vitvi_Genoscope.12X),BGZG)))),((((((((((((BWRK,ZBPY),(EYRD,OHKC)),CUTE),(PDQH,HDSY)),(WMLW,XSSD)),(((((AAXJ,ONLQ),CBJR),SMMC),WGET),(FVXD,Betvu_v1.1))),(((((SKNL,SHEZ),OLES),FZQN),TJES),RXEN)),(((((((((((IWIS,GCYL),LDEL),CPLT),(BYNZ,KDCH)),LLQV),(UQCB,EZGR)),(CPKP,JLOV)),LKKX),CTYH),(((RNBN,SCAO),NXTS),KJAA)),((((((((DVXD,EGOS),(ZBTA,VJPU)),JGAB),JAFJ),(AZBL,SFKQ)),GIWN),(MRKX,BKQU)),(((((HZTS,EDIT),GJNX),BERS),OMYK),BJKT)))),YNFJ),RUUB),CVDF),((FYSJ,WOBD),WQUF))),EHNF),(IWMW,SWOH)),(((((RQUG,SIIK),GRRW),VQFW),(FAKD,Nelnu_v1.0)),AALA)),(((((((((RQNK,QCOU),BEKN),SSDU),IRAF),(XHKT,XMVD)),EVOD),(((ZGQD,UDHA),AUGV),NMGG)),(((((UPOG,ZUHO),(GBVZ,Aquco_v1.1)),VGHH),(WFBF,YHFG)),CCID)),QTJY)),NPND),((((((((((ABSS,BCGB),KAYP),WIGA),VYLQ),(BSVG,KRJP)),(MAQO,WAIL)),(FALI,WPHN)),(((WBOD,XQWC),((PSJT,YZRI),DHPO)),OBPL)),((((MUNP,XSZI),(CSSK,OPDF)),(PAWA,QDVW)),(SJEV,WKSU))),(WZFE,OSHQ))),(((((((((((((((((((((VQYB,ZENX),XUAB),BXAY),NNOK),(ZMGN,BPKH)),(WCOR,XBKS)),SOHV),((ROEI,Sorbi_v2.1),YPIC)),((RCAH,YLWW),(YXNR,EFCZ))),HATH),((IADP,RMVB),Orysa_v7.0)),WXNT),BSTR),(((PWSG,WBIB),XPAF),CIEA)),BYPY),(PPQR,BRUD)),((((LEMW,BDJQ),(JNUB,TZNS)),(((UOEL,LSKK),XHHU),Musac_v1.0)),(((HWUP,HXJE),Elagu_v2.0),NSPR))),(((((((((((((((((RQZP,HOKG),((XFJG,RCUX),UZXL)),TCYS),LSJW),MVRF),ONBE),FGRF),MUMD),((((ICNN,YBML),KXSK),(PLBZ,CMCY)),((SVTS,KOFB),IXEM))),((((((JDTY,DPFW),LDME),(DMIN,ZKPF)),TRRQ),(GJPF,KBXS)),PRFO)),((((BLAJ,JHUL),WTDE),FCEL),JVBR)),SART),LTZF),(KYNE,RDYY)),(EMJJ,YJUG)),(((((LELS,VTUS),XZME),MTHW),(JSAG,CNTZ)),THDM)),((((QNPH,NHIX),GDKK),(MWYQ,THEW)),(AFLV,OOSO)))),(((QOXT,SILJ),((DGXS,VVVV),VBHQ)),OCWZ)),(((MFIN,YMES),Spipo_v2),((COCP,BYQM),DWZT))),MTII)),((VZCI,NWMY),FZJL)),(PZRT,WTKZ)),(URDJ,Ambtr_v1.0.27)));
+Writing species tree
+Parlay time: Execution time: : 506.2114
+1178,1175,1175,0,0,0.000000
+
